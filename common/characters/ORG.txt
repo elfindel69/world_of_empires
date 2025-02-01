@@ -1,0 +1,160 @@
+characters = {
+	ORG_50332191 = {
+		name = "Sobieslaw Rozanski"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_europe_generic_1
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {  }
+		}
+	}
+	ORG_33555561 = {
+		name = "Kornel Rokicki"
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+		advisor = {
+			traits = { editor }
+			slot = political_advisor
+			idea_token = i_33555561
+			cost = 150
+		}
+	}
+	ORG_33555692 = {
+		name = "Jakub Muszynski"
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_33555692
+			cost = 150
+		}
+	}
+	ORG_50332174 = {
+		name = "Damian Trzeciak"
+		portraits = {
+			army = {
+				large = GFX_Portrait_Europe_Generic_land_2
+				small = GFX_Portrait_Europe_Generic_land_2_small
+			}
+		}
+		corps_commander = {
+			traits = { career_officer ranger }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	ORG_50332583 = {
+		name = "Narcyz Zaucha"
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+		advisor = {
+			traits = { great_architect }
+			slot = political_advisor
+			idea_token = i_50332583
+			cost = 150
+		}
+	}
+	ORG_50332867 = {
+		name = "Niemir Grabarczyk"
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_50332867
+			cost = 150
+		}
+	}
+	ORG_50333101 = {
+		name = "Marek Wojtas"
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+		advisor = {
+			traits = { propaganda_expert }
+			slot = political_advisor
+			idea_token = i_50333101
+			cost = 150
+		}
+	}
+	ORG_67108975 = {
+		name = "Bogumil Jarecki"
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_1
+				small = GFX_Portrait_Europe_Generic_navy_1_small
+			}
+		}
+		navy_leader = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	ORG_67109160 = {
+		name = "Mariusz Kosiba"
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_67109160
+			cost = 150
+		}
+	}
+	ORG_83886695 = {
+		name = "Miroslaw Kovalyuk"
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+		advisor = {
+			traits = { technocrat }
+			slot = political_advisor
+			idea_token = i_83886695
+			cost = 150
+		}
+	}
+	ORG_100664602 = {
+		name = "Leslaw Bazylevych"
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+		advisor = {
+			traits = { liberal_journalist }
+			slot = political_advisor
+			idea_token = i_100664602
+			cost = 150
+		}
+	}
+}

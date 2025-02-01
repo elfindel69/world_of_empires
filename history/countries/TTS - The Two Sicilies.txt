@@ -112,7 +112,7 @@ set_popularities = {
 	monarchist = 17
 }
 
-
+ recruit_character = TTS_favio_espinosa
 
 
 ### VARIANTS ###

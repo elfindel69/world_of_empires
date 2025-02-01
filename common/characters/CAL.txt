@@ -1,0 +1,129 @@
+characters = {
+	CAL_33555675 = {
+		name = "Felipe Bocanegra"
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_South_America_Generic_1
+			}
+		}
+		country_leader = {
+			ideology = anti_revisionism
+			traits = {  }
+		}
+	}
+	CAL_50332355 = {
+		name = "Mariano de Ampudia"
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+		advisor = {
+			traits = { mobile_warfare_expert }
+			slot = political_advisor
+			idea_token = i_50332355
+			cost = 150
+		}
+	}
+	CAL_50332586 = {
+		name = "Genovevo Fagoaga"
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_50332586
+			cost = 150
+		}
+	}
+	CAL_67109007 = {
+		name = "Felipe Vazquez de la Cadena"
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+		advisor = {
+			traits = { tenacious_negotiator }
+			slot = political_advisor
+			idea_token = i_67109007
+			cost = 150
+		}
+	}
+	CAL_67109334 = {
+		name = "Eleuterio de Cos"
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_67109334
+			cost = 150
+		}
+	}
+	CAL_83886690 = {
+		name = "Juan Zaragoza"
+		portraits = {
+			army = {
+				large = GFX_Portrait_South_America_Generic_land_1
+				small = GFX_Portrait_South_America_Generic_land_1_small
+			}
+		}
+		corps_commander = {
+			traits = { organizer trait_reckless }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	CAL_83887100 = {
+		name = "Valeriano Rincon Gallardo"
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_2_small
+			}
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_83887100
+			cost = 150
+		}
+	}
+	CAL_100663778 = {
+		name = "Gabriel Larrainzar"
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_3_small
+			}
+		}
+		advisor = {
+			traits = { backroom_backstabber }
+			slot = political_advisor
+			idea_token = i_100663778
+			cost = 150
+		}
+	}
+	CAL_100664596 = {
+		name = "Justo Salas"
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_South_America_Generic_1_small
+			}
+		}
+		advisor = {
+			traits = { smooth_talking_charmer }
+			slot = political_advisor
+			idea_token = i_100664596
+			cost = 150
+		}
+	}
+}

@@ -1,0 +1,55 @@
+capital = 378
+
+oob = "CAL_1936"
+set_research_slots = 3
+set_convoys = 3
+
+recruit_character = CAL_33555675
+recruit_character = CAL_50332355
+recruit_character = CAL_50332586
+recruit_character = CAL_67109007
+recruit_character = CAL_67109334
+recruit_character = CAL_83886690
+recruit_character = CAL_83887100
+recruit_character = CAL_100663778
+recruit_character = CAL_100664596
+if = {
+	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = Emilio_Fuentes
+		GFX = GFX_portrait_south_america_generic_operative_male_3
+		traits = {  }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { CAL }
+	}
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.7.19"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	communism = 0
+	democratic = 59
+	fascism = 29
+	neutrality = 12
+}
+
+add_ideas = {
+	civilian_economy
+	export_focus
+	volunteer_only
+}
+set_stability = 0.6
+set_war_support = 0.60
+
+# Starting tech
+set_technology = {
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}

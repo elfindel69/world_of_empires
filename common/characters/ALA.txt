@@ -1,0 +1,140 @@
+characters = {
+	ALA_33554647 = {
+		name = "Favio Espinosa"
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Europe_Generic_2
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {  }
+		}
+	}
+	ALA_33554775 = {
+		name = "Leandro Hernandez"
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+		advisor = {
+			traits = { economic_organizer }
+			slot = political_advisor
+			idea_token = i_33554775
+			cost = 150
+		}
+	}
+	ALA_50332378 = {
+		name = "Alejandro Sandoval"
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+		advisor = {
+			traits = { resistance_banker }
+			slot = political_advisor
+			idea_token = i_50332378
+			cost = 150
+		}
+	}
+	ALA_50332528 = {
+		name = "Florian Salinas"
+		portraits = {
+			army = {
+				large = GFX_portrait_europe_generic_land_4
+				small = GFX_portrait_europe_generic_land_4_small
+			}
+			civilian = {
+			}
+		}
+		corps_commander = {
+			traits = { career_officer infantry_officer trait_cautious }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 4
+		}
+		advisor = {
+			traits = { genial_anti_revolutionary }
+			slot = political_advisor
+			idea_token = i_50332528
+			cost = 150
+		}
+	}
+	ALA_67109874 = {
+		name = "Rufo Longoria"
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+		advisor = {
+			traits = { backroom_windbag }
+			slot = political_advisor
+			idea_token = i_67109874
+			cost = 150
+		}
+	}
+	ALA_67110050 = {
+		name = "Naldo Reyes"
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_1_small
+			}
+		}
+		advisor = {
+			traits = { prince_of_terror }
+			slot = political_advisor
+			idea_token = i_67110050
+			cost = 150
+		}
+	}
+	ALA_83886354 = {
+		name = "Albano Salas"
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_2_small
+			}
+		}
+		advisor = {
+			traits = { headstrong }
+			slot = political_advisor
+			idea_token = i_83886354
+			cost = 150
+		}
+	}
+	ALA_83886857 = {
+		name = "Apocalipsis Aguilar"
+		portraits = {
+			civilian = {
+				small = GFX_Portrait_Europe_Generic_3_small
+			}
+		}
+		advisor = {
+			traits = { socialite_connections }
+			slot = political_advisor
+			idea_token = i_83886857
+			cost = 150
+		}
+	}
+	ALA_100663620 = {
+		name = "Derico Trevino"
+		portraits = {
+			navy = {
+				large = GFX_Portrait_Europe_Generic_navy_2
+				small = GFX_Portrait_Europe_Generic_navy_2_small
+			}
+		}
+		navy_leader = {
+			traits = { battleship_adherent }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 1
+		}
+	}
+}

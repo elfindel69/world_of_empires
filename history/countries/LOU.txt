@@ -1,0 +1,56 @@
+capital = 371
+
+oob = "LOU_1936"
+set_research_slots = 3
+set_convoys = 63
+
+recruit_character = LOU_33554647
+recruit_character = LOU_33554775
+recruit_character = LOU_50332378
+recruit_character = LOU_50332528
+recruit_character = LOU_67109874
+recruit_character = LOU_67110050
+recruit_character = LOU_83886354
+recruit_character = LOU_83886857
+recruit_character = LOU_100663620
+if = {
+	limit = { has_dlc = "La Resistance" }
+	create_operative_leader = {
+		name = es_Priamo_dyn_es_Rosado
+		GFX = GFX_portrait_europe_generic_operative_male_4
+		traits = { operative_natural_orator operative_seducer }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LOU }
+	}
+}
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.3.7"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	communism = 56
+	democratic = 42
+	fascism = 0
+	neutrality = 2
+}
+
+add_ideas = {
+	civilian_economy
+	export_focus
+	volunteer_only
+}
+set_stability = 0.6
+set_war_support = 0.60
+
+# Starting tech
+set_technology = {
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}
