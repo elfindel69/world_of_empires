@@ -1,0 +1,453 @@
+characters = {
+
+
+	POL_jan_v = {
+		name="Jan V Jagiełło"
+		portraits = {
+			civilian = {
+				large="gfx/leaders/POL/generic7.dds"
+			}
+		}
+		country_leader = {
+			ideology=paternalism
+			traits = { imperial_connections }
+			expire="1957.10.1.1"
+			id=-1
+		}
+	}
+	
+
+	rep_POL_edward_rydzsmigly = {
+		name=POL_edward_rydz_smigly
+		portraits = {
+			army = {
+				large="GFX_portrait_POL_edward_rydz_smigly"
+				small = "GFX_idea_POL_edward_rydz_smigly"
+			}
+			civilian = {
+				large="GFX_portrait_POL_edward_rydz_smigly"
+			}
+		}
+		advisor = {
+			cost = 100
+			slot = theorist
+			idea_token = POL_edward_rydz_smigly
+			ledger = army
+			allowed = {
+				original_tag = POL
+			}
+			traits = {
+				sanation_militarist
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+		field_marshal = {
+			traits = { old_guard thorough_planner politically_connected }
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+
+### POLITICAL ADVISORS ###
+	
+rep_POL_wanda_wasilewska = {
+	name=POL_wanda_wasilewska
+	portraits = {
+		army = {
+			small="GFX_idea_POL_wanda_wasilewska"
+		}
+	}
+	gender = female
+	advisor = {
+		cost = 100
+		slot = political_advisor
+		idea_token = POL_wanda_wasilewska
+		ledger = army
+		
+		allowed = {
+			original_tag = POL
+		}
+		traits = {
+			leftist_intellectual
+		}
+	}
+}
+
+
+
+
+rep_POL_mieczyslaw_michalowicz={
+	instance = {
+		allowed = {
+			has_dlc = "No Step Back"
+		}
+		name=POL_mieczyslaw_michalowicz
+		portraits={
+			army={
+				small="GFX_idea_POL_mieczyslaw_michalowicz"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POL_mieczyslaw_michalowicz
+			allowed = {
+				original_tag = POL
+				has_dlc = "No Step Back"
+			}
+			traits = {
+				socdem_reformist 
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}			
+	}
+	instance = {
+		allowed = {
+			NOT = {
+				has_dlc = "No Step Back"
+			}
+		}
+		name=POL_mieczyslaw_michalowicz
+		portraits={
+			army={
+				small="GFX_idea_POL_mieczyslaw_michalowicz"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POL_mieczyslaw_michalowicz
+			allowed = {
+				original_tag = POL
+				NOT = {
+					has_dlc = "No Step Back"
+				}
+			}
+			traits = {
+				democratic_reformer 
+			}
+			ai_will_do = {
+				factor = 0.000
+			}
+		}
+	}
+}
+
+rep_POL_henryk_floyar_rajchman={
+	name=POL_henryk_floyar_rajchman
+	portraits={
+		army={
+			small="GFX_idea_POL_henryk_floyar_rajchman"
+		}
+	}
+	advisor={
+		slot = political_advisor
+		idea_token = POL_henryk_floyar_rajchman
+		allowed = {
+			original_tag = POL
+			has_dlc = "No Step Back"
+		}
+		traits = {
+			right_industrialist 
+		}
+	}
+}
+
+rep_POL_boleslaw_bierut={
+	name=POL_boleslaw_bierut
+	portraits={
+		army={
+			small="GFX_idea_generic_political_advisor_europe_1" #No Portrait
+		}
+	}
+	advisor={
+		slot = political_advisor
+		idea_token = POL_boleslaw_bierut
+		allowed = {
+			original_tag = POL
+		}
+		traits = {
+			socialist_autocrat 
+		}
+		ai_will_do = {
+			factor = 1.000
+			modifier = {
+				factor = 0.000
+				NOT = {
+					has_government = communism 
+				}
+			}
+		}
+	}
+}
+
+rep_POL_edward_osobka_morawski={
+	name=POL_edward_osobka_morawski
+	portraits={
+		army={
+			small="GFX_idea_POL_edward_osobka_morawski"
+		}
+	}
+	advisor={
+		slot = political_advisor
+		idea_token = POL_edward_osobka_morawski
+		allowed = {
+			original_tag = POL
+		}
+		traits = {
+			patriotic_socialist 
+		}
+		ai_will_do = {
+			factor = 1.000
+			modifier = {
+				factor = 0.000
+				NOT = {
+					has_government = communism 
+				}
+			}
+		}
+	}
+}
+
+rep_POL_kazimierz_switalski = {
+	name=POL_kazimierz_switalski
+	portraits = {
+		army = {
+			small="GFX_idea_generic_political_advisor_europe_5" #No Portrait
+		}
+	}
+	advisor = {
+		slot = political_advisor
+		idea_token = POL_kazimierz_switalski
+		allowed = {
+			original_tag = POL
+		}
+		traits = {
+			leftist_legionary
+		}
+	}
+}
+
+
+
+rep_POL_zdzislaw_lubomirski={
+	name=POL_zdzislaw_lubomirski
+	portraits={
+		army={
+			small="GFX_idea_POL_zdzislaw_lubomirski"
+		}
+	}
+	advisor={
+		slot = political_advisor
+		idea_token = POL_zdzislaw_lubomirski
+		allowed = {
+				original_tag = POL
+			}
+		
+		traits = {
+			staunch_aristocrat 
+		}
+		ai_will_do = {
+			factor = 1.000
+			modifier = {
+				factor = 0.000
+				NOT = {
+					has_government = neutrality 
+				}
+			}
+		}
+	}		
+}
+
+rep_POL_tadeusz_bielecki={
+	name=POL_tadeusz_bielecki
+	portraits={
+		army={
+			small="GFX_portrait_POL_tadeusz_bielecki_small"
+			large = "GFX_portrait_POL_tadeusz_bielecki" #Country Leader role not implemented
+		}
+		civilian = {
+			large = "GFX_portrait_POL_tadeusz_bielecki"
+		}
+	}
+	advisor={
+		slot = political_advisor
+		idea_token = POL_tadeusz_bielecki
+		allowed = {
+			original_tag = POL
+			has_dlc = "No Step Back"
+		}
+		traits = {
+			nationalist_journalist 
+		}
+	}		
+}
+
+rep_POL_joachim_stefan_bartoszewicz={
+	name=POL_joachim_stefan_bartoszewicz
+	portraits={
+		army={
+			small="GFX_idea_POL_joachim_stefan_bartoszewicz"
+		}
+	}
+	advisor={
+		slot = political_advisor
+		idea_token = POL_joachim_stefan_bartoszewicz
+		allowed = {
+			original_tag = POL
+			OR = {
+				has_dlc = "Poland: United and Ready"
+				has_dlc = "No Step Back"
+			}			
+		}
+		traits = {
+			national_determinist 
+		}
+	}
+}
+
+rep_POL_aleksander_kakowski={
+	name=POL_aleksander_kakowski
+	portraits={
+		army={
+			small="GFX_idea_POL_aleksander_kakowski"
+		}
+	}
+	advisor={
+		slot = political_advisor
+		idea_token = POL_aleksander_kakowski
+		allowed = {
+			original_tag = POL
+		}
+		traits = {
+			autocratic_archbishop 
+		}
+		ai_will_do = {
+			factor = 1.000
+			modifier = {
+				factor = 0.000
+				NOT = {
+					has_government = neutrality 
+				}
+			}
+		}
+	}		
+}
+
+rep_POL_stanislaw_radkiewicz={
+	name=POL_stanislaw_radkiewicz
+	portraits={
+		army={
+			small="GFX_idea_POL_stanislaw_radkiewicz"
+		}
+	}
+	advisor={
+		slot = political_advisor
+		idea_token = POL_stanislaw_radkiewicz
+		allowed = {
+			original_tag = POL
+		}
+		available = {
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				NOT = {
+					has_autonomy_state = autonomy_supervised_state
+				}
+			}
+			
+		}
+		traits = {
+			communist_revolutionary 
+		}
+		ai_will_do = {
+			factor = 0.000
+		}
+	}
+}
+
+
+rep_POL_stanislaw_wojciechowski={
+	name=POL_stanislaw_wojciechowski
+	portraits={
+		army={
+			small="GFX_idea_POL_stanislaw_wojciechowski"
+		}
+	}
+	advisor={
+		slot = political_advisor
+		idea_token = POL_stanislaw_wojciechowski
+		allowed = {
+			original_tag = POL
+			OR = {
+				has_dlc = "Poland: United and Ready"
+				has_dlc = "No Step Back"
+			}			
+		}
+		traits = {
+			noble_beurocrat 
+		}
+	}
+}
+
+rep_POL_jerzy_rutkowski={
+	name=POL_jerzy_rutkowski
+	portraits={
+		army={
+			small="GFX_idea_POL_jerzy_rutkowski"
+		}
+	}
+	advisor={
+		slot = political_advisor
+		idea_token = POL_jerzy_rutkowski
+		allowed = {
+			original_tag = POL
+		}
+		
+		traits = {
+			falangist_militarist 
+		}
+		ai_will_do = {
+			factor = 1.000
+			modifier = {
+				factor = 0.000
+				NOT = {
+					has_government = fascism 
+				}
+			}
+		}
+	}		
+}
+
+rep_POL_marian_rejewski={
+	name=POL_marian_rejewski
+	portraits={
+		army={
+			small="GFX_idea_POL_marian_rejewski"
+		}
+	}
+	advisor={
+		slot = political_advisor
+		idea_token = POL_marian_rejewski
+		allowed = {
+			original_tag = POL
+			has_dlc = "No Step Back"
+		}
+		traits = {
+			mastermind_code_cracker 
+		}
+	}		
+}
+
+
+
+	
+}

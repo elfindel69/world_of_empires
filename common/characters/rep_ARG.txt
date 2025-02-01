@@ -1,0 +1,18 @@
+characters={
+	
+	ARG_josé_de_borbon_parma={
+		name="Don José de Borbón-Parma"
+		portraits={
+			civilian={
+				large="gfx/leaders/Monarchs/Joseph_of_Bourbon_Parma.tga"
+			}
+		}
+		country_leader={
+			ideology = paternalism
+			traits = { constitutional_monarch }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+		
+}

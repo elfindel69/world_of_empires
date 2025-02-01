@@ -1,0 +1,17 @@
+characters={
+
+	rep_TUR_abdulmejid_ii = {
+		name=TUR_abdulmejid_ii
+		portraits={
+			civilian={
+				large="GFX_portrait_tur_abdulmejid_ii" #Can become country leader later (Non-Aligned -> Despotism)
+			}
+		}
+		country_leader={
+			ideology=absolutism
+			traits={ gentle_scholar}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

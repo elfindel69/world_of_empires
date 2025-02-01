@@ -1,0 +1,60 @@
+characters = {
+
+	#######################
+	### COUNTRY LEADERS ###
+	#######################
+	rep_BUL_boris_iii = {
+		instance = {
+			allowed = {
+				has_dlc = "Battle for the Bosporus"
+			}
+			name = BUL_boris_iii
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/BUL/Portrait_Bulgaria_Boris_III.dds"
+				}
+			}
+			country_leader = {
+				ideology = despotism
+				traits = { tsar_unifier }
+				expire = "1965.1.1"
+				
+			}
+			country_leader = {
+				ideology = paternalism
+				traits = { tsar_unifier }
+				expire = "1965.1.1.1"
+				
+			}
+		}
+		instance = {
+			allowed = {
+				NOT = { has_dlc = "Battle for the Bosporus" }
+			}
+			name = BUL_boris_iii
+			portraits = {
+				civilian = {
+					large = "gfx/leaders/BUL/Portrait_Bulgaria_Boris_III.dds"
+				}
+			}
+			country_leader = {
+				ideology = despotism
+				expire = "1965.1.1.1"
+				
+			}
+			country_leader = {
+				ideology = paternalism
+				traits = { tsar_unifier }
+				expire = "1965.1.1.1"
+				
+			}
+		}
+		
+	}
+
+	
+
+}
+
+
+

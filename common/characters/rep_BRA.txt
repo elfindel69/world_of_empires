@@ -1,0 +1,23 @@
+characters={
+	
+	BRA_pedro_iii={
+		name="Dom Pedro III"
+		portraits={
+			civilian={
+				large="gfx/leaders/Monarchs/Portrait_BRA_Pedro_IV.tga"
+			}
+		}
+		country_leader={
+			ideology=paternalism
+			traits = {
+				inexperienced_monarch
+				constitutional_monarch
+				traditionalist_connections
+				pedro_fancy_title
+			}
+			expire="1981.1.1.1"
+			id=-1
+		}
+	}
+	
+}

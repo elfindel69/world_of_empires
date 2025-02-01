@@ -1,0 +1,47 @@
+characters={
+	USA_john_i={
+		name="John I"
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/generic10.dds"
+			}
+		}
+		country_leader={
+			ideology=paternalism
+			traits={ imperial_connections }
+			expire="1950.1.1.1"
+			id=-1
+		}
+	}
+	USA_peter_hall={
+		name="Peter Hall"
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/Portrait_USA_Generic_land_1.dds"
+			}
+		}
+		country_leader={
+			ideology=monarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	USA_emperor_norton_ii={
+		name="Emperor Norton II"
+		portraits={
+			civilian={
+				large="gfx/leaders/Monarchs/Portrait_CAL_Norton_II_emporer.tga"
+			}
+		}
+		country_leader={
+			ideology=paternalism
+			traits = {
+				constitutional_monarch
+			}
+			expire="1981.1.1.1"
+			id=-1
+		}
+	}
+	
+}

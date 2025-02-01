@@ -1,0 +1,32 @@
+characters={
+	CAN_rod_patterson={
+		name="Rod Patterson"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			}
+		}
+		country_leader={
+			ideology=paternalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CAN_arthur_of_connaught={
+		name="Arthur of Connaught"
+		portraits={
+			civilian={
+				large="gfx/leaders/Monarchs/Portrait_Prince_Arthur.tga"
+			}
+		}
+		country_leader={
+			ideology=paternalism
+			traits = {
+				constitutional_monarch
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+}

@@ -1,0 +1,23 @@
+characters={
+
+	rep_HOL_wilhelmina = {
+		name=HOL_wilhelmina
+		gender = female 
+		country_leader={
+			expire = "1965.1.1"
+			ideology = paternalism
+			traits = {
+				wilhelmina
+				disdain_for_politicians_1
+				queen_of_the_people
+			}
+		}
+		portraits={
+			civilian={
+				large="GFX_portrait_HOL_wilhelmina"
+			}
+		}
+	}
+	
+	
+}

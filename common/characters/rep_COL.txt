@@ -1,0 +1,19 @@
+characters={
+	COL_ramon_colon_de_carvajal={
+		name="Don Ramón Colón de Carvajal"
+		portraits={
+			civilian={
+				large="gfx/leaders/Monarchs/Portrait_Ramon_Colon.tga"
+			}
+		}
+		country_leader={
+			ideology=paternalism
+			traits = {
+				nationalist_symbol
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+}

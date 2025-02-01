@@ -1,0 +1,22 @@
+characters={
+
+	MEX_empress_maria_i={
+		name="Empress Maria I"
+		gender = female 
+		portraits={
+			civilian={
+				large="gfx/leaders/Monarchs/Portrait_Mexico_Maria.tga"
+			}
+		}
+		country_leader={
+			ideology = paternalism
+			traits = {
+				popular_queen protector_of_the_campesinos refounder_of_mexico
+			}
+			
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+characters={
+	BOL_aaron_galvez={
+		name="Aarón Gálvez"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=monarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+}

@@ -1,0 +1,47 @@
+characters={
+	CHI_dong_rong={
+		name="Dong Rong"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+			}
+		}
+		country_leader={
+			ideology=monarchism
+			
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CHI_yuan_keding={
+		name="Yuan Keding"
+		portraits={
+			civilian={
+				large="gfx/leaders/Monarchs/Yuan_Keding_China.tga"
+			}
+		}
+		country_leader={
+			ideology=absolutism
+			traits={ imperial_sanction warrior_code }
+			expire="1981.1.1.1"
+			id=-1
+		}
+	}
+	CHI_prince_chung={
+		name="Prince Chung"
+		portraits={
+			civilian={
+				large="gfx/leaders/Monarchs/Portrait_CHI_Price_Chung.tga"
+			}
+		}
+		country_leader={
+			ideology=monarchism
+			traits = {
+				regent
+			}
+			expire="1987.1.1.1"
+			id=-1
+		}
+	}
+	
+}
