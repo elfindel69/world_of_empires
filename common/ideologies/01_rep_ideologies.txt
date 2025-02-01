@@ -1,0 +1,68 @@
+ideologies = {
+	
+	monarchist = {
+	
+		types = {
+			
+			absolutism = {
+			}
+			
+			paternalism = {
+			}
+			
+			monarchism = {
+			}
+		
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_MONARCHIST_1"
+			"FACTION_NAME_MONARCHIST_2"
+			"FACTION_NAME_MONARCHIST_3"
+			"FACTION_NAME_MONARCHIST_4"
+			"FACTION_NAME_MONARCHIST_5"
+			"FACTION_NAME_MONARCHIST_6"
+			"FACTION_NAME_MONARCHIST_7"
+			"FACTION_NAME_MONARCHIST_8"
+			"FACTION_NAME_MONARCHIST_9"
+		}
+		
+		color = { 128 0 128 }
+		
+		rules = {
+			can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 0.20
+			join_faction_tension = 0.20
+			lend_lease_tension = 0.20
+			send_volunteers_tension = 0.20
+			guarantee_tension = 0.20
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		
+		ai_neutral = yes
+		
+	}
+}

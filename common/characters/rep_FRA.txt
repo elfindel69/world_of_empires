@@ -1,0 +1,76 @@
+characters={
+	
+	rep_FRA_henri_vi={ 
+		name="Henri VI"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Portrait_France_Henri_Orleans.dds"
+			}
+		}
+		country_leader={
+			ideology=paternalism
+			traits={count_of_paris }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	rep_FRA_jean_iii={ 
+		name="Jean III"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Portrait_France_Jean_dOrleans.dds"
+			}
+		}
+		country_leader={
+			ideology=paternalism
+			traits={ rep_duke_of_orleans }
+			expire="1940.8.25.1"
+			id=-1
+		}
+	}
+	
+	rep_FRA_charles_maurras={
+		name=FRA_charles_maurras
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_4.dds"
+			}
+			civilian={
+				large="gfx/leaders/FRA/r56_portrait_FRA_Charles_Maurras.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			
+			expire="1965.1.1.1"
+			id=-1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = charles_maurras
+			allowed  = {
+				original_tag  = FRA
+			}
+			available  = {
+				
+				or  = {
+					has_government  = fascism 
+					has_government  = neutrality 
+				}
+			}
+			visible  = {
+				has_dlc = "La Resistance"
+			}
+			cost  = 75.000
+			traits  = {
+				national_integralist 
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}		
+	}
+
+}

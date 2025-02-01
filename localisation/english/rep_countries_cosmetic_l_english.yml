@@ -1,0 +1,366 @@
+﻿l_english:
+ 
+ RAJ_UK_monarchist:0 "British Raj"
+ RAJ_UK_monarchist_DEF:0 "the British Raj"
+ 
+
+ FRA_FREE_monarchist:0 "Royalist France"
+ FRA_FREE_monarchist_DEF:0 "Royalist France"
+ FRA_VICHY_monarchist:0 "Vichy France"
+ FRA_VICHY_monarchist_DEF:0 "Vichy France"
+ FRA_UK_monarchist:0 "Angevin Empire"
+ FRA_UK_monarchist_DEF:0 "the Angevin Empire"
+ 
+
+ 
+ CZE_ONLY_monarchist:0 "Kingdom of Bohemia"
+ CZE_ONLY_monarchist_DEF:0 "the Kingdom of Bohemia"
+ 
+ 
+ HUN_EMPIRE_monarchist:0 "Austro-Hungarian Empire"
+
+ HUN_EMPIRE_monarchist_DEF:0 "the Austro-Hungarian Empire"
+ 
+ HUN_GREATER_monarchist:0 "Kingdom of Greater Hungary"
+ HUN_GREATER_monarchist_DEF:0 "the Kingdom of Greater Hungary"
+ 
+ HUN_MONARCHY_monarchist:0 "Kingdom of Hungary"
+ HUN_MONARCHY_monarchist_DEF:0 "the Kingdom of Hungary"
+ 
+
+ SCA_UNIFIED_monarchist:0 "Scandinavian Empire"
+
+ SCA_UNIFIED_monarchist_DEF:0 "the Scandinavian Empire"
+ 
+ NDC_UNIFIED_monarchist:0 "Nordic Empire"
+
+ NDC_UNIFIED_monarchist_DEF:0 "the Nordic Empire"
+ 
+ GCO_UNIFIED_monarchist:0 "Kingdom of Gran Colombia"
+ GCO_UNIFIED_monarchist_DEF:0 "the Kingdom of Gran Colombia"
+ 
+ 
+ PLC_UNIFIED_monarchist:0 "Kingdom of Poland-Lithuania"
+ PLC_UNIFIED_monarchist_DEF:0 "the Kingdom of Poland-Lithuania"
+ 
+ UNL_UNIFIED_monarchist:0 "United Kingdom of the Netherlands"
+ UNL_UNIFIED_monarchist_DEF:0 "the United Kingdom of the Netherlands"
+ 
+ USC_UNIFIED_monarchist:0 "United Kingdoms of Central America"
+ USC_UNIFIED_monarchist_DEF:0 "the United Kingdoms of Central America"
+ 
+ BAL_UNIFIED_monarchist:0 "Grand Baltic Duchy"
+ BAL_UNIFIED_monarchist_DEF:0 "the Grand Baltic Duchy"
+ 
+ OTT_UNIFIED_monarchist:0 "Ottoman Empire"
+ OTT_UNIFIED_monarchist_DEF:0 "the Ottoman Empire"
+ OTT_SULTANATE_monarchist:0 "Ottoman Empire"
+ OTT_SULTANATE_monarchist_DEF:0 "the Ottoman Empire"
+ 
+ EUR_UNIFIED_monarchist:0 "Unified Empire of Europe"
+ EUR_UNIFIED_monarchist_DEF:0 "the Unified Empire of Europe"
+ 
+ MUT_UNIFIED_monarchist:0 "Kingdom of Mutapa"
+ MUT_UNIFIED_monarchist_DEF:0 "the Kingdom of Mutapa"
+
+ SPQR_UNIFIED_monarchist:0 "Imperium Romanum"
+ 
+ SPQR_UNIFIED_monarchist_DEF:0 "Imperium Romanum"
+ 
+
+ PER_UNIFIED_monarchist:0 "Persian Empire"
+
+ PER_UNIFIED_monarchist_DEF:0 "the Persian Empire"
+ 
+
+ BYZ_UNIFIED_monarchist:0 "Byzantine Empire"
+ 
+ BYZ_UNIFIED_monarchist_DEF:0 "Byzantine Empire"
+
+ 
+
+ ARA_UNIFIED_monarchist:0 "Arabian Empire"
+ ARA_UNIFIED_monarchist_DEF:0 "the Arabian Empire"
+ 
+
+ MAJ_UNIFIED_monarchist:0 "Majapahit Empire"
+ MAJ_UNIFIED_monarchist_DEF:0 "the Majapahit Empire"
+ 
+ 
+ RAT_UNIFIED_monarchist:0 "Rattanakosin Empire"
+
+ RAT_UNIFIED_monarchist_DEF:0 "the Rattanakosin Empire"
+ 
+ HRE_UNIFIED_monarchist:0 "Holy Roman Empire"
+ HRE_UNIFIED_monarchist_DEF:0 "the Holy Roman Empire"
+ 
+ PRC_proclaimed_monarchist:0 "Chinese Empire"
+ CHI_warlord_leader_monarchist:0 "Chinese Empire"
+ CHI_warlord_leader_monarchist_DEF:0 "Chinese Empire"
+ MAN_kwantung_army_monarchist:0 "Manchurian Federated Kingdoms"
+ MAN_kwantung_army_monarchist_DEF:0 "the Manchurian Federated Kingdoms"
+ MAN_restored_monarchist:0 "Chinese Empire"
+ MAN_restored_monarchist_DEF:0 "the Chinese Empire"
+ MAN_restored_monarchist_ADJ:0 "Chinese"
+ 
+ JAP_showa_restoration_monarchist:0 "Empire of Japan"
+ JAP_showa_restoration_monarchist_DEF:0 "the Empire of Japan"
+ 
+ CHI_warlord_PRC_monarchist:0 "Chinese Empire"
+ CHI_warlord_PRC_monarchist_DEF:0 "the Chinese Empire"
+ CHI_warlord_PRC_monarchist_ADJ:0 "Chinese"
+ CHI_warlord_leader_monarchist_ADJ:0 "Chinese"
+ CHI_power_struggle_defeated_monarchist:0 "CC Clique"
+ CHI_power_struggle_defeated_monarchist_DEF:0 "the CC Clique"
+ CHI_power_struggle_defeated_monarchist_ADJ:0 "Chinese"
+ 
+ USA_CSA_monarchist:0 "Confederated Kingdoms of America"
+ USA_CSA_monarchist_DEF:0 "the Confederated Kingdoms of America"
+ USA_CSA_monarchist_ADJ:0 "Confederate"
+ USA_REBEL_monarchist:0 "Rebels"
+ USA_REBEL_monarchist_DEF:0 "the Rebels"
+ USA_REBEL_monarchist_ADJ:0 "Rebel"
+ 
+ MEX_cristero_monarchist:0 "Third Mexican Empire"
+ MEX_cristero_monarchist_DEF:0 "the Third Mexican Empire"
+ MEX_cristero_monarchist_ADJ:0 "Mexican"
+ MEX_SPR_monarchist_subject:0 "New Spain"
+ MEX_SPR_monarchist_subject_DEF:0 "New Spain"
+ MEX_SPR_monarchist_subject_ADJ:0 "New Spanish"
+ MEX_cristero_SPR_monarchist_subject:0 "New Spain"
+ MEX_cristero_SPR_monarchist_subject_DEF:0 "New Spain"
+ MEX_cristero_SPR_monarchist_subject_ADJ:0 "New Spanish"
+ MEX_SPA_monarchist_subject:0 "New Spain"
+ MEX_SPA_monarchist_subject_DEF:0 "New Spain"
+ MEX_SPA_monarchist_subject_ADJ:0 "New Spanish"
+ MEX_cristero_SPA_monarchist_subject:0 "New Spain"
+ MEX_cristero_SPA_monarchist_subject_DEF:0 "New Spain"
+ MEX_cristero_SPA_monarchist_subject_ADJ:0 "New Spanish"
+ 
+ ENG_imperial_federation_unified_monarchist:0 "Imperial Federation"
+ ENG_imperial_federation_unified_monarchist_DEF:0 "the Imperial Federation"
+ ENG_imperial_federation_unified_monarchist_ADJ:0 "Imperial"
+ ENG_imperial_federation_india_unified_monarchist:0 "Imperial Federation"
+ ENG_imperial_federation_india_unified_monarchist_DEF:0 "the Imperial Federation"
+ ENG_imperial_federation_india_unified_monarchist_ADJ:0 "Imperial"
+ ENG_imperialist_canada_monarchist:0 "Imperialist Canada"
+ ENG_imperialist_canada_monarchist_DEF:0 "Imperialist Canada"
+ ENG_imperialist_canada_monarchist_ADJ:0 "Imperialist Canadian"
+ ENG_imperialist_south_africa_monarchist:0 "Imperialist South Africa"
+ ENG_imperialist_south_africa_monarchist_DEF:0 "Imperialist South Africa"
+ ENG_imperialist_south_africa_monarchist_ADJ:0 "Imperialist South African"
+ ENG_imperialist_australia_monarchist:0 "Imperialist Australia"
+ ENG_imperialist_australia_monarchist_DEF:0 "Imperialist Australia"
+ ENG_imperialist_australia_monarchist_ADJ:0 "Imperialist Australian"
+ ENG_imperialist_new_zealand_monarchist:0 "Imperialist New Zealand"
+ ENG_imperialist_new_zealand_monarchist_DEF:0 "Imperialist New Zealand"
+ ENG_imperialist_new_zealand_monarchist_ADJ:0 "Imperialist New Zealand"
+ ENG_MEX_dominion_monarchist:0 "Dominion of Mexico"
+ ENG_MEX_dominion_monarchist_def:0 "the Dominion of Mexico"
+
+ ENG_england_monarchist:0 "Kingdom of England"
+ ENG_england_monarchist_DEF:0 "the Kingdom of England"
+ ENG_england_monarchist_ADJ:0 "English"
+ 
+ USA_wallis_simpson_monarchist:0 "United Kingdom of America"
+ USA_wallis_simpson_monarchist_def:0 "the United Kingdom of America"
+ CAN_north_america_dominion_monarchist:0 "Dominion of North America"
+ CAN_north_america_dominion_monarchist_def:0 "the Dominion of North America"
+ 
+ SPA_directory_monarchist:0 "Spanish Empire"
+ SPA_directory_monarchist_DEF:0 "the Spanish Empire"
+ SPA_directory_monarchist_ADJ:0 "Spanish"
+ SPR_nationalist_spain_monarchist:1 "Kingdom of Spain"
+ SPR_nationalist_spain_monarchist_def:1 "the Kingdom of Spain"
+ SPR_nationalist_spain_monarchist_adj:0 "Spanish"
+ SPR_carlist_spain_monarchist:0 "Crown of Spain"
+ SPR_carlist_spain_monarchist_def:0 "the Crown of Spain"
+ SPR_carlist_spain_monarchist_adj:0 "Spanish"
+ SPB_kingdom_monarchist:0 "Kingdom of Spain"
+ SPB_kingdom_monarchist_def:0 "the Kingdom of Spain"
+ SPB_kingdom_monarchist_adj:0 "Spanish"
+ SPR_nationalist_castille_monarchist:0 "Crown of Castille"
+ SPR_nationalist_castille_monarchist_def:0 "the Crown of Castille"
+ SPR_nationalist_castille_monarchist_adj:0 "Castillian"
+ SPR_carlist_castille_monarchist:0 "Kingdom of Castille"
+ SPR_carlist_castille_monarchist_def:0 "the Kingdom of Castille"
+ SPR_carlist_castille_monarchist_adj:0 "Castillian"
+ SPA_spanish_empire_monarchist:0 "Spanish Empire"
+ SPA_spanish_empire_monarchist_def:0 "the Spanish Empire"
+ SPA_spanish_empire_monarchist_adj:0 "Imperial Spanish"
+ 
+ FRA_THIRD_EMPIRE_monarchist:0 "French Empire"
+ FRA_THIRD_EMPIRE_monarchist_def:0 "the French Empire"
+ FRA_THIRD_EMPIRE_monarchist_adj:0 "French"
+ FRA_ORLEANS_monarchist:0 "Orléanist France"
+ FRA_ORLEANS_monarchist_def:0 "Orléanist France"
+ FRA_ORLEANS_monarchist_adj:0 "French"
+ FRANCO_SPAIN_monarchist:0 "Kingdom of Franco-Spain"
+ FRANCO_SPAIN_monarchist_DEF:0 "the Kingdom of Franco-Spain" 
+
+ KOP_kingdom_portugal_monarchist:0 "Kingdom of Portugal"
+ KOP_kingdom_portugal_monarchist_def:0 "the Kingdom of Portugal"
+ KOP_kingdom_portugal_monarchist_adj:0 "Portuguese"
+ EOB_empire_brazil_monarchist:0 "Empire of Brazil"
+ EOB_empire_brazil_monarchist_def:0 "the Empire of Brazil"
+ EOB_empire_brazil_monarchist_adj:0 "Brazilian"
+ KPB_kingdom_portugal_and_brazil_monarchist:0 "United Kingdom of Portugal and Brazil"
+ KPB_kingdom_portugal_and_brazil_monarchist_def:0 "the United Kingdom of Portugal and Brazil"
+ KPB_kingdom_portugal_and_brazil_monarchist_adj:0 "Porto-Brazilian"
+ ESU_POR_unified_monarchist:0 "United Kingdom of Iberia"
+ ESU_POR_unified_monarchist_def:0 "the United Kingdom of Iberia"
+ ESU_POR_unified_monarchist_adj:0 "Iberian"
+ POR_empire_monarchist:0 "Fifth Portuguese Empire"
+ POR_empire_monarchist_def:0 "the Fifth Portuguese Empire"
+ POR_empire_monarchist_adj:0 "Portuguese"
+ 
+
+ united_polynesia_monarchist:0 "United Kingdom of Polynesia"
+ united_polynesia_monarchist_DEF:0 "the United Kingdom of Polynesia"
+ united_polynesia_monarchist_ADJ:0 "Polynesian"
+ 
+ CAT_aragon_monarchist:0 "Crown of Aragon"
+ CAT_aragon_monarchist_DEF:0 "the Crown of Aragon"
+ CAT_aragon_monarchist_ADJ:0 "Aragonese"
+ SPR_castille_monarchist:0 "Crown of Castille"
+ SPR_castille_monarchist_DEF:0 "the Crown of Castille"
+ SPR_castille_monarchist_ADJ:0 "Castillian"
+ FRANCO_SPAIN_monarchist_ADJ:0 "Franco-Spanish"
+ 
+ GRE_byz_republic_monarchist:0 "$GRE_byz_republic_fascism$" 
+ GRE_byz_republic_monarchist_DEF:0 "$GRE_byz_republic_fascism_DEF$" 
+ GRE_byz_republic_monarchist_ADJ:0 "$GRE_byz_republic_fascism_ADJ$"
+ GRE_dem_monarchy_monarchist:0 "$GRE_dem_monarchy_democratic$"
+ GRE_dem_monarchy_monarchist_DEF:0 "$GRE_dem_monarchy_democratic_DEF$"
+ GRE_dem_monarchy_monarchist_ADJ:0 "$GRE_dem_monarchy_democratic_ADJ$"
+ GRE_com_independent_monarchist:0 "$GRE_com_independent_communism$"
+ GRE_com_independent_monarchist_DEF:0 "$GRE_com_independent_communism_DEF$"
+ GRE_com_independent_monarchist_ADJ:0 "$GRE_com_independent_communism_ADJ$"
+ GRE_stalinist_monarchist:0 "$GRE_stalinist_communism$"
+ GRE_stalinist_monarchist_DEF:0 "$GRE_stalinist_communism_DEF$"
+ GRE_stalinist_monarchist_ADJ:0 "$GRE_stalinist_communism_ADJ$" 
+ GRE_GREATER_GREECE_monarchist:0 "Kingdom of Greater Greece"
+ GRE_GREATER_GREECE_monarchist_DEF:0 "the Kingdom of Greater Greece"
+ GRE_GREATER_GREECE_monarchist_ADJ:0 "Hellenic"
+
+ 
+ MAE_monarchist:0 "Macedonian Kingdom"
+ MAE_monarchist_DEF:0 "the Macedonian Empire"
+ MAE_monarchist_ADJ:0 "Macedonian"
+ 
+ TBE_third_bulgarian_empire_monarchist:0 "Third Bulgarian Empire"
+ TBE_third_bulgarian_empire_monarchist_DEF:0 "the Third Bulgarian Empire"
+ TBE_third_bulgarian_empire_monarchist_ADJ:0 "Bulgarian"
+ 
+ TRN_monarchist:0 "Kingdom of Turan"
+ TRN_monarchist_DEF:0 "the Kingdom of Turan"
+ TRN_monarchist_ADJ:0 "Turkic"
+ 
+ UBF_united_balkan_federation_monarchist:0 "United Balkan Federation"
+ UBF_united_balkan_federation_monarchist_DEF:0 "the United Balkan Federation"
+ UBF_united_balkan_federation_monarchist_ADJ:0 "Balkan"
+ 
+ TUR_PROVISIONARY_monarchist:0 "Provisionary State of Anatolia"
+ 
+ SOV_russia_monarchist:0 "Tsardom of Russia"
+ SOV_russia_monarchist_DEF:0 "the Russian Tsardom"
+ SOV_russia_monarchist_ADJ:0 "Russian"
+ 
+
+ GREATER_LIT_monarchist:1 "Grand Duchy of Lithuania"
+ GREATER_LIT_monarchist_DEF:1 "the Grand Duchy of Lithuania"
+ LIT_belarus_monarchist:0 "Kingdom of Lithuania-Belarus"
+ LIT_belarus_monarchist_DEF:0 "the Kingdom of Lithuania-Belarus"
+ LAT_belarus_monarchist:0  "Kingdom of Latvia-Belarus"
+ LAT_belarus_monarchist_DEF:0 "the Kingdom of  Latvia-Belarus"
+ EST_belarus_monarchist:0 "Kingdom of Estonia-Belarus" 
+ EST_belarus_monarchist_DEF:0 "the Kingdom of Estonia-Belarus"
+ OSTLAND_monarchist:0 "Duchy of Ostland"
+ OSTLAND_monarchist_DEF:0 "the Duchy of Ostland"
+ POL_ROM_UNION_monarchist:0 "Kingdom of Poland-Romania"
+ POL_ROM_UNION_monarchist_DEF:0 "the Kingdom of Poland-Romania"
+ SLAVIC_UNIFIED_monarchist:0 "Slavic Kingdom"
+ SLAVIC_UNIFIED_monarchist_DEF:0 "the Slavic Kingdom"
+ turkestan_united_monarchist:0 "Turkic Khanate"
+ turkestan_united_monarchist_DEF:0 "the Turkic Khanate"
+ EST_FIN_monarchist:0 "Kingdom of Estonia-Finland"
+ EST_FIN_monarchist_DEF:0 "the Kingdom of Estonia-Finland"
+ EST_UGRA_monarchist:0 "Kingdom of Finno-Ugria"
+ EST_UGRA_monarchist_DEF:0 "the Kingdom of Finno-Ugria"
+ LIVONIA_monarchist:0 "Kingdom of Livonia"
+ LIVONIA_monarchist_DEF:0 "the Kingdom of Livonia"
+ mountainous_republics_unified_monarchist:0 "North Caucasian Emirate"
+ mountainous_republics_unified_monarchist_DEF:0 "the North Caucasian Emirate"
+ transcaucasia_unified_monarchist:0 "Transcaucasian Kingdom"
+ transcaucasia_unified_monarchist_DEF:0 "the Transcaucasian Kingdom"
+ siberia_unified_monarchist:0 "Kingdom of Siberia"
+ siberia_unified_monarchist_DEF:0 "the Kingdom of Siberia"
+ idel_ural_monarchist:0 "Idel-Ural Kingdom"
+ idel_ural_monarchist_DEF:0 "the Idel-Ural Kingdom"
+ east_africa_monarchist:0 "East African Empire"
+ east_africa_monarchist_DEF:0 "the East African Empire"
+ horn_of_africa_monarchist:0 "Horn of Africa"
+ horn_of_africa_monarchist_DEF:0 "the Horn of Africa"
+ papal_states_monarchist:0 "Papal State"
+ papal_states_monarchist_DEF:0 "the Papal State"
+ ITA_italian_empire_monarchist:0 "Italian Empire"
+ ITA_italian_empire_monarchist_DEF:0 "the Italian Empire"
+ gojjam_monarchist:0 "Kingdom of Gojjam"
+ gojjam_monarchist_DEF:0 "the Kingdom of Gojjam"
+ jimma_monarchist:0 "Kingdom of Jimma"
+ jimma_monarchist_DEF:0 "the Kingdom of Jimma"
+ greater_italy_monarchist:0 "Italian Empire"
+ greater_italy_monarchist_DEF:0 "the Italian Empire"
+ ITA_socialist_republic_monarchist:0 "Italy"
+ ITA_socialist_republic_monarchist_DEF:0 "Italy"
+ SWE_nordland_monarchist: "United Kingdoms of Nordland"
+ SWE_nordland_monarchist_def: "the United Kingdoms of Nordland"
+ greater_denmark_monarchist: "Danske Storrige"
+ greater_denmark_monarchist_DEF: "the Danske Storrige"
+ DEN_imperial_monarchist: "Baltic Sea Dominion"
+ DEN_imperial_monarchist_DEF: "the Baltic Sea Dominion"
+ NSE_UNIFIED_monarchist: "North Sea Kingdom"
+ NSE_UNIFIED_monarchist_DEF: "the North Sea Kingdom"
+ first_nations_canada_monarchist: "First Nations"
+ first_nations_canada_monarchist_DEF: "the First Nations"
+ first_nations_canada_monarchist_ADJ: "First Nations"
+ hispaniola_monarchist: "Kingdom of Hispaniola"
+ hispaniola_monarchist_DEF: "the Kingdom of Hispaniola"
+ hispaniola_monarchist_ADJ: "Hispaniolan"
+ indigenous_brazil_monarchist: "Kingdom of Brazil"
+ indigenous_brazil_monarchist_DEF: "the Kingdom of Brazil"
+ indigenous_brazil_monarchist_ADJ: "Brazilian"
+ indigenous_mexico_monarchist: "Kingdom of Mexico"
+ indigenous_mexico_monarchist_DEF: "the Kingdom of Mexico"
+ indigenous_mexico_monarchist_ADJ: "Mexican"
+ native_american_usa_monarchist: "Kingdom of America" 
+ native_american_usa_monarchist_DEF: "the Kingdom of America"
+ native_american_usa_monarchist_ADJ: "American" 
+ peru_bolivian_confederation_monarchist: "Peru-Bolivian Confederation"
+ peru_bolivian_confederation_monarchist_DEF: "the Peru-Bolivian Empire" 
+ peru_bolivian_confederation_monarchist_ADJ: "Peruvian-Bolivian"  
+ true_plurinational_bolivia_monarchist: "Kingdom of Bolivia"
+ true_plurinational_bolivia_monarchist_DEF: "the Kingdom of Bolivia"
+ true_plurinational_bolivia_monarchist_ADJ: "Bolivian"
+ united_guiana_monarchist: "United Kingdom of Guiana"
+ united_guiana_monarchist_DEF: "the United Kingdom of Guiana"  
+ united_guiana_monarchist_ADJ: "Guianan"
+
+  #####################################
+
+ BEL_flanders_monarchist: "Grand Duchy of Flanders"
+ BEL_flanders_monarchist_DEF: "the Grand Duchy of Flanders"
+ BEL_flanders_monarchist_ADJ: "Flemish"
+
+ reunified_germany_monarchist: "German Empire"
+ reunified_germany_monarchist_DEF: "the German Empire"
+ reunified_germany_monarchist_ADJ: "German"
+
+ latin_africa_monarchist: "United States of Latin Africa"
+ latin_africa_monarchist_DEF: "the United States of Latin Africa"
+ latin_africa_monarchist_ADJ: "Latin African"
+
+ 
+ antilles_monarchist: "Antillean Confederation"
+ antilles_monarchist_DEF: "the Antillean Confederation"
+ antilles_monarchist_ADJ: "Antillean"

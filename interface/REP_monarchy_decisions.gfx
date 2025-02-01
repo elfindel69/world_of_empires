@@ -1,0 +1,12 @@
+spriteTypes = {	
+
+	### categories
+	
+	
+	
+	spriteType = {
+		name = "decision_category_new_monarchy"
+		texturefile = "gfx/interface/decisions/decision_category_new_monarchy.dds"
+	}
+	
+}

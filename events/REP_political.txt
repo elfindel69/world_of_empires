@@ -1,0 +1,15 @@
+add_namespace = REP_political
+
+country_event = {
+	id = REP_political.1
+	title = REP_political.1.title
+	desc = REP_political.1.desc
+	picture = GFX_report_event_generic_parliament
+	is_triggered_only = yes
+	
+	option = {
+		name = REP_political.1.a
+		ai_chance = { factor = 1}
+		set_politics = { ruling_party = monarchist elections_allowed = no }
+	}
+}
