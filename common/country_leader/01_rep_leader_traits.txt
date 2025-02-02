@@ -1,0 +1,218 @@
+leader_traits = {
+
+	stability_boost = {
+		stability_factor = 0.15
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+
+	daily_pp_boost = {
+		political_power_factor = 0.05
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	
+	neutrality_booster  = {
+		random = no
+		sprite = 13
+		neutrality_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	
+	monarchist_booster = {
+		random = no
+		sprite = 13
+		monarchist_drift = 0.1
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	
+	staunch_monarchist = {
+		random = no
+		# Boosts Unaligned
+		sprite = 13
+		monarchist_drift = 0.1
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				tag = HUN
+				not = { has_completed_focus = HUN_invite_the_habsburg_prince }
+				factor = 0
+			}
+		}
+	}
+	
+	rep_duke_of_orleans = {
+		random = no
+		monarchist_drift = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	absolute_monarch = {
+		random = no
+		political_power_factor = 0.25
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	monarchist_media_mogul = {
+		sprite = 13
+		random = no
+		monarchist_drift = 0.1
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	traditionalist_theorist = {
+		random = no
+		sprite = 13
+
+		monarchist_drift = 0.05
+		political_power_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	lifelong_carlist = {
+		random = no
+		sprite = 13
+		monarchist_drift = 0.1
+		stability_factor = 0.1
+	}
+
+	charismatic_monarch = {
+		random = no
+		stability_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	royalist_bulldog = {
+		random = no
+		sprite = 13
+
+		war_support_factor = 0.1
+		monarchist_drift = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	restored_monarch = {
+		random = no
+		army_org_factor = 0.05
+		army_morale_factor = 0.05
+		political_power_factor = -0.05
+		monarchist_drift = 0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	traditionalist_connections = {
+		random = no
+		political_power_factor = 0.05
+		war_support_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+    pedro_fancy_title = {
+		random = no
+		political_power_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    regent = {
+		random = no
+		political_power_factor = -0.25
+		stability_factor = -0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	queen_mother = {
+	    random = no 
+		stability_factor = 0.15
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}	
+	
+	grieving_mother = {
+		random = no
+		war_support_weekly = -0.05
+		political_power_gain = -1
+		political_advisor_cost_factor = 1
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	popular_monarch = {
+		random = no
+		stability_factor = 0.1
+		drift_defence_factor = 0.25
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	POL_arms_export_syndicate = {
+		random = no
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	militant_socialist = {
+		random = no
+		war_support_factor = 0.05
+		targeted_modifier = {
+			tag = BWR
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+	}
+
+	mladorossi_theorist = {
+		random = no
+		sprite = 13
+		stability_weekly = 0.01
+		political_power_factor = 0.10
+		monarchist_drift = 0.10
+	}
+
+}

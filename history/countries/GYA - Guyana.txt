@@ -58,17 +58,7 @@ set_popularities = {
 }
 
 recruit_character = GYA_favio_espinosa
-
-create_country_leader = {
-	name = "Abraham Sutton"
-	desc = "POLITICS_AURELIO_MOSQUERA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = paternalism
-	traits = {
-		#
-	}
-}
+recruit_character = GYA_abraham_sutton
 
 #create_country_leader = {
 #	
