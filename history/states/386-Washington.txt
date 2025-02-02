@@ -7,7 +7,7 @@ state = {
 
 	history = {
 
-		owner = ORG
+		owner = USA
 		add_core_of = ORG
 		add_core_of = USA
 

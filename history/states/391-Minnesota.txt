@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = LOU
+		owner = USA
 		add_core_of = LOU
 		buildings = {
 			infrastructure = 3 #was: 6

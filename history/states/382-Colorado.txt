@@ -10,7 +10,7 @@ state={
 	state_category = town
 
 	history={
-		owner = LOU
+		owner = USA
 		add_core_of = LOU
 		buildings = {
 			infrastructure = 2

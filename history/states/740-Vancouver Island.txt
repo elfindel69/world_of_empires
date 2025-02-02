@@ -7,7 +7,7 @@ state = {
 
 	history = {
 
-		owner = ORG
+		owner = CAN
 		add_core_of = ORG
 		add_core_of = CAN
 
