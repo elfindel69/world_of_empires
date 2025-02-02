@@ -1,6 +1,3 @@
-BWR = "countries/Russia.txt"
+
 ARA = "countries/Arabia.txt"
-ALA = "countries/Alaska.txt"
-CAL = "countries/California.txt"
-ORG = "countries/Oregon.txt"
-LOU = "countries/Louisiana.txt"
+
