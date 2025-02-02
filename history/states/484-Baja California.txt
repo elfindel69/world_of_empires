@@ -5,7 +5,7 @@ state = {
 	state_category = rural
 	
 	history={
-		owner = MEX
+		owner = CAL
 		add_core_of = CAL
 		buildings = {
 			infrastructure = 2
