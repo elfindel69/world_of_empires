@@ -1,1 +1,2 @@
 ARA = "countries/Arabia.txt"
+ALA = "countries/Alaska.txt"
