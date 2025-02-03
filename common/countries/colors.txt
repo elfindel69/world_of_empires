@@ -1091,4 +1091,7 @@ CAL = {
 	color_ui = rgb { 219 92 43 }
 }
 
-
+ORG = {
+	color = rgb { 203 5 5 }
+	color_ui = rgb { 203 5 5 }
+}
