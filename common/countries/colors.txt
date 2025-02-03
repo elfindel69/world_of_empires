@@ -1095,3 +1095,8 @@ ORG = {
 	color = rgb { 203 5 5 }
 	color_ui = rgb { 203 5 5 }
 }
+
+LOU = {
+	color = rgb { 58 87 230 }
+	color_ui = rgb { 58 87 230 }
+}
