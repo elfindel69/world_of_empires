@@ -6,8 +6,8 @@ state = {
 	state_category = enclave
 	
 	history = {	
-		owner = SOV
-		add_core_of = SOV
+		owner = BWR
+		add_core_of = BWR
 
 		buildings = {
 			infrastructure = 1 

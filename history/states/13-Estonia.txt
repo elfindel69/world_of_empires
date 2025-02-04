@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = SOV
-		add_core_of = SOV
+		owner = BWR
+		add_core_of = BWR
 		victory_points = {
 			3174 1 #Voru
 		}
