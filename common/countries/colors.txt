@@ -1100,3 +1100,8 @@ LOU = {
 	color = rgb { 58 87 230 }
 	color_ui = rgb { 58 87 230 }
 }
+
+BWR = {
+	color = rgb { 0 0 139 }
+	color_ui = rgb { 0 0 139 }
+}
