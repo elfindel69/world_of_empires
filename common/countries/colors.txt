@@ -1086,19 +1086,9 @@ ALA = {
 	color = rgb { 13 8 59 }
 	color_ui = rgb { 13 8 59 }
 }
-CAL = {
-	color = rgb { 219 92 43 }
-	color_ui = rgb { 219 92 43 }
-}
-
-ORG = {
-	color = rgb { 203 5 5 }
-	color_ui = rgb { 203 5 5 }
-}
-
-LOU = {
-	color = rgb { 58 87 230 }
-	color_ui = rgb { 58 87 230 }
+CSA = {
+	color = rgb { 33 33 33 }
+	color_ui = rgb { 33 33 33 }
 }
 
 BWR = {
