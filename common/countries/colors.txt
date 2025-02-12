@@ -1095,3 +1095,8 @@ BWR = {
 	color = rgb { 0 0 139 }
 	color_ui = rgb { 0 0 139 }
 }
+
+AUH = {
+	color = rgb { 230 233 255 }
+	color_ui = rgb { 230 233 255 }
+}

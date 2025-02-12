@@ -1,0 +1,82 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	###### KuK Kriegsmarine ######
+	fleet = {
+		name = "KuK Kriegsmarine"			
+		naval_base = 3924 # Split
+		task_force = {				
+			name = "KuK Kriegsmarine"			
+			location = 3924 # Split
+			ship = { name = "KuK Wien" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AUH } } }
+			ship = { name = "KuK Dornbirn" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUH } } }
+			ship = { name = "KuK Feldkirch" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUH } } }
+			ship = { name = "KuK Leonding" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUH } } }
+			# VIII Squadriglia Torpediniere
+			ship = { name = "KuK Steyr" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUH } } }
+			ship = { name = "KuK Traun" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUH } } }
+		
+		}	
+								
+	}
+
+	fleet = {
+		name = "KuK Unterseebootflottille"
+		naval_base = 6626 # Rhodes, Greece
+
+		
+
+		task_force = {
+			name = "KuK Unterseebootflottille"
+			location = 6626 # Rhodes, Greece
+			ship = { name = "KuK U-1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AUH } } }				
+			ship = { name = "KuK U-2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AUH } } }				
+			ship = { name = "KuK U-3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AUH } } }				
+			ship = { name = "KuK U-4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AUH } } }				
+		
+			# LXI Squadriglia Sommergibili
+			ship = { name = "KuK U-5" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AUH  } } }
+			ship = { name = "KuK U-6" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AUH  } } }
+			ship = { name = "KuK U-7" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AUH  } } }
+			ship = { name = "KuK U-8" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AUH  } } }
+			ship = { name = "KuK U-9" definition = submarine equipment = { submarine_1 = { amount = 1 owner = AUH  } } }
+		}
+	}
+} 
+
+instant_effect = {	
+
+	add_equipment_production = {
+		equipment = {
+			type = light_cruiser_1
+			creator = "AUH"
+		}
+		requested_factories = 1
+		progress = 0.95
+		amount = 1
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "AUH"
+		}
+		requested_factories = 1
+		progress = 0.60
+		amount = 1
+	}
+
+	
+	add_equipment_production = {
+		equipment = {
+			type = submarine_1
+			creator = "AUH"
+		}
+		requested_factories = 1
+		progress = 0.50
+		amount = 1
+	}
+	
+}
+

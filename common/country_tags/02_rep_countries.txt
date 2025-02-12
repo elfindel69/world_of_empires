@@ -2,3 +2,4 @@
 ALA = "countries/Alaska.txt"
 CSA = "countries/CSA.txt"
 BWR = "countries/Russia.txt"
+AUH = "countries/Austria-Hungary.txt"

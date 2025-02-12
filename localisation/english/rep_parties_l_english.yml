@@ -234,7 +234,6 @@
  CHU_monarchist_party:0 "CMP"
  CHU_monarchist_party_long:0 "Chuvash Monarchist Party"
 
- ####################################################
  
  BWR_communism_party:0 "Russian Communist Party"
  BWR_democratic_party:0 "Trudoviks"
@@ -243,38 +242,11 @@
  BWR_neutrality_party:0 "Kadets"
  BWR_monarchist_party:0 "Dom Romanovykh"
  
- ARA_neutrality_party:0 "House of Saud"
- ARA_monarchist_party:0 "House of Saud (M)"
-
- ALA_monarchist_party:0 "King's Party (M)"
- ALA_monarchist_party_long:0 "King's Party - Monarchists"
- ALA_neutrality_party:0 "King's Party"
- ALA_neutrality_party_long:0 "King's Party"
- ALA_fascism_party:0 "People's Party" 
- ALA_democratic_party:0 "Liberal Party"
- ALA_communism_party:0 "Workers' Party"
-
- CAL_monarchist_party:0 "King's Party (M)"
- CAL_monarchist_party_long:0 "King's Party - Monarchists"
- CAL_neutrality_party:0 "King's Party"
- CAL_neutrality_party_long:0 "King's Party"
- CAL_fascism_party:0 "People's Party" 
- CAL_democratic_party:0 "Liberal Party"
- CAL_communism_party:0 "Workers' Party"
-
- LOU_monarchist_party:0 "King's Party (M)"
- LOU_monarchist_party_long:0 "King's Party - Monarchists"
- LOU_neutrality_party:0 "King's Party"
- LOU_neutrality_party_long:0 "King's Party"
- LOU_fascism_party:0 "People's Party" 
- LOU_democratic_party:0 "Liberal Party"
- LOU_communism_party:0 "Workers' Party"
-
- ORG_monarchist_party:0 "King's Party (M)"
- ORG_monarchist_party_long:0 "King's Party - Monarchists"
- ORG_neutrality_party:0 "King's Party"
- ORG_neutrality_party_long:0 "King's Party"
- ORG_fascism_party:0 "People's Party" 
- ORG_democratic_party:0 "Liberal Party"
- ORG_communism_party:0 "Workers' Party"
+ AUH_communism_party:0 "KPÖ"
+ AUH_communism_party_long:0 "Kommunistische Partei Österreichs"
+ AUH_democratic_party:0 "SDAPÖ"
+ AUH_democratic_party_long:0 "Sozialdemokratische Partei Österreichs"
+ AUH_fascism_party:1 "DNSAP"
+ AUH_neutrality_party:1 "Vaterländische Front"
+ AUH_monarchist_party:0 "Königshaus von Habsburg"
 

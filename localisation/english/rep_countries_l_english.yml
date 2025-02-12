@@ -901,6 +901,18 @@
  CSA_DEF:0 "Confederate States of America"
  CSA_ADJ:0 "Confederate"
 
+ 
+ AUH_neutrality:0 "Austria-Hungary"
+ AUH_fascism:0 "Greater Austro-Hungarian Empire"
+ AUH_monarchist:0 "Austro-Hungarian Empire"
+ AUH_democratic:0 "Danubian Confederation"
+ AUH_communism:0 "Association of Autonomous States"
+ AUH_neutrality_DEF:0 "Austria-Hungary"
+ AUH_fascism_DEF:0 "the Greater Austro-Hungarian Empire"
+ AUH_monarchist_DEF:0 "the Austro-Hungarian Empire"
+ AUH_democratic_DEF:0 "the Danubian Confederation"
+ AUH_communism_DEF:0 "the Association of Autonomous States"
+ AUH_ADJ:0 "Austro-Hungarian"
 
 
  

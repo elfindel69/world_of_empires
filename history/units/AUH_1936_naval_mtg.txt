@@ -1,0 +1,83 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	###### KuK Kriegsmarine ######
+	fleet = {
+		name = "KuK Kriegsmarine"			
+		naval_base = 3924 # Split
+		task_force = {				
+			name = "KuK Kriegsmarine"			
+			location = 3924 # Split
+			ship = { name = "KuK Wien" definition = light_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = AUH version_name = "Wien Class" } } }
+			ship = { name = "KuK Dornbirn" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUH version_name = "Dornbirn Class" } } }
+			ship = { name = "KuK Feldkirch" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUH version_name = "Dornbirn Class" } } }
+			ship = { name = "KuK Leonding" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUH version_name = "Dornbirn Class" } } }
+			# VIII Squadriglia Torpediniere
+			ship = { name = "KuK Steyr" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUH version_name = "Dornbirn Class" } } }
+			ship = { name = "KuK Traun" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = AUH version_name = "Dornbirn Class" } } }
+		
+		}	
+						
+	}
+
+	fleet = {
+		name = "KuK Unterseebootflottille"
+		naval_base = 6626 # Rhodes, Greece
+
+		task_force = {
+			name = "KuK Unterseebootflottille"
+			location = 6626 # Rhodes, Greece
+			ship = { name = "KuK U-1" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AUH version_name = "UB-33 Class" } } }				
+			ship = { name = "KuK U-2" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AUH version_name = "UB-33 Class" } } }				
+			ship = { name = "KuK U-3" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AUH version_name = "UB-33 Class" } } }				
+			ship = { name = "KuK U-4" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AUH version_name = "UB-33 Class" } } }				
+		
+			# LXI Squadriglia Sommergibili
+			ship = { name = "KuK U-5" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AUH version_name = "UB-33 Class" } } }
+			ship = { name = "KuK U-6" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AUH version_name = "UB-33 Class" } } }
+			ship = { name = "KuK U-7" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AUH version_name = "UB-33 Class" } } }
+			ship = { name = "KuK U-8" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AUH version_name = "UB-33 Class" } } }
+			ship = { name = "KuK U-9" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = AUH version_name = "UB-33 Class" } } }
+		}
+	}
+} 
+
+instant_effect = {
+	
+	add_equipment_production = { 
+		equipment = { 
+			type = ship_hull_cruiser_coastal_defense_ship 
+			creator = "AUH" 
+			version_name = "Wien Class" 
+		} 
+		requested_factories = 1 
+		progress = 0.95
+		amount = 1 
+	} 
+
+		
+	add_equipment_production = { 
+		equipment = { 
+			type = ship_hull_light_2 
+			creator = "AUH" 
+			version_name = "Dornbirn Class" 
+		} 
+		requested_factories = 1
+		progress = 0.60 
+		amount = 1 
+	} 
+
+	
+	add_equipment_production = { 
+		equipment = { 
+			type = ship_hull_submarine_2 
+			creator = "AUH" 
+			version_name = "UB-33 Class" 
+		} 
+		requested_factories = 1 
+		progress = 0.50 
+		amount = 1 
+	} 
+	
+}

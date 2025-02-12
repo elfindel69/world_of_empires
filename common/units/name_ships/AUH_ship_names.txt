@@ -1,0 +1,153 @@
+﻿##### AUSTRIA-HUNGARY NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+AUH_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { AUH }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "KuK "
+	fallback_name = "T %d"					
+
+	unique = {											
+		"Dornbirn" "Feldkirch" "Leonding" "Steyr" "Traun" "Villach" "Wels" "Wolfsberg" "Andau" "Baumgarten" "Eberau" "Gattendorf" "Hornstein" 
+		"Illmitz" "Inzenhof" 
+	}
+}
+
+### LIGHT CRUISER NAMES###
+AUH_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { AUH }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "KuK "
+	fallback_name = "Leichter Kreuzer %d"
+
+	unique = {
+		"Wien" "Budapest" "Prag" "Bratislava" "Graz" "Innsbruck" "Linz" "Bregenz" "Sankt Pölten" "Klagenfurt" "Eisenstadt" 
+		"Kecskemét" "Pécs" "Békéscsaba" "Miskolc" "Szeged" "Győr" "Debrecen" "Eger" 
+	}
+}
+
+### HEAVY CRUISER NAMES###
+AUH_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { AUH }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "KuK "
+	fallback_name = "Schwerer Kreuzer %d"
+
+	unique = {
+		"Donau" "Drau" "Rhein" "Inn" "Erlauf" "Fallbach" "Gurk" "Ledava" "Wattenbach" "Ziller" "March" "Lainsitz" 
+		"Salzach" "Traun" 	
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+AUH_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { AUH }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "KuK "
+	fallback_name = "Schlachtschiff %d"		
+
+	unique = {
+		"Luitpold" "Heinrich" "Adalbert" "Ernst" "Friedrich" "Albrecht" "Rudolf" "Leopold" "Otto" "Sigismund" 
+		"Maximilian" "Karl" "Ferdinand" "Mattias" "Joseph" "Franz" "Wilhelm"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+AUH_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { AUH }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "KuK "
+	fallback_name = "Schlachtkreuzer %d"		
+
+	unique = {
+		"Kaiser Franz" "Kaizer Ferdinand" "Kaizer Franz Jozeph" "Kaizer Karl" "Kaizer Otto" "Erzherzog Franz Ferdinand" "Erzherzog Georg"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+AUH_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { AUH }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "KuK "
+	fallback_name = "Träger %d"	
+
+	unique = {
+		"Wotan" "Donar" "Tyr" "Friia" "Uolla" "Phol"
+	}
+}
+
+### SUBMARINES ###
+AUH_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { AUH }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "KuK "
+	fallback_name = "U-%d"
+	
+	ordered = {
+		1 = {"U-%d"}
+		2 = {"U-%d"} 
+		3 = {"U-%d"} 
+		4 = {"U-%d"} 
+		5 = {"U-%d"} 
+		6 = {"U-%d"} 
+		7 = {"U-%d"} 
+		8 = {"U-%d"} 
+		9 = {"U-%d"} 
+		10 = {"U-%d"}
+		11 = {"U-%d"} 
+		12 = {"U-%d"}
+		13 = {"U-%d"}
+		14 = {"U-%d"}
+		15 = {"U-%d"}
+		16 = {"U-%d"}
+		17 = {"U-%d"}
+		18 = {"U-%d"}
+		19 = {"U-%d"}
+		20 = {"U-%d"}
+		21 = {"U-%d"}
+		22 = {"U-%d"}
+		23 = {"U-%d"}
+		24 = {"U-%d"}
+		25 = {"U-%d"}
+		26 = {"U-%d"}
+	}
+}
+
+
+
+
