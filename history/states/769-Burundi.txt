@@ -7,8 +7,8 @@ state = {
 
 	history = {
 
-		owner = FRA
-
+		owner = COG
+		add_core_of = COG
 		
 		
 		add_core_of = BRD

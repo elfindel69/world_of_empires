@@ -4,8 +4,8 @@ state= {
 	
 	history = {
 
-		owner = ARA
-		add_core_of = ARA
+		owner = TUR
+		add_core_of = TUR
 		add_core_of	= SAU
 
 		buildings = {

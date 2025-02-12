@@ -12,8 +12,8 @@ state={
 	}
 
 	history={
-		owner = CAL
-		add_core_of = CAL
+		owner = USA
+		
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 2

@@ -5,8 +5,8 @@ state={
 		2057 4974 8101 10815 10901 
 	}
 	history = {
-		owner = ARA
-		add_core_of = ARA
+		owner = TUR
+		add_core_of = TUR
 		add_core_of = SAU
 	}
 	manpower=5000

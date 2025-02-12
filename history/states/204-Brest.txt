@@ -16,8 +16,8 @@ state = {
 		#	11313 1 # Salihorsk was not founded until 1958 earliest
 		#}
 
-		owner = POL
-		add_core_of = POL
+		owner = BWR
+		
 
 		buildings = {
 			infrastructure = 3 #was: 5

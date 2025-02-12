@@ -10,8 +10,8 @@ state = {
 
 	history = {
 
-		owner = LOU
-		add_core_of = LOU
+		owner = USA
+		
 		add_core_of = USA
 
 		buildings = {

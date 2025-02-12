@@ -6,8 +6,8 @@ state = {
 
 	history = {
 
-		owner = FRA
-
+		owner = COG
+		
 		
 
 		buildings = {

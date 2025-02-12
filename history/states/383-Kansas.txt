@@ -10,8 +10,8 @@ state={
 	state_category = city
 
 	history={
-		owner = LOU
-		add_core_of = LOU
+		owner = USA
+		
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

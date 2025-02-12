@@ -13,8 +13,8 @@ state={
 	}
 
 	history={
-		owner = CAL
-		add_core_of = CAL
+		owner = USA
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
