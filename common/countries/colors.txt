@@ -1086,10 +1086,7 @@ ALA = {
 	color = rgb { 13 8 59 }
 	color_ui = rgb { 13 8 59 }
 }
-CSA = {
-	color = rgb { 33 33 33 }
-	color_ui = rgb { 33 33 33 }
-}
+
 
 BWR = {
 	color = rgb { 0 0 139 }
