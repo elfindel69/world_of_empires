@@ -379,10 +379,11 @@ if = {
 		autonomous_state = autonomy_puppet
 		freedom_level = 0.4
 	}
+	else = {
+		puppet = INS
+	}
 }
-else = {
-	puppet = INS
-}
+
 
 set_politics = {
 	ruling_party = democratic

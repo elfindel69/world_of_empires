@@ -19,7 +19,7 @@ if = {
 		}
 	}
 }
-recruit_character = CHI_wang_jingwei
+recruit_character = rep_CHI_wang_jingwei
 recruit_character = CHI_chiang_kaishek
 recruit_character = CHI_zhang_guotao
 recruit_character = CHI_weng_wenhao

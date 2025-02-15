@@ -35,10 +35,11 @@ FRA = {
 			autonomous_state = autonomy_puppet
 			freedom_level = 0.4
 		}
+		else = {
+			puppet = ALA
+		}
 	}
-	else = {
-		puppet = ALA
-	}
+	
 }
 set_politics = {
 	ruling_party = democratic

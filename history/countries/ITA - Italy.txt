@@ -327,7 +327,7 @@ set_popularities = {
 }
 
 
-recruit_character = ITA_italo_balbo
+recruit_character = rep_ITA_italo_balbo
 recruit_character = ITA_benito_mussolini
 recruit_character = ITA_grand_council
 recruit_character = rep_ITA_vittorio_emanuele_iii

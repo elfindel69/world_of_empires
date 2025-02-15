@@ -1,5 +1,59 @@
 characters={
-	
+	rep_ITA_italo_balbo = { #Can become Country Leader later
+		name = ITA_italo_balbo
+		portraits = {
+			army = {
+				small = GFX_portrait_ITA_italo_balbo_small
+				large = GFX_portrait_ITA_italo_balbo
+			}
+			civilian = {
+				large = GFX_portrait_ITA_italo_balbo_civilian
+			}
+		}
+
+		advisor = {
+			slot = air_chief
+			idea_token = italo_balbo
+			allowed = {
+				ITA_is_italian_tag = yes
+			}
+			available = {
+				if =  {
+					limit = { 
+						has_dlc = "By Blood Alone"
+					}
+					ITA_is_advisor_available = yes
+				}
+			}
+			
+			traits = {
+				air_chief_all_weather_2
+			}
+			cost = 100
+			ai_will_do = {
+				base = 1.000
+			}
+		}
+		
+		field_marshal = {
+			traits = { career_officer politically_connected trait_reckless media_personality }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+			visible = {
+				ITA_is_advisor_available = yes
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = { popular_figurehead }
+			expire = "1965.1.1.1"
+			
+		}
+	}
 	rep_ITA_vittorio_emanuele_iii = {
 		name = ITA_vittorio_emanuele_iii
 		portraits = {
