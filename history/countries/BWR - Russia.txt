@@ -129,6 +129,7 @@ if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
+	recruit_character = BWR_anton_denikin
 	recruit_character = BWR_anastasy_vonsyatsky
 	# recruit_character = BWR_grigory_semyonov # starts as an advisor to Puyi
 	recruit_character = BWR_metropolitan_anastasy
@@ -148,7 +149,7 @@ if = {
 	recruit_character = BWR_aleksandr_rodzyanko
 	recruit_character = BWR_vladimir_kosmin
 	recruit_character = BWR_andrey_shkuro
-	recruit_character = BWR_anton_denikin
+	
 }
 
 
@@ -492,16 +493,16 @@ add_ideas = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1933.7.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 58
+	democratic = 10
 	fascism = 2
 	monarchist = 10
-	neutrality = 20
+	neutrality = 68
 	communism = 10
 
 }
