@@ -241,13 +241,12 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Huey Long"
-	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
-	picture = "GFX/leaders/USA/Portrait_USA_Generic_3.dds.dds"
+	name = "Huey P. Long"
+	picture = "Portrait_CSA_Huey_Long.dds"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
-		
+		disdain_for_politicians_1
 	}
 }
 

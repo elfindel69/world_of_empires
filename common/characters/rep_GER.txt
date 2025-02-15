@@ -1,5 +1,18 @@
 characters={
-
+	rep_GER_ernst_rohm={ #Empty Wilhelm II so he doesn't become ruler automatically if the neutrals are in power
+	name="Ernst Röhm"
+	portraits={
+		civilian={
+			large="GFX/leaders/GER/Portrait_Germany_Ernst_Rohm.dds"
+		}	
+	}
+	country_leader={
+		ideology=fascism_ideology
+		traits={imperial_connections }
+		expire="1940.1.1.1"
+		id=-1
+	}
+}
 	rep_GER_wilhelm_ii={ #Empty Wilhelm II so he doesn't become ruler automatically if the neutrals are in power
 		name=GER_wilhelm_ii
 		portraits={
