@@ -379,8 +379,20 @@ if = {
 		autonomous_state = autonomy_puppet
 		freedom_level = 0.4
 	}
+	set_autonomy = {
+		target = GYA
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = QUE
+		autonomous_state = autonomy_puppet
+		freedom_level = 0.4
+	}
 	else = {
 		puppet = INS
+		puppet = GYA
+		puppet = QUE
 	}
 }
 

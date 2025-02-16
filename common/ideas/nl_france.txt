@@ -1,0 +1,40 @@
+ideas = {
+
+	country = {
+		FRA_imperial_academy_of_science = {
+			picture = generic_research_bonus
+			allowed = {
+				original_tag = FRA
+				always = no
+			}
+
+			allowed_civil_war = {
+				tag = FRA #stays with main country
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				technology_research_speed = 0.1
+				industrial_capacity_factory = 0.05
+			}
+		}
+
+		FRA_focus_on_specialized_research = {
+			picture = GFX_idea_GER_wunderwaffen
+
+			allowed = {
+				original_tag = AUH
+			}
+
+			ai_will_do = {
+				base = 5
+			}
+
+			modifier = {
+				special_project_speed_factor = 0.1
+				breakthrough_factor = 0.1
+			}	
+		}
+	}
+}
