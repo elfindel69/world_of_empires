@@ -1,33 +1,19 @@
 characters={
-	
-	rep_FRA_henri_vi={ 
-		name="Henri VI"
+	rep_FRA_napoleon_iv={ 
+		name="Napoléon IV"
 		portraits={
 			civilian={
-				large="gfx/leaders/FRA/Portrait_France_Henri_Orleans.dds"
+				large=GFX_portraits_fra_napoleon_vi
 			}
 		}
 		country_leader={
 			ideology=paternalism
-			traits={count_of_paris }
+			traits={imperial_connections }
 			expire="1965.1.1.1"
 			id=-1
 		}
 	}
-	rep_FRA_jean_iii={ 
-		name="Jean III"
-		portraits={
-			civilian={
-				large="gfx/leaders/FRA/Portrait_France_Jean_dOrleans.dds"
-			}
-		}
-		country_leader={
-			ideology=paternalism
-			traits={ rep_duke_of_orleans }
-			expire="1940.8.25.1"
-			id=-1
-		}
-	}
+	
 	
 	rep_FRA_charles_maurras={
 		name=FRA_charles_maurras

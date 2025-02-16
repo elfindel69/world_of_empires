@@ -405,12 +405,11 @@ add_ideas = {
 	
 }
 
-recruit_character = rep_FRA_jean_iii
-recruit_character = rep_FRA_henri_vi
+recruit_character = FRA_edouard_daladier
+recruit_character = rep_FRA_napoleon_iv
 recruit_character = FRA_philippe_petain
 recruit_character = FRA_maurice_thorez
 recruit_character = FRA_pierre_laval
-recruit_character = FRA_edouard_daladier
 recruit_character = FRA_jean_de_lattre_de_tassigny
 recruit_character = FRA_alphonse_juin
 recruit_character = FRA_maurice_gamelin
