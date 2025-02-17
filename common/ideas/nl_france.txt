@@ -15,8 +15,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				technology_research_speed = 0.1
-				industrial_capacity_factory = 0.05
+				research_speed_factor = 0.2
+				industrial_capacity_factory = 0.1
 			}
 		}
 
