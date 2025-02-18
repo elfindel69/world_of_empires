@@ -1,0 +1,19 @@
+opinion_modifiers = {
+	befriended_france = {
+		value = 20
+	}
+
+	befriended_austria = {
+		value = 20
+	}
+
+	befriended_russia = {
+		value = 20
+	}
+
+	befriended_uk = {
+		value = 20
+	}
+
+
+}
