@@ -2,7 +2,7 @@ ideas = {
 
 	country = {
 		FRA_napoleon_iv = {
-			picture = "GFX_idea_fra_napoleon_vi"  # Replace with your custom graphic
+			picture = "gfx/interface/ideas/crowns/france_shield.dds"  # Replace with your custom graphic
 			allowed = {
 				original_tag = FRA
 				has_government = democratic  # Only applies under the constitutional monarchy
