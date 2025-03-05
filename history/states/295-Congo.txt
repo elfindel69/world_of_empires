@@ -7,8 +7,7 @@ state = {
 	history = {
 
 		owner = COG
-		
-		
+
 
 		buildings = {
 			infrastructure = 2
@@ -38,7 +37,7 @@ state = {
 	}
 
 	provinces = {
-		5117 10025 10968 12775 12896 12925 12945 13365
+		5117 10025 10968 12775 12896 12925 12945 13365 13370
 	}
 	
 	buildings_max_level_factor = 1.000
