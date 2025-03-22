@@ -3,4 +3,4 @@ tags={
 	"Alternative History"
 }
 name="nl_test"
-supported_version="1.15.4"
+supported_version="1.16.*"
