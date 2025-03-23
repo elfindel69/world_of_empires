@@ -2,7 +2,7 @@ ideas = {
 
 	country = {
 		FRA_napoleon_iv = {
-			picture = "gfx/interface/ideas/crowns/france_shield.dds"  # Replace with your custom graphic
+			picture = GFX_idea_napoleon_iv  # Replace with your custom graphic
 			allowed = {
 				original_tag = FRA
 				has_government = democratic  # Only applies under the constitutional monarchy
@@ -22,7 +22,7 @@ ideas = {
 				
 				# Additional bonuses to reinforce democratic stability:
 				democratic_drift = 0.1    # Helps push the nation further into the democratic camp
-				stability = 0.1           # Increases national stability by 10%
+			    stability_weekly = 0.01   # Helps maintain stability
 			}
 			ai_will_do = {
 				base = 1

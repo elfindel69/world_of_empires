@@ -1,0 +1,9 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_napoleon_iv"
+		texturefile = "gfx/interface/ideas/crowns/france_shield.dds"
+	}
+
+	
+}
