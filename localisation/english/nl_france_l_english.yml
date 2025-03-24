@@ -2,6 +2,8 @@
 
  FRA_napoleon_iv:0 "Napoleon IV"
  FRA_napoleon_iv_desc:0 "Napoleon IV is the current Emperor of France, and has been in power since 1925."
+ FRA_napoleon_iv_2:0 "Napoleon IV" 
+ FRA_napoleon_iv_2_desc:0 "Napoleon IV is the current Emperor of France, and has been in power since 1925."
  FRA_improve_alsace_lorraine:0 "Improve Alsace-Lorraine"
  FRA_improve_alsace_lorraine_desc:0 "The French have long sought to improve the region of Alsace-Lorraine, and have made a number of improvements to the region."
  FRA_improve_rhineland:0 "Improve the Rhineland"
@@ -58,3 +60,18 @@
  FRA_suppress_the_leagues_desc:0 "The French Leagues are a powerful force in French politics, and we must ensure that they remain under control."
  FRA_workers_rights:0 "Workers' Rights"
  FRA_workers_rights_desc:0 "The French workers have long been at the forefront of the struggle for workers' rights, and we must ensure that they are protected and respected."
+
+
+
+ nl_fra_elections.1.title:0 "1937 Elections"
+ nl_fra_elections.1.desc:0 "The 1937 elections will be a crucial test of the strength of the French Parliament, the voters' choice will determinate the balance of the nation for the years to come."
+ nl_fra_elections.1.a:0 "Daladier is the best choice for France."
+ nl_fra_elections.1.b:0 "Blum is the best choice for France." 
+
+ nl_fra_elections.2.title:0 "1937 Elections Outcome"
+ nl_fra_elections.2.desc:0 "The 1937 elections has been a crucial test of the strength of the French Parliament, the voters' choice has determinate the balance of the nation for the years to come."
+ nl_fra_elections.2.a:0 "Welcome Prime Minister [FRA.GetLeader]."
+ nl_fra_elections.2.b:0 "All the best for Prime Minister [FRA.GetLeader]."
+ nl_fra_elections.2.c:0 "We will see how Prime Minister [FRA.GetLeader] will do."
+ 
+ 

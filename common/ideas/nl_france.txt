@@ -105,58 +105,63 @@ ideas = {
 				democratic_acceptance = 80
 			}
 		}
+		
+		FRA_strenghten_the_parliament = {
+			picture = GFX_idea_GER_wunderwaffen
+	
+			allowed = {
+				original_tag = FRA
+			}
+	
+			ai_will_do = {
+				base = 5
+			}
+	
+			modifier = {
+				democratic_drift = 0.1
+				democratic_acceptance = 80
+				monarchist_drift = -0.1
+				fascism_drift = -0.1
+			}
+		}
+		FRA_suppress_the_leagues = {
+			picture = GFX_idea_GER_wunderwaffen
+	
+			allowed = {
+				original_tag = FRA
+			}
+	
+			ai_will_do = {
+				base = 5
+			}
+	
+			modifier = {
+				communism_drift = -0.1
+				neutrality_drift = -0.1
+				fascism_drift = -0.1
+			}
+		}
+	
+		FRA_workers_rights = {
+			picture = GFX_idea_GER_wunderwaffen
+	
+			allowed = {
+				original_tag = FRA
+			}
+	
+			ai_will_do = {
+				base = 5
+			}
+	
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.1
+				construction_speed_factor = 0.1
+			}
+		}
+	
+	
+	
 	}
-	FRA_strenghten_the_parliament = {
-		picture = GFX_idea_GER_wunderwaffen
-
-		allowed = {
-			original_tag = FRA
-		}
-
-		ai_will_do = {
-			base = 5
-		}
-
-		modifier = {
-			democratic_drift = 0.1
-			democratic_acceptance = 80
-			monarchist_drift = -0.1
-			fascism_drift = -0.1
-		}
-	}
-	FRA_suppress_the_leagues = {
-		picture = GFX_idea_GER_wunderwaffen
-
-		allowed = {
-			original_tag = FRA
-		}
-
-		ai_will_do = {
-			base = 5
-		}
-
-		modifier = {
-			communism_drift = -0.1
-			neutrality_drift = -0.1
-			fascism_drift = -0.1
-		}
-	}
-
-	FRA_workers_rights = {
-		picture = GFX_idea_GER_wunderwaffen
-
-		allowed = {
-			original_tag = FRA
-		}
-
-		ai_will_do = {
-			base = 5
-		}
-
-		modifier = {
-			consumer_goods_factor = 0.05
-			industrial_capacity_factory = 0.1
-			construction_speed_factor = 0.1
-		}
-	}
+	
 }

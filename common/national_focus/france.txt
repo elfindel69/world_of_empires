@@ -1369,11 +1369,11 @@ focus_tree = {
 		relative_position_id = FRA_strenghten_the_parliament
 		available = {
 			date > 1937.1.1
-			democratic > 60
+			democratic > 0.60
 		}
 		completion_reward = { 
 			add_stability = 0.05
-			country_event = { id = fra_elections.1 hours = 6 }
+			country_event = { id = nl_fra_elections.1 hours = 6 }
 		}
 	}
 
@@ -1389,7 +1389,7 @@ focus_tree = {
 		relative_position_id = FRA_1937_elections
 		available = {
 			has_government = democratic
-			has_country_leader = FRA_edouard_daladier
+			has_country_leader = { character = FRA_edouard_daladier ruling_only = yes }
 		}
 		completion_reward = {
 			add_political_power = 150

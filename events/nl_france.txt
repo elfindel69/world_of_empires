@@ -1,18 +1,15 @@
-add_namespace = fra_elections
+add_namespace = nl_fra_elections
 
 country_event = {
-	id = fra_elections.1
-	title = fra_elections.1.title
-	desc = fra_elections.1.desc
+	id = nl_fra_elections.1
+	title = nl_fra_elections.1.title
+	desc = nl_fra_elections.1.desc
 	picture = GFX_report_event_generic_parliament
 	is_triggered_only = yes
 	
-	hidden_effect = {
-		drop_cosmetic_tag = yes
-		news_event = { id = aat_news.1 days = 1 }
-	}
+	
 	option = {
-		name = fra_elections.1.a
+		name = nl_fra_elections.1.a
 		ai_chance = { base = 0.5 }
 		FRA_edouard_daladier = {
 			add_country_leader_role = {
@@ -24,11 +21,11 @@ country_event = {
 				}
 			}
 		}
-		news_event = { id = fra_elections.2 hours = 12 }
+		news_event = { id = nl_fra_elections.2 hours = 12 }
 	}
 
 	option = {
-		name = fra_elections.1.b
+		name = nl_fra_elections.1.b
 		ai_chance = { base = 0.5 }
 		FRA_leon_blum = {
 			add_country_leader_role = {
@@ -41,27 +38,27 @@ country_event = {
 			}
 			
 		}
-		news_event = { id = fra_elections.2 hours = 12 }
+		news_event = { id = nl_fra_elections.2 hours = 12 }
 	}
 
 }
 
 news_event = {
-	id = fra_elections.2
-	title = fra_elections.2.title
-	desc = fra_elections.2.desc
+	id = nl_fra_elections.2
+	title = nl_fra_elections.2.title
+	desc = nl_fra_elections.2.desc
 	picture = GFX_report_event_generic_parliament
 	is_triggered_only = yes
 	
 	option = {
-		name = fra_elections.2.a
+		name = nl_fra_elections.2.a
 		trigger = {
 			original_tag = FRA
 		}
 	}
 
 	option = {
-		name = fra_elections.2.b
+		name = nl_fra_elections.2.b
 		ai_chance = { base = 0.5 }
 		trigger = {
 			NOT = { original_tag = FRA }
@@ -71,7 +68,7 @@ news_event = {
 	}
 
 	option = {
-		name = fra_elections.2.b
+		name = nl_fra_elections.2.b
 		ai_chance = { base = 0.5 }
 		trigger = {
 			NOT = { 
