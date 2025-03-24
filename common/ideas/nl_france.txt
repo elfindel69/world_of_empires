@@ -28,6 +28,32 @@ ideas = {
 				base = 1
 			}
 		}
+		FRA_napoleon_iv_2 = {
+			picture = GFX_idea_napoleon_iv  # Replace with your custom graphic
+			allowed = {
+				original_tag = FRA
+				has_government = democratic  # Only applies under the constitutional monarchy
+			}
+			modifier = {
+				# Original imperial_connections cost reductions:
+			
+				political_advisor_cost_factor = -0.25
+				trade_laws_cost_factor = -0.25
+				mobilization_laws_cost_factor = -0.25
+				economy_cost_factor = -0.25
+				high_command_cost_factor = -0.25
+				air_chief_cost_factor = -0.25
+				army_chief_cost_factor = -0.25
+				navy_chief_cost_factor = -0.25
+				
+				# Additional bonuses to reinforce democratic stability:
+				democratic_drift = 0.1    # Helps push the nation further into the democratic camp
+			    stability_weekly = 0.01   # Helps maintain stability
+			}
+			ai_will_do = {
+				base = 1
+			}
+		}
 		FRA_imperial_academy_of_science = {
 			picture = generic_research_bonus
 			allowed = {
@@ -80,6 +106,57 @@ ideas = {
 			}
 		}
 	}
+	FRA_strenghten_the_parliament = {
+		picture = GFX_idea_GER_wunderwaffen
 
-	
+		allowed = {
+			original_tag = FRA
+		}
+
+		ai_will_do = {
+			base = 5
+		}
+
+		modifier = {
+			democratic_drift = 0.1
+			democratic_acceptance = 80
+			monarchist_drift = -0.1
+			fascism_drift = -0.1
+		}
+	}
+	FRA_suppress_the_leagues = {
+		picture = GFX_idea_GER_wunderwaffen
+
+		allowed = {
+			original_tag = FRA
+		}
+
+		ai_will_do = {
+			base = 5
+		}
+
+		modifier = {
+			communism_drift = -0.1
+			neutrality_drift = -0.1
+			fascism_drift = -0.1
+		}
+	}
+
+	FRA_workers_rights = {
+		picture = GFX_idea_GER_wunderwaffen
+
+		allowed = {
+			original_tag = FRA
+		}
+
+		ai_will_do = {
+			base = 5
+		}
+
+		modifier = {
+			consumer_goods_factor = 0.05
+			industrial_capacity_factory = 0.1
+			construction_speed_factor = 0.1
+		}
+	}
 }

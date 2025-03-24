@@ -1,0 +1,85 @@
+add_namespace = fra_elections
+
+country_event = {
+	id = fra_elections.1
+	title = fra_elections.1.title
+	desc = fra_elections.1.desc
+	picture = GFX_report_event_generic_parliament
+	is_triggered_only = yes
+	
+	hidden_effect = {
+		drop_cosmetic_tag = yes
+		news_event = { id = aat_news.1 days = 1 }
+	}
+	option = {
+		name = fra_elections.1.a
+		ai_chance = { base = 0.5 }
+		FRA_edouard_daladier = {
+			add_country_leader_role = {
+				promote_leader = yes
+				country_leader = {
+					ideology = conservatism
+					expire = "1965.1.1"
+					traits = { popular_figurehead dislikes_germany } 
+				}
+			}
+		}
+		news_event = { id = fra_elections.2 hours = 12 }
+	}
+
+	option = {
+		name = fra_elections.1.b
+		ai_chance = { base = 0.5 }
+		FRA_leon_blum = {
+			add_country_leader_role = {
+				promote_leader = yes
+				country_leader = {
+					ideology = socialism
+					expire = "1965.1.1"
+					traits = { popular_figurehead socialist_justice } 
+				}
+			}
+			
+		}
+		news_event = { id = fra_elections.2 hours = 12 }
+	}
+
+}
+
+news_event = {
+	id = fra_elections.2
+	title = fra_elections.2.title
+	desc = fra_elections.2.desc
+	picture = GFX_report_event_generic_parliament
+	is_triggered_only = yes
+	
+	option = {
+		name = fra_elections.2.a
+		trigger = {
+			original_tag = FRA
+		}
+	}
+
+	option = {
+		name = fra_elections.2.b
+		ai_chance = { base = 0.5 }
+		trigger = {
+			NOT = { original_tag = FRA }
+			is_in_faction_with = FRA
+			is_subject_of = FRA
+		}
+	}
+
+	option = {
+		name = fra_elections.2.b
+		ai_chance = { base = 0.5 }
+		trigger = {
+			NOT = { 
+				original_tag = FRA 
+				is_in_faction_with = FRA
+				is_subject_of = FRA
+			}
+			
+		}
+	}
+}
