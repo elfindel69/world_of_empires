@@ -1078,10 +1078,6 @@ KUB = {
 
 #######
 
-ARA = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
-}
 ALA = {
 	color = rgb { 13 8 59 }
 	color_ui = rgb { 13 8 59 }
