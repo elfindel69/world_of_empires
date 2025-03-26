@@ -80,3 +80,162 @@ news_event = {
 		}
 	}
 }
+
+country_event = {
+	id = nl_fra_elections.3
+	title = nl_fra_elections.3.title
+	desc = nl_fra_elections.3.desc
+	picture = GFX_report_event_generic_parliament
+	is_triggered_only = yes
+	
+	option = {
+		name = nl_fra_elections.3.a
+		trigger = {
+			original_tag = FRA
+			democratic > 0.55
+			communism < 0.3
+		}
+		if = {
+			limit = {
+				OR = {
+					has_stability  < 0.3
+					monarchist > 0.3
+				}
+			}
+			start_civil_war = {
+				ideology = monarchist
+				size = 0.3
+			}
+			else = {
+				news_event = { id = nl_fra_elections.4 hours = 12 }
+			}	
+		}
+
+	}
+
+	option = {
+		name = nl_fra_elections.3.b
+		trigger = {
+			original_tag = FRA
+			democratic < 0.3
+			communism > 0.55
+		}
+		set_politics = {
+			ruling_party = communism
+			elections_allowed = no
+		} 
+		if = {
+			limit = {
+				OR = {
+					has_stability < 0.3
+					monarchist > 0.3
+				}
+				
+			}
+			start_civil_war = {
+				ideology = monarchist
+				size = 0.3
+			}	
+			else = {
+				news_event = { id = nl_fra_elections.5 hours = 12 }
+			}
+		}
+	}
+
+	
+}
+
+news_event = {
+	id = nl_fra_elections.4
+	title = nl_fra_elections.4.title
+	desc = nl_fra_elections.4.desc
+	picture = GFX_report_event_generic_parliament
+	is_triggered_only = yes
+
+	option = {
+		name = nl_fra_elections.4.a
+		ai_chance = { base = 0.5 }
+		trigger = {
+			original_tag = FRA
+		}
+	}
+
+	option = {
+		name = nl_fra_elections.2.b
+		ai_chance = { base = 0.5 }
+		trigger = {
+			NOT = { original_tag = FRA }
+			is_in_faction_with = FRA
+			is_subject_of = FRA
+		}
+	}
+
+	option = {
+		name = nl_fra_elections.2.b
+		ai_chance = { base = 0.5 }
+		trigger = {
+			NOT = { 
+				original_tag = FRA 
+				is_in_faction_with = FRA
+				is_subject_of = FRA
+			}
+			
+		}
+	}
+
+}
+
+news_event = {
+	id = nl_fra_elections.5
+	title = nl_fra_elections.5.title
+	desc = nl_fra_elections.5.desc
+	picture = GFX_report_event_generic_parliament
+	is_triggered_only = yes
+
+	option = {
+		name = nl_fra_elections.5.a
+		ai_chance = { base = 0.5 }
+		trigger = {
+			original_tag = FRA
+		}
+	}
+
+	option = {
+		name = nl_fra_elections.5.b
+		ai_chance = { base = 0.5 }
+		trigger = {
+			NOT = { original_tag = FRA }
+			is_in_faction_with = FRA
+			is_subject_of = FRA
+		}
+	}
+
+	option = {
+		name = nl_fra_elections.5.b
+		ai_chance = { base = 0.5 }
+		trigger = {
+			NOT = { 
+				original_tag = FRA 
+				is_in_faction_with = FRA
+				is_subject_of = FRA
+			}
+			has_government = communism
+			
+		}
+	}
+
+	option = {
+		name = nl_fra_elections.5.b
+		ai_chance = { base = 0.5 }
+		trigger = {
+			NOT = { 
+				original_tag = FRA 
+				is_in_faction_with = FRA
+				is_subject_of = FRA
+				has_government = communism
+			}
+			
+		}
+	}
+
+}

@@ -1441,4 +1441,79 @@ focus_tree = {
 			}
 		 }
 	}
+
+	focus = {
+		id = FRA_towards_the_republic
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 7
+		prerequisite = {
+			focus = FRA_1937_elections
+		}
+		x = 1
+		y = 1
+		relative_position_id = FRA_1937_elections
+		available = {
+			has_government = democratic
+			has_country_leader = { character = FRA_leon_blum ruling_only = yes }
+		}
+		completion_reward = { 
+			add_political_power =150
+			add_stability = -0.1
+			add_timed_idea = {
+				idea = FRA_towards_the_republic
+				years = 2
+			}
+		}
+	}
+
+	focus = {
+		id = FRA_expand_the_unions
+		icon = GFX_focus_generic_workers
+		cost = 5
+		prerequisite = {
+			focus = FRA_towards_the_republic
+		}
+		x = 0
+		y = 1
+		relative_position_id = FRA_towards_the_republic
+		available = {
+			
+		}
+		completion_reward = { 
+			
+			add_stability = -0.05
+			add_popularity = { ideology = democratic popularity = 0.1 }
+			add_popularity = { ideology = communism popularity = 0.1 }
+			add_timed_idea = {
+				idea = FRA_expand_the_unions
+				years = 2
+			}
+			
+			
+		}
+	}
+
+	focus = {
+		id = FRA_proclaim_the_republic
+		icon = GFX_focus_fra_french_union
+		cost = 5
+		prerequisite = {
+			focus = FRA_expand_the_unions
+		}
+		x = 0
+		y = 1
+		relative_position_id = FRA_expand_the_unions
+		available = {
+			OR = {
+				democratic > 0.55
+				communism > 0.55
+			}
+		
+		}
+		completion_reward = { 
+			add_stability = -0.05
+			remove_ideas = FRA_napoleon_iv
+			country_event = { id = nl_fra_republic.3 hours = 6 }
+		}
+	}
 }
