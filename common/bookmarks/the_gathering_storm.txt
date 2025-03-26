@@ -12,14 +12,11 @@ bookmarks = {
 			ideology = democratic
 			available = { NOT = { has_dlc = "La Resistance" } }
 			ideas = {
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
+				FRA_napoleon_iv
 			}
 			focuses = {
-				FRA_form_the_popular_front
-				FRA_revive_the_national_bloc
-				FRA_france_leads
+				FRA_devalue_the_franc
+				FRA_1937_elections
 			}
 		}
 		"FRA"={
@@ -27,14 +24,11 @@ bookmarks = {
 			ideology = democratic
 			available = { has_dlc = "La Resistance" } 
 			ideas = {
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
+				FRA_napoleon_iv
 			}
 			focuses = {
-				FRA_invite_communist_ministers
-				FRA_utilize_the_leagues
-				FRA_je_suis_la_deluge
+				FRA_devalue_the_franc
+				FRA_1937_elections
 			}
 		}
 		"USA"={
@@ -160,12 +154,10 @@ bookmarks = {
 		}
 		"BWR"={
 			history = "SOV_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = neutrality
 			available = { has_dlc = "No Step Back" }
 			ideas = {
-				trotskyite_plot_nsb
-				SOV_second_five_year_plan_fake_1936_ns
-				SOV_politicized_military
+				
 			}
 			focuses = {
 				SOV_behead_the_snake
@@ -175,12 +167,10 @@ bookmarks = {
 		}
 		"BWR"={
 			history = "SOV_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = neutrality
 			available = { NOT = { has_dlc = "No Step Back" } }
 			ideas = {
-				trotskyite_plot_nsb
-				SOV_second_five_year_plan_fake_1936_ns
-				SOV_politicized_military
+				
 			}
 			focuses = {
 				SOV_behead_the_snake
@@ -263,37 +253,7 @@ bookmarks = {
 				RAJ_the_smiling_buddha
 			}
 		}
-		"CZE"={
-			minor = yes
-			history = "CZE_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				CZE_skoda_works
-				CZE_divided_nation
-			}
-			focuses = {
-				CZE_an_entente_of_our_own
-				CZE_industrial_legacy
-				CZE_czechoslovak_legion
-			}
-		}
-
-		HUN = {
-			minor = yes
-			history = "HUN_GATHERING_STORM_DESC"
-			ideology = neutrality
-			available = {  NOT = { has_dlc = "Gotterdammerung" } }
-			ideas = {
-				HUN_treaty_of_triannon
-				HUN_gombos_trade_treaty
-			}
-			focuses = {
-				HUN_proclaim_the_restoration_of_austria_hungary
-				HUN_secret_rearmament
-				HUN_renounce_the_treaty_of_trianon
-			}
-		}
-
+		
 		"ROM"={
 			minor = yes
 			history = "ROM_GATHERING_STORM_DESC"
@@ -309,137 +269,7 @@ bookmarks = {
 			}
 		}
 		
-		"YUG"={
-			minor = yes
-			history = "YUG_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				anti_german_military
-				YUG_idea_croatian_opposition
-				YUG_idea_serbian_general_staff
-			}
-			focuses = {
-				YUG_end_the_regency
-				YUG_abolish_the_monarchy
-				YUG_dissolve_serbia
-			}
-		}
-		"CHI"={
-			minor = yes
-			history = "CHI_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				CHI_army_corruption_1
-				CHI_hyper_inflation_1
-				CHI_nine_power_treaty
-			}
-			focuses = {
-				CHI_united_front
-				CHI_army_reform
-				CHI_invite_the_flying_tigers
-			}
-		}
-		"PRC"={
-			minor = yes
-			history = "PRC_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-				PRC_the_long_march_1
-				PRC_low_popular_support_3
-				PRC_power_struggles
-			}
-			focuses = {
-				PRC_infiltration
-				PRC_maoism
-				PRC_anti_japanese_expedition
-			}
-		}
-		"MAN"={
-			minor = yes
-			history = "MAN_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				MAN_banditry
-				MAN_kwantung_veto
-				MAN_low_legitimacy_5
-			}
-			focuses = {
-				MAN_obedience
-				MAN_independence_war
-				MAN_claim_the_mandate_of_heaven
-			}
-		}
 		
-		"GXC"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}		
-		"YUN"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}		
-		"SHX"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}		
-		"XSM"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}		
-		"SIK"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}
 		
 		"MEX"={
 			minor = yes
@@ -457,21 +287,7 @@ bookmarks = {
 			}
 		}
 
-		"HOL"={
-			minor = yes
-			history = "NETHERLANDS_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				HOL_wilhelmina
-				HOL_shell_shocked_spectator_5
-				HOL_de_crisisjaren_5
-			}
-			focuses = {
-				HOL_continue_the_war_in_batavia
-				HOL_liberation
-				HOL_prepare_the_inundation_lines
-			}
-		}
+		
 
 		"SPR"={
 			minor = yes
@@ -553,50 +369,7 @@ bookmarks = {
 		}
 		
 		
-		"LIT"={
-			minor = yes
-			history = "LIT_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				LIT_agrarian_society
-				LIT_iron_wolf_idea_bad_1
-			}
-			focuses = {
-				LIT_free_voldemares
-				LIT_a_king_for_our_people
-				LIT_reminder_of_true_enemy
-			}
-		}
 		
-		"LAT"={
-			minor = yes
-			history = "LAT_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				LAT_perkonkrust_idea
-				democratic_opposition
-			}
-			focuses = {
-				LAT_military_dictatorship
-				LAT_womens_aizsargi
-				LAT_the_old_ways
-			}
-		}
-		
-		"EST"={
-			minor = yes
-			history = "EST_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				EST_vaps_idea_1
-				democratic_opposition
-			}
-			focuses = {
-				EST_era_of_silence
-				EST_fight_the_vaps
-				EST_unite_our_nations
-			}
-		}
 		"POL"={
 			minor = yes
 			history = "POL_GATHERING_STORM_DESC"
@@ -715,21 +488,7 @@ bookmarks = {
 				DEN_pan_scandinavianism
 			}
 		}
-		ICE = {
-			minor = yes
-			history = ICE_GATHERING_STORM_DESC
-			ideology = democratic
-			available = { has_dlc = "Arms Against Tyranny" } 
-			ideas = {
-				ICE_christian_x
-				ICE_the_icelandic_economy_modifier_fake_idea
-			}
-			focuses = {
-				ICE_the_kingdom_of_iceland
-				ICE_the_viking_spirit
-				ICE_republicanism
-			}
-		}
+		
 		BRA = {
 			minor = yes
 			history = BRA_GATHERING_STORM_DESC
@@ -781,70 +540,8 @@ bookmarks = {
 				ARG_south_american_unity
 			}
 		}
-		AUS = {
-			minor = yes
-			history = AUS_GATHERING_STORM_DESC #might need an edit because it is not very good at the moment.
-			ideology = neutrality
-			available = { has_dlc = "Gotterdammerung" }
-			ideas = {
-				AUS_treaty_of_saint_germain_en_laye
-				AUS_austrofascism_fake_ns
-				AUS_widespread_unemployment
-			}
-			focuses = {
-				AUS_legacy_of_the_empire
-				AUS_repeal_the_may_constitution
-				AUS_second_brothers_war
-			}
-		}
-		HUN = {
-			minor = yes
-			history = "HUN_GATHERING_STORM_DESC"
-			ideology = neutrality
-			available = { has_dlc = "Gotterdammerung" }
-			ideas = {
-				HUN_treaty_of_triannon_wuw
-				HUN_gombos_trade_treaty
-				HUN_hungarian_national_defense_association
-			}
-			focuses = {
-				wuw_HUN_renovato_imperii
-				wuw_HUN_strengthen_horthys_reign
-				wuw_HUN_reviving_the_spirit_of_1848
-			}
-		}
-		BEL = {
-			minor = yes
-			history = BEL_GATHERING_STORM_DESC
-			ideology = democratic
-			available = { has_dlc = "Gotterdammerung" } 
-			ideas = {
-				BEL_chasseurs_ardennais_ns
-				BEL_scars_of_ww1_ns_fake
-				BEL_corruption_ns_fake
-			}
-			focuses = {
-				BEL_v_for_victory
-				BEL_belgica
-				BEL_legacy_of_the_great_war
-			}
-		}
-		COG = {
-			minor = yes
-			history = COG_GATHERING_STORM_DESC
-			ideology = neutrality
-			available = { has_dlc = "Gotterdammerung" }
-			ideas = {
-				COG_the_invisible_roof
-				COG_vast_decentralized_state_idea
-				COG_force_publique_fake_idea
-			}
-			focuses = {
-				COG_governor_general_pierre_ryckmans
-				COG_national_committee_for_liberation
-				COG_the_kingdom_of_kongo_focus
-			}
-		}
+		
+	
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

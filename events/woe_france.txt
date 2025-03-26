@@ -130,7 +130,6 @@ country_event = {
 					has_stability < 0.3
 					monarchist > 0.3
 				}
-				
 			}
 			start_civil_war = {
 				ideology = monarchist
