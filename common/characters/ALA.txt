@@ -1,6 +1,6 @@
 characters = {
 	ALA_33554647 = {
-		name = es_Favio_dyn_es_Espinosa
+		name = "Louis-François Dufresne"
 		portraits = {
 			civilian = {
 				large = GFX_Portrait_Europe_Generic_2

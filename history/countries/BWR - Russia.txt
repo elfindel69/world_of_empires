@@ -18,7 +18,7 @@ set_party_name = {
 
 #COUNTRY LEADERS
 recruit_character = BWR_tsar_michail_II
-recruit_character = BWR_tsar_vsevolod_ivanovich
+recruit_character = BWR_anton_denikin
 recruit_character = BWR_iosif_stalin
 recruit_character = BWR_supreme_soviet #This is a fake character! Proper country leader role is added via focus
 if = {
