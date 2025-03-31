@@ -1371,7 +1371,7 @@ focus_tree = {
 		}
 		completion_reward = { 
 			add_stability = 0.05
-			country_event = { id = nl_fra_elections.1 hours = 6 }
+			country_event = { id = woe_fra_elections.1 hours = 6 }
 		}
 	}
 
@@ -1513,7 +1513,7 @@ focus_tree = {
 		completion_reward = { 
 			add_stability = -0.05
 			remove_ideas = FRA_napoleon_iv
-			country_event = { id = nl_fra_republic.3 hours = 6 }
+			country_event = { id = woe_fra_elections.2 hours = 6 }
 		}
 	}
 }

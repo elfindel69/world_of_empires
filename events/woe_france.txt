@@ -1,15 +1,16 @@
-add_namespace = nl_fra_elections
+add_namespace = woe_fra_elections
+add_namespace = woe_fra_news
 
 country_event = {
-	id = nl_fra_elections.1
-	title = nl_fra_elections.1.title
-	desc = nl_fra_elections.1.desc
+	id = woe_fra_elections.1
+	title = woe_fra_elections.1.title
+	desc = woe_fra_elections.1.desc
 	picture = GFX_report_event_generic_parliament
 	is_triggered_only = yes
 	
 	
 	option = {
-		name = nl_fra_elections.1.a
+		name = woe_fra_elections.1.a
 		ai_chance = { base = 0.5 }
 		FRA_edouard_daladier = {
 			add_country_leader_role = {
@@ -21,11 +22,11 @@ country_event = {
 				}
 			}
 		}
-		news_event = { id = nl_fra_elections.2 hours = 12 }
+		news_event = { id = woe_fra_news.1 hours = 12 }
 	}
 
 	option = {
-		name = nl_fra_elections.1.b
+		name = woe_fra_elections.1.b
 		ai_chance = { base = 0.5 }
 		FRA_leon_blum = {
 			add_country_leader_role = {
@@ -38,38 +39,40 @@ country_event = {
 			}
 			
 		}
-		news_event = { id = nl_fra_elections.2 hours = 12 }
+		news_event = { id = woe_fra_news.1 hours = 12 }
 	}
 
 }
 
 news_event = {
-	id = nl_fra_elections.2
-	title = nl_fra_elections.2.title
-	desc = nl_fra_elections.2.desc
+	id = woe_fra_news.1
+	title = woe_fra_news.1.title
+	desc = woe_fra_news.1.desc
 	picture = GFX_report_event_generic_parliament
 	is_triggered_only = yes
 	
 	option = {
-		name = nl_fra_elections.2.a
+		name = woe_fra_news.1.a
 		trigger = {
 			original_tag = FRA
 		}
 	}
 
 	option = {
-		name = nl_fra_elections.2.b
-		ai_chance = { base = 0.5 }
+		name = woe_fra_news.1.b
+		ai_chance = { base = 100 }
 		trigger = {
 			NOT = { original_tag = FRA }
-			is_in_faction_with = FRA
-			is_subject_of = FRA
+			OR =  {
+				is_in_faction_with = FRA
+				is_subject_of = FRA
+			}
 		}
 	}
 
 	option = {
-		name = nl_fra_elections.2.b
-		ai_chance = { base = 0.5 }
+		name = woe_fra_news.1.b
+		ai_chance = { base = 100 }
 		trigger = {
 			NOT = { 
 				original_tag = FRA 
@@ -82,14 +85,14 @@ news_event = {
 }
 
 country_event = {
-	id = nl_fra_elections.3
-	title = nl_fra_elections.3.title
-	desc = nl_fra_elections.3.desc
+	id = woe_fra_elections.2
+	title = woe_fra_elections.2.title
+	desc = woe_fra_elections.2.desc
 	picture = GFX_report_event_generic_parliament
 	is_triggered_only = yes
 	
 	option = {
-		name = nl_fra_elections.3.a
+		name = woe_fra_elections.2.a
 		trigger = {
 			original_tag = FRA
 			democratic > 0.55
@@ -107,14 +110,14 @@ country_event = {
 				size = 0.3
 			}
 			else = {
-				news_event = { id = nl_fra_elections.4 hours = 12 }
+				news_event = { id = woe_fra_news.2 hours = 12 }
 			}	
 		}
 
 	}
 
 	option = {
-		name = nl_fra_elections.3.b
+		name = woe_fra_elections.2.b
 		trigger = {
 			original_tag = FRA
 			democratic < 0.3
@@ -136,42 +139,73 @@ country_event = {
 				size = 0.3
 			}	
 			else = {
-				news_event = { id = nl_fra_elections.5 hours = 12 }
+				news_event = { id = woe_fra_news.3 hours = 12 }
 			}
 		}
 	}
-
+	option = {
+		name = woe_fra_elections.2.c  # A Divided Nation
+		trigger = {
+			original_tag = FRA
+			communism > 0.3
+			democratic > 0.3
+		}
+		add_stability = -0.15
+		add_political_power = -100
+	
+		# Optional: Add an idea to represent instability
+		add_ideas = national_deadlock
+	
+		# Monarchists exploit the chaos if strong enough
+		if = {
+			limit = {
+				OR = {
+					has_stability < 0.3
+					monarchist > 0.3
+				}
+			}
+			start_civil_war = {
+				ideology = monarchist
+				size = 0.3
+			}
+		}
+		else = {
+			news_event = { id = woe_fra_news.3 hours = 12 }
+		}
+	}
 	
 }
 
 news_event = {
-	id = nl_fra_elections.4
-	title = nl_fra_elections.4.title
-	desc = nl_fra_elections.4.desc
+	id = woe_fra_news.2
+	title = woe_fra_news.2.title
+	desc = woe_fra_news.2.desc
 	picture = GFX_report_event_generic_parliament
 	is_triggered_only = yes
 
 	option = {
-		name = nl_fra_elections.4.a
-		ai_chance = { base = 0.5 }
+		name = woe_fra_news.2.a
+		ai_chance = { base = 100 }
 		trigger = {
 			original_tag = FRA
 		}
 	}
 
 	option = {
-		name = nl_fra_elections.2.b
-		ai_chance = { base = 0.5 }
+		name = woe_fra_news.2.b
+		ai_chance = { base = 100 }
 		trigger = {
 			NOT = { original_tag = FRA }
-			is_in_faction_with = FRA
-			is_subject_of = FRA
+			OR =  {
+				is_in_faction_with = FRA
+				is_subject_of = FRA
+			}
 		}
 	}
 
 	option = {
-		name = nl_fra_elections.2.b
-		ai_chance = { base = 0.5 }
+		name = woe_fra_news.2.c
+		ai_chance = { base = 100 }
 		trigger = {
 			NOT = { 
 				original_tag = FRA 
@@ -185,33 +219,35 @@ news_event = {
 }
 
 news_event = {
-	id = nl_fra_elections.5
-	title = nl_fra_elections.5.title
-	desc = nl_fra_elections.5.desc
+	id = woe_fra_news.3
+	title = woe_fra_news.3.title
+	desc = woe_fra_news.3.desc
 	picture = GFX_report_event_generic_parliament
 	is_triggered_only = yes
 
 	option = {
-		name = nl_fra_elections.5.a
-		ai_chance = { base = 0.5 }
+		name = woe_fra_news.3.a
+		ai_chance = { base = 100 }
 		trigger = {
 			original_tag = FRA
 		}
 	}
 
 	option = {
-		name = nl_fra_elections.5.b
+		name = woe_fra_news.3.b
 		ai_chance = { base = 0.5 }
 		trigger = {
 			NOT = { original_tag = FRA }
-			is_in_faction_with = FRA
-			is_subject_of = FRA
+			OR =  {
+				is_in_faction_with = FRA
+				is_subject_of = FRA
+			}
 		}
 	}
 
 	option = {
-		name = nl_fra_elections.5.b
-		ai_chance = { base = 0.5 }
+		name = woe_fra_news.3.c
+		ai_chance = { base = 100 }
 		trigger = {
 			NOT = { 
 				original_tag = FRA 
@@ -224,7 +260,7 @@ news_event = {
 	}
 
 	option = {
-		name = nl_fra_elections.5.b
+		name = woe_fra_news.3.d
 		ai_chance = { base = 0.5 }
 		trigger = {
 			NOT = { 
@@ -232,6 +268,48 @@ news_event = {
 				is_in_faction_with = FRA
 				is_subject_of = FRA
 				has_government = communism
+			}
+			
+		}
+	}
+
+}
+
+news_event = {
+	id = woe_fra_news.4
+	title = woe_fra_news.4.title
+	desc = woe_fra_news.4.desc
+	picture = GFX_report_event_generic_parliament
+	is_triggered_only = yes
+
+	option = {
+		name = woe_fra_news.4.a
+		ai_chance = { base = 100 }
+		trigger = {
+			original_tag = FRA
+		}
+	}
+
+	option = {
+		name = woe_fra_news.4.b
+		ai_chance = { base = 100 }
+		trigger = {
+			NOT = { original_tag = FRA }
+			OR =  {
+				is_in_faction_with = FRA
+				is_subject_of = FRA
+			}
+		}
+	}
+
+	option = {
+		name = woe_fra_news.4.c
+		ai_chance = { base = 100 }
+		trigger = {
+			NOT = { 
+				original_tag = FRA 
+				is_in_faction_with = FRA
+				is_subject_of = FRA
 			}
 			
 		}
