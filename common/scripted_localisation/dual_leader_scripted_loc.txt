@@ -7,14 +7,24 @@ defined_text = {
 			tag = ROM
 			has_government = neutrality
 		}
-		localization_key = ROM_PRIME_MINISTER_TITLE
+		localization_key = PRIME_MINISTER_TITLE
 	}
 	text = {
 		trigger = {
 			original_tag = ENG
 			has_government = democratic
 		}
-		localization_key = ENG_PRIME_MINISTER_TITLE
+		localization_key = PRIME_MINISTER_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = FRA
+			OR = {
+				has_government = monarchist
+				has_government = democratic
+			}
+		}
+		localization_key = PRIME_MINISTER_TITLE
 	}
 	text = {
 		localization_key = DEFAULT_FIRST_TITLE
@@ -28,14 +38,14 @@ defined_text = {
 			tag = ROM
 			has_government = neutrality
 		}
-		localization_key = ROM_MONARCH_TITLE
+		localization_key = KING_TITLE
 	}
 	text = {
 		trigger = {
 			original_tag = ENG
 			has_government = democratic
 		}
-		localization_key = ENG_KING_TITLE
+		localization_key = KING_TITLE
 	}
 	text = {
 		trigger = {
@@ -46,7 +56,7 @@ defined_text = {
 			}
 		
 		}
-		localization_key = FRA_MONARCH_TITLE
+		localization_key = EMPEROR_TITLE
 	}
 }
 
@@ -128,6 +138,17 @@ defined_text = {
         }
         localization_key = "DESCRIPTION_TEST"
 	}
+
+	text = {
+        trigger = {
+			tag = FRA
+			OR = {
+				has_government = monarchist
+				has_government = democratic
+			}
+		}
+        localization_key = "FRA_SECOND_LEADER_DESC"
+	}
 }
 
 defined_text = {
@@ -141,5 +162,12 @@ defined_text = {
 			}
         }
         localization_key = "FIRST_LEADER_DESC_TEST"
+	}
+	text = {
+        trigger = {
+			tag = FRA
+			has_government = democratic
+        }
+        localization_key = "FRA_FIRST_LEADER_DESC"
 	}
 }
