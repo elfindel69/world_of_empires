@@ -338,7 +338,7 @@ characters={
 		
 	}
 
-	FRA_maxime_weygand={
+	rep_FRA_maxime_weygand={
 		name=FRA_maxime_weygand
 		portraits={
 			army={

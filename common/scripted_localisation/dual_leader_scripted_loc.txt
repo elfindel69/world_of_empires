@@ -170,4 +170,11 @@ defined_text = {
         }
         localization_key = "FRA_FIRST_LEADER_DESC"
 	}
+	text = {
+        trigger = {
+			tag = FRA
+			has_government = monarchist
+        }
+        localization_key = "FRA_FIRST_LEADER_MONARCHIST_DESC"
+	}
 }
