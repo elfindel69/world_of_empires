@@ -1,0 +1,143 @@
+﻿l_french:
+
+ FRA_napoleon_iv:0 "Napoléon IV"
+ FRA_napoleon_iv_desc:0 "Napoléon IV est l'actuel Empereur de France, au pouvoir depuis 1925."
+ FRA_napoleon_iv_2:0 "Napoléon IV"
+ FRA_napoleon_iv_2_desc:0 "Napoléon IV est l'actuel Empereur de France, au pouvoir depuis 1925."
+
+ FRA_improve_alsace_lorraine:0 "Améliorer l'Alsace-Lorraine"
+ FRA_improve_alsace_lorraine_desc:0 "La France cherche depuis longtemps à développer la région d'Alsace-Lorraine, et y a entrepris de nombreux projets."
+
+ FRA_improve_rhineland:0 "Améliorer la Rhénanie"
+ FRA_improve_rhineland_desc:0 "La France cherche depuis longtemps à développer la région de Rhénanie, et y a entrepris de nombreux projets."
+
+ FRA_colonial_industry:0 "Industrie coloniale"
+ FRA_colonial_industry_desc:0 "La France est depuis longtemps impliquée dans le commerce colonial, et a développé plusieurs industries pour soutenir ses colonies."
+
+ FRA_invest_in_the_dominions:0 "Investir dans les dominions"
+ FRA_invest_in_the_dominions_desc:0 "La France cherche depuis longtemps à développer ses dominions, et y a entrepris de nombreux projets."
+
+ FRA_invest_in_alaska:0 "Investir en Alaska"
+ FRA_invest_in_alaska_desc:0 "La France cherche depuis longtemps à développer la région de l'Alaska, et y a entrepris de nombreux projets."
+
+ FRA_invest_in_guyana:0 "Investir en Guyane"
+ FRA_invest_in_guyana_desc:0 "La France cherche depuis longtemps à développer la région de la Guyane, et y a entrepris de nombreux projets."
+
+ FRA_guyanese_mines:0 "Mines de Guyane"
+ FRA_guyanese_mines_desc:0 "La France développe les ressources minières de la Guyane pour soutenir son économie impériale."
+
+ FRA_invest_in_quebec:0 "Investir au Québec"
+ FRA_invest_in_quebec_desc:0 "La France cherche depuis longtemps à développer la région du Québec, et y a entrepris de nombreux projets."
+
+ FRA_quebec_mines:0 "Mines du Québec"
+ FRA_quebec_mines_desc:0 "La France développe les ressources minières du Québec pour renforcer l'économie impériale."
+
+ FRA_invest_in_indonesia:0 "Investir en Indonésie"
+ FRA_invest_in_indonesia_desc:0 "La France cherche depuis longtemps à développer la région de l'Insulinde, et y a entrepris de nombreux projets."
+
+ FRA_indonesian_mines:0 "Mines indonésiennes"
+ FRA_indonesian_mines_desc:0 "La France développe les ressources minières de l'Insulinde pour renforcer sa position coloniale."
+
+ FRA_imperial_academy_of_science:0 "Académie impériale des sciences"
+ FRA_imperial_academy_of_science_desc:0 "La recherche française est à l'avant-garde des découvertes scientifiques. La création d'une Académie impériale des sciences assurera notre suprématie."
+
+ FRA_expand_academy_of_science:0 "Étendre l'Académie des sciences"
+ FRA_expand_academy_of_science_desc:0 "L'Académie française des sciences est un pilier de l'innovation. En l'agrandissant, nous resterons à la pointe."
+
+ FRA_focus_on_specialized_research:0 "Recherches spécialisées"
+ FRA_focus_on_specialized_research_desc:0 "La spécialisation de nos efforts de recherche renforcera notre leadership scientifique."
+
+ FRA_nuclear_effort:0 "Effort nucléaire"
+ FRA_nuclear_effort_desc:0 "La France explore la puissance de l'atome pour sécuriser son avenir militaire et énergétique."
+
+ FRA_develop_radar:0 "Développer le radar"
+ FRA_develop_radar_desc:0 "La maîtrise du radar nous offrira un avantage crucial dans les conflits modernes."
+
+ FRA_focus_on_rocketry:0 "Rechercher les fusées"
+ FRA_focus_on_rocketry_desc:0 "Les fusées représentent l'avenir de la guerre et de l'exploration. Nous devons les maîtriser."
+
+ FRA_extend_the_entente:0 "Étendre l'Entente"
+ FRA_extend_the_entente_desc:0 "Nous devons élargir notre alliance à d'autres nations pour renforcer notre influence."
+
+ FRA_reach_out_to_auh:0 "Approcher l'Autriche-Hongrie"
+ FRA_reach_out_to_auh_desc:0 "L'Autriche-Hongrie est un puissant partenaire potentiel."
+
+ FRA_ally_austria_hungary:0 "S'allier avec l'Autriche-Hongrie"
+ FRA_ally_austria_hungary_desc:0 "L'Autriche-Hongrie est un allié de poids pour notre avenir impérial."
+
+ FRA_reach_out_to_russia:0 "Approcher la Russie"
+ FRA_reach_out_to_russia_desc:0 "La Russie est un pays puissant qui pourrait devenir un précieux allié."
+
+ FRA_ally_russia:0 "S'allier avec la Russie"
+ FRA_ally_russia_desc:0 "Nous renforcerons notre position géopolitique en nous rapprochant de la Russie."
+
+ FRA_reach_out_to_uk:0 "Approcher le Royaume-Uni"
+ FRA_reach_out_to_uk_desc:0 "Le Royaume-Uni est un pilier de la diplomatie mondiale. Une alliance serait stratégique."
+
+ FRA_strenghten_the_parliament:0 "Renforcer le Parlement"
+ FRA_strenghten_the_parliament_desc:0 "Le Parlement français est le pilier de notre démocratie. Il doit être protégé et renforcé."
+
+ FRA_1937_elections:0 "Élections de 1937"
+ FRA_1937_elections_desc:0 "Les élections de 1937 détermineront l'équilibre politique de la France pour les années à venir."
+
+ FRA_the_monarchy_compromise:0 "Compromis monarchique"
+ FRA_the_monarchy_compromise_desc:0 "La monarchie française reste une institution forte. Un compromis est nécessaire pour préserver la stabilité."
+
+ FRA_suppress_the_leagues:0 "Réprimer les ligues"
+ FRA_suppress_the_leagues_desc:0 "Les ligues extrémistes menacent la stabilité nationale. Elles doivent être contenues."
+
+ FRA_workers_rights:0 "Droits des travailleurs"
+ FRA_workers_rights_desc:0 "Les travailleurs français doivent bénéficier de droits garantis et de conditions décentes."
+
+ FRA_towards_the_republic:0 "Vers la République"
+ FRA_towards_the_republic_desc:0 "La République française incarne nos valeurs fondamentales. Nous devons en assurer la pérennité."
+
+ FRA_expand_the_unions:0 "Développer les syndicats"
+ FRA_expand_the_unions_desc:0 "Les syndicats sont un outil vital pour défendre les travailleurs. Leur influence doit s'accroître."
+
+ FRA_proclaim_the_republic:0 "Proclamer la République"
+ FRA_proclaim_the_republic_desc:0 "Le temps est venu de proclamer notre attachement aux idéaux républicains."
+
+
+
+ woe_fra_elections.1.title:0 "Élections de 1937"
+ woe_fra_elections.1.desc:0 "Les élections de 1937 seront un test crucial pour la solidité du Parlement français. Le choix des électeurs déterminera l'équilibre politique de la nation pour les années à venir."
+ woe_fra_elections.1.a:0 "Daladier est le meilleur choix pour la France."
+ woe_fra_elections.1.b:0 "Blum est le meilleur choix pour la France."
+
+ woe_fra_news.1.title:0 "Résultat des élections de 1937"
+ woe_fra_news.1.desc:0 "Les élections de 1937 ont constitué un test crucial pour la solidité du Parlement français. Le choix des électeurs a déterminé l'équilibre politique de la nation pour les années à venir."
+ woe_fra_news.1.a:0 "Bienvenue au Premier ministre [FRA.GetLeader]."
+ woe_fra_news.1.b:0 "Tous nos vœux au Premier ministre [FRA.GetLeader]."
+ woe_fra_news.1.c:0 "Voyons ce que fera le Premier ministre [FRA.GetLeader]."
+
+ 
+ woe_fra_elections.2.title:0 "La République française"
+ woe_fra_elections.2.desc:0 "Il est temps de renverser la monarchie et de proclamer la République française."
+ woe_fra_elections.2.a:0 "Vive la République française !"
+ woe_fra_elections.2.b:0 "La Commune française est l'avenir de la France."
+ woe_fra_elections.2.c:0 "La République est divisée..."
+
+ woe_fra_news.2.title:0 "La République française"
+ woe_fra_news.2.desc:0 "La République française a été proclamée par le Premier ministre [FRA.GetLeader]. La monarchie appartient désormais au passé."
+ woe_fra_news.2.a:0 "Vive la République française !"
+ woe_fra_news.2.b:0 "Hourra pour nos amis français."
+ woe_fra_news.2.c:0 "Une nouvelle voie pour la France."
+
+
+ woe_fra_news.3.title:0 "La Commune française"
+ woe_fra_news.3.desc:0 "La Commune française a été proclamée par le Premier Secrétaire [FRA.GetLeader]. Le monarque et sa famille ont fui le pays."
+ woe_fra_news.3.a:0 "Vive la Commune française !"
+ woe_fra_news.3.b:0 "Hourra pour nos amis français."
+ woe_fra_news.3.c:0 "Bienvenue camarades !"
+ woe_fra_news.3.d:0 "Une nouvelle voie pour la France."
+
+
+ woe_fra_news.4.title:0 "Une nation en crise"
+ woe_fra_news.4.desc:0 "Alors que les factions démocrates et communistes sont enfermées dans une impasse politique, la République française est au bord de l'effondrement. Le gouvernement est paralysé, des grèves éclatent dans les grandes villes, et les forces monarchistes s'agitent dans l'ombre."
+ woe_fra_news.4.a:0 "Nous devons rétablir l'ordre à tout prix."
+ woe_fra_news.4.b:0 "La France est en danger — cela nous affectera tous."
+ woe_fra_news.4.c:0 "La France s'affaiblit. Une opportunité se présente."
+
+
+ 

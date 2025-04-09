@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_french:
  
  GER_monarchist:0 "German Empire"
  GER_monarchist_DEF:0 "The German Empire"
@@ -844,79 +844,104 @@
 
 
 
- BWR_monarchist:0 "Russian Empire"
- BWR_monarchist_DEF:0 "The Russian Empire"
- BWR_monarchist_ADJ:0 "Russian"
- BWR_fascism:0 "Russian Empire"
- BWR_fascism_DEF:0 "the Russian Empire"
- BWR_democratic:0 "Russian Federation"
- BWR_democratic_DEF:0 "the Russian Federation"
- BWR_neutrality:0 "Russia"
- BWR_neutrality_DEF:0 "Russia"
- BWR_communism:0 "Soviet Union"
- BWR_communism_DEF:0 "the Soviet Union"
- BWR_fascism_ADJ:0 "Russian"
- BWR_democratic_ADJ:0 "Russian"
- BWR_neutrality_ADJ:0 "Russian"
- BWR_communism_ADJ:0 "Soviet"
- BWR_autonomy_dominion:0 "Russian Dominion"
- BWR_autonomy_dominion_DEF:0 "the Russian Dominion"
- BWR_autonomy_colony:0 "$OVERLORDADJ$ Russia"
- BWR_autonomy_colony_DEF:0 "the $OVERLORDADJ$ Russia"
- BWR_autonomy_integrated_puppet:0 "Russian Protectorate"
- BWR_autonomy_integrated_puppet_DEF:0 "the Russian Protectorate"
- BWR_autonomy_puppet:0 "$OVERLORDADJ$ Russia"
- BWR_autonomy_puppet_DEF:0 "$OVERLORDADJ$ Russia"
- BWR_autonomy_reichskommissariat:0 "Reichskommissariat Russia"
- BWR_autonomy_reichskommissariat_DEF:0 "the Reichskommissariat Russia"
- BWR_GER_fascism_autonomy_reichskommissariat:0 "Reichskommissariat Muscovien"
- BWR_GER_fascism_autonomy_reichskommissariat_DEF:0 "Reichskommissariat Muscovien"
- BWR_autonomy_reichsprotectorate:0 "Protectorate Russia"
- BWR_autonomy_reichsprotectorate_DEF:0 "the Protectorate of Russia"
- BWR_autonomy_wtt_imperial_protectorate:0 "Russian Imperial Protectorate"
- BWR_autonomy_wtt_imperial_protectorate_DEF:0 "the Imperial Protectorate of Russia"
- BWR_autonomy_supervised_state:0 "$OVERLORDADJ$ Mandate of Russia"
- BWR_autonomy_supervised_state_DEF:0 "the $OVERLORDADJ$ Mandate of Russia"
- BWR:0 "Russia"
- BWR_DEF:0 "Russia"
- BWR_ADJ:0 "Russian"
+ BWR_monarchist:0 "Empire russe"
+ BWR_monarchist_DEF:0 "l'Empire russe"
+ BWR_monarchist_ADJ:0 "Russe"
+
+ BWR_fascism:0 "Empire russe"
+ BWR_fascism_DEF:0 "l'Empire russe"
+ BWR_fascism_ADJ:0 "Russe"
+
+ BWR_democratic:0 "Fédération de Russie"
+ BWR_democratic_DEF:0 "la Fédération de Russie"
+ BWR_democratic_ADJ:0 "Russe"
+
+ BWR_neutrality:0 "Russie"
+ BWR_neutrality_DEF:0 "la Russie"
+ BWR_neutrality_ADJ:0 "Russe"
+
+ BWR_communism:0 "Union soviétique"
+ BWR_communism_DEF:0 "l'Union soviétique"
+ BWR_communism_ADJ:0 "Soviétique"
+
+ BWR_autonomy_dominion:0 "Dominion russe"
+ BWR_autonomy_dominion_DEF:0 "le Dominion russe"
+
+ BWR_autonomy_colony:0 "Russie $OVERLORDADJ$"
+ BWR_autonomy_colony_DEF:0 "la Russie $OVERLORDADJ$"
+
+ BWR_autonomy_integrated_puppet:0 "Protectorat russe"
+ BWR_autonomy_integrated_puppet_DEF:0 "le Protectorat russe"
+
+ BWR_autonomy_puppet:0 "Russie $OVERLORDADJ$"
+ BWR_autonomy_puppet_DEF:0 "la Russie $OVERLORDADJ$"
+
+ BWR_autonomy_reichskommissariat:0 "Reichskommissariat russe"
+ BWR_autonomy_reichskommissariat_DEF:0 "le Reichskommissariat de Russie"
+
+ BWR_GER_fascism_autonomy_reichskommissariat:0 "Reichskommissariat de Moscovie"
+ BWR_GER_fascism_autonomy_reichskommissariat_DEF:0 "le Reichskommissariat de Moscovie"
+
+ BWR_autonomy_reichsprotectorate:0 "Protectorat russe"
+ BWR_autonomy_reichsprotectorate_DEF:0 "le Protectorat de Russie"
+
+ BWR_autonomy_wtt_imperial_protectorate:0 "Protectorat impérial russe"
+ BWR_autonomy_wtt_imperial_protectorate_DEF:0 "le Protectorat impérial de Russie"
+
+ BWR_autonomy_supervised_state:0 "Mandat $OVERLORDADJ$ de Russie"
+ BWR_autonomy_supervised_state_DEF:0 "le Mandat $OVERLORDADJ$ de Russie"
+
+ BWR:0 "Russie"
+ BWR_DEF:0 "la Russie"
+ BWR_ADJ:0 "Russe"
 
 
 
  ALA:0 "Alaska"
- ALA_DEF:0 "Alaska"
- ALA_ADJ:0 "Alaskan"
- ALA_fascism:0 "State of Alaska"
- ALA_fascism_DEF:0 "the State of Alaska"
- ALA_democratic:0 "Republic of Alaska"
- ALA_democratic_DEF:0 "the Republic of Alaska"
- ALA_neutrality:0 "Alaska"
- ALA_neutrality_DEF:0 "Alaska"
- ALA_communism:0 "Democratic Republic of Alaska"
- ALA_communism_DEF:0 "Alaska" 
- ALA_monarchist:0 "Kingdom of Alaska"
- ALA_monarchist_DEF:0 "the Kingdom of Alaska"   
+ ALA_DEF:0 "l'Alaska"
+ ALA_ADJ:0 "Alaskien"
 
- CSA:0 "Confederate States of America"
- CSA_DEF:0 "Confederate States of America"
- CSA_ADJ:0 "Confederate"
+ ALA_fascism:0 "État d'Alaska"
+ ALA_fascism_DEF:0 "l'État d'Alaska"
+
+ ALA_democratic:0 "République d'Alaska"
+ ALA_democratic_DEF:0 "la République d'Alaska"
+
+ ALA_neutrality:0 "Alaska"
+ ALA_neutrality_DEF:0 "l'Alaska"
+
+ ALA_communism:0 "République démocratique d'Alaska"
+ ALA_communism_DEF:0 "la République démocratique d'Alaska"
+
+ ALA_monarchist:0 "Royaume d'Alaska"
+ ALA_monarchist_DEF:0 "le Royaume d'Alaska"  
+
+ CSA:0 "États confédérés d'Amérique"
+ CSA_DEF:0 "les États confédérés d'Amérique"
+ CSA_ADJ:0 "Confédéré"
+
 
  
- AUH_neutrality:0 "Austria-Hungary"
- AUH_fascism:0 "Greater Austro-Hungarian Empire"
- AUH_monarchist:0 "Austro-Hungarian Empire"
- AUH_democratic:0 "Danubian Confederation"
- AUH_communism:0 "Association of Autonomous States"
- AUH_neutrality_DEF:0 "Austria-Hungary"
- AUH_fascism_DEF:0 "the Greater Austro-Hungarian Empire"
- AUH_monarchist_DEF:0 "the Austro-Hungarian Empire"
- AUH_democratic_DEF:0 "the Danubian Confederation"
- AUH_communism_DEF:0 "the Association of Autonomous States"
- AUH_ADJ:0 "Austro-Hungarian"
+ AUH_neutrality:0 "Autriche-Hongrie"
+ AUH_neutrality_DEF:0 "l'Autriche-Hongrie"
 
- FRA_neutrality:0 "French National State"
- FRA_neutrality_DEF:0 "the French National State"
- FRA_neutrality_ADJ:0 "French"
+ AUH_fascism:0 "Grand Empire austro-hongrois"
+ AUH_fascism_DEF:0 "le Grand Empire austro-hongrois"
+
+ AUH_monarchist:0 "Empire austro-hongrois"
+ AUH_monarchist_DEF:0 "l'Empire austro-hongrois"
+
+ AUH_democratic:0 "Confédération danubienne"
+ AUH_democratic_DEF:0 "la Confédération danubienne"
+
+ AUH_communism:0 "Association des États autonomes"
+ AUH_communism_DEF:0 "l'Association des États autonomes"
+
+ AUH_ADJ:0 "Austro-hongrois"
+
+ FRA_neutrality:0 "État National Français"
+ FRA_neutrality_DEF:0 "l'État National Français"
+ FRA_neutrality_ADJ:0 "Français"
 
 
  

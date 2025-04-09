@@ -1,0 +1,11 @@
+﻿l_french:
+ 
+ 
+
+ REP_political.1.title:0 "Monarchists Demand Referendum"
+ REP_political.1.desc:1 "The rapidly growing [Root.GetAdjective] monarchist movement has never claimed that they need majority support before they seize power, counting on uniting the nation under their leadership once their rule is established. However, it seems their public support has grown rapidly. Many monarchists are now calling [Root.GetLeader] a hypocrite, claiming to represent the wishes of the people while in reality turning a deaf ear to the masses.\n\nThe call for a referendum has been dismissed as typical attempts at disrupting the system by [Root.GetRulingParty] members so far, but at least it's a political measure. If we do not act now, the monarchists may choose the violent struggle as a better path to power."
+ REP_political.1.a:0 "If the people want it, we'll hold the referendum."
+
+
+
+ 
