@@ -229,7 +229,6 @@ characters={
 			expire = "1949.1.1.12"
 			id = -1
 		}
-		role = head_of_state
 		advisor = {
 			slot = political_advisor
 			idea_token = marcel_bucard

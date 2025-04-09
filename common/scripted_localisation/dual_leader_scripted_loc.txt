@@ -27,6 +27,23 @@ defined_text = {
 		localization_key = PRIME_MINISTER_TITLE
 	}
 	text = {
+		trigger = {
+			original_tag = FRA
+			OR = {
+				has_government = neutrality
+				has_government = fascism
+			}
+		}
+		localization_key = PRESIDENT_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = FRA
+			has_government = communism
+		}
+		localization_key = CHAIRMAN_TITLE
+	}
+	text = {
 		localization_key = DEFAULT_FIRST_TITLE
 	}
 }
@@ -58,6 +75,23 @@ defined_text = {
 		}
 		localization_key = EMPEROR_TITLE
 	}
+	text = {
+		trigger = {
+			original_tag = FRA
+			OR = {
+				has_government = neutrality
+				has_government = fascism
+			}
+		}
+		localization_key = PRIME_MINISTER_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = FRA
+			has_government = communism
+		}
+		localization_key = SECRETARY_TITLE
+	}
 }
 
 defined_text = {
@@ -78,6 +112,30 @@ defined_text = {
 			}
 		}
 		localization_key = FRA_NAPOLEON_IV
+	}
+	text = {
+		trigger = {
+			tag = FRA
+			has_government = neutrality
+				
+		}
+		localization_key = FRA_DE_LA_ROCQUE
+	}
+	text = {
+		trigger = {
+			tag = FRA
+			has_government = communism
+				
+		}
+		localization_key = FRA_DORIOT
+	}
+	text = {
+		trigger = {
+			tag = FRA
+			has_government = fascism
+				
+		}
+		localization_key = FRA_TAITTINGER
 	}
 	text = {
 		trigger = {
@@ -105,12 +163,38 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = FRA
-			OR = {
-				has_government = monarchist
-				has_government = democratic
-			}
+			has_government = monarchist
+		}
+		localization_key = GFX_FRA_Napoleon_IV_monarchist
+	}
+	text = {
+		trigger = {
+			tag = FRA
+			has_government = democratic
 		}
 		localization_key = GFX_FRA_Napoleon_IV
+	}
+	text = {
+		trigger = {
+			tag = FRA
+			has_government = neutrality
+				
+		}
+		localization_key = GFX_FRA_de_la_Rocque
+	}
+	text = {
+		trigger = {
+			tag = FRA
+			has_government = communism
+		}
+		localization_key = GFX_FRA_Doriot
+	}
+	text = {
+		trigger = {
+			tag = FRA
+			has_government = fascism
+		}
+		localization_key = GFX_FRA_Taittinger
 	}
     text = {
         trigger = {
@@ -148,6 +232,28 @@ defined_text = {
 			}
 		}
         localization_key = "FRA_SECOND_LEADER_DESC"
+	}
+	text = {
+        trigger = {
+			tag = FRA
+			has_government = neutrality
+		}
+        localization_key = "FRA_DE_LA_ROCQUE_DESC"
+	}
+	text = {
+        trigger = {
+			tag = FRA
+			has_government = communism
+		}
+		localization_key = "FRA_DORIOT_DESC"
+	}
+	text = {
+		trigger = {
+			tag = FRA
+			has_government = fascism
+				
+		}
+		localization_key = "FRA_TAITTINGER_DESC"
 	}
 }
 

@@ -53,4 +53,23 @@ spriteTypes = {
 		name = "GFX_FRA_Napoleon_IV"
 		texturefile = "gfx/dual_leaders/FRA/portraits_fra_napoleon_vi.dds"
 	}
+
+	spriteType = {
+		name = "GFX_FRA_Napoleon_IV_monarchist"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Napoleon_VI.tga"
+	}
+
+	spriteType = {
+		name = "GFX_FRA_de_la_Rocque"
+		texturefile = "gfx/dual_leaders/FRA/portrait_fra_francois_de_la_rocque.dds"
+	}
+
+	spriteType = {
+		name = "GFX_FRA_Doriot"
+		texturefile = "gfx/dual_leaders/FRA/portrait_fra_jacques_doriot.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_Taittinger"
+		texturefile = "gfx/dual_leaders/FRA/portrait_fra_pierre_taittinger.dds"
+	}
 }
