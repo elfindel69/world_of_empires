@@ -76,6 +76,15 @@ defined_text = {
 		localization_key = EMPEROR_TITLE
 	}
 	text = {
+        trigger = {
+			original_tag = FRA
+			has_government = democratic
+			has_country_flag = FRA_leader_lebrun_active
+			
+		}
+        localization_key = PRESIDENT_TITLE
+	}
+	text = {
 		trigger = {
 			original_tag = FRA
 			OR = {
@@ -112,6 +121,15 @@ defined_text = {
 			}
 		}
 		localization_key = FRA_NAPOLEON_IV
+	}
+	text = {
+        trigger = {
+			original_tag = FRA
+			has_government = democratic
+			has_country_flag = FRA_leader_lebrun_active
+			
+		}
+        localization_key = FRA_LEBRUN
 	}
 	text = {
 		trigger = {
@@ -175,6 +193,15 @@ defined_text = {
 		localization_key = GFX_FRA_Napoleon_IV
 	}
 	text = {
+        trigger = {
+			original_tag = FRA
+			has_government = democratic
+			has_country_flag = FRA_leader_lebrun_active
+			
+		}
+        localization_key = GFX_FRA_Lebrun
+	}
+	text = {
 		trigger = {
 			original_tag = FRA
 			has_government = neutrality
@@ -232,6 +259,15 @@ defined_text = {
 			}
 		}
         localization_key = "FRA_SECOND_LEADER_DESC"
+	}
+	text = {
+        trigger = {
+			original_tag = FRA
+			has_government = democratic
+			has_country_flag = FRA_leader_lebrun_active
+			
+		}
+        localization_key = "FRA_LEBRUN_DESC"
 	}
 	text = {
         trigger = {

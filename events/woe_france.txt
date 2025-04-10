@@ -98,10 +98,10 @@ country_event = {
 			democratic > 0.55
 			communism < 0.3
 		}
+		
+
 		FRA = {
-			set_variable = { GetDualLeaderName = FRA_LEBRUN }
-			set_variable = { GetSecondTitle = PRESIDENT_TITLE }
-			set_variable = { GetDualLeaderPortrait = GFX_FRA_Lebrun }
+			set_country_flag = FRA_leader_lebrun_active
 		}
 		
 		if = {
