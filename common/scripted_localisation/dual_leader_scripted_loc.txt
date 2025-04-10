@@ -235,7 +235,7 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			original_ta = FRA
+			original_tag = FRA
 			has_government = neutrality
 		}
         localization_key = "FRA_DE_LA_ROCQUE_DESC"
