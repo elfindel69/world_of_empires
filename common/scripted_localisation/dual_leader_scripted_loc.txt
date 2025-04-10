@@ -69,7 +69,11 @@ defined_text = {
 			original_tag = FRA
 			OR = {
 				has_government = monarchist
-				has_government = democratic
+				AND = {
+					has_government = democratic
+					has_country_flag = FRA_leader_napoleon_active
+				}
+				
 			}
 		
 		}
@@ -80,7 +84,6 @@ defined_text = {
 			original_tag = FRA
 			has_government = democratic
 			has_country_flag = FRA_leader_lebrun_active
-			
 		}
         localization_key = PRESIDENT_TITLE
 	}
@@ -117,8 +120,13 @@ defined_text = {
 			original_tag = FRA
 			OR = {
 				has_government = monarchist
-				has_government = democratic
+				AND = {
+					has_government = democratic
+					has_country_flag = FRA_leader_napoleon_active
+				}
+				
 			}
+		
 		}
 		localization_key = FRA_NAPOLEON_IV
 	}
@@ -189,6 +197,7 @@ defined_text = {
 		trigger = {
 			original_tag = FRA
 			has_government = democratic
+			has_country_flag = FRA_leader_napoleon_active
 		}
 		localization_key = GFX_FRA_Napoleon_IV
 	}
@@ -251,12 +260,17 @@ defined_text = {
 	}
 
 	text = {
-        trigger = {
+		trigger = {
 			original_tag = FRA
 			OR = {
 				has_government = monarchist
-				has_government = democratic
+				AND = {
+					has_government = democratic
+					has_country_flag = FRA_leader_napoleon_active
+				}
+				
 			}
+		
 		}
         localization_key = "FRA_SECOND_LEADER_DESC"
 	}

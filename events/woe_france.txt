@@ -101,6 +101,7 @@ country_event = {
 		
 
 		FRA = {
+			clr_country_flag = FRA_leader_napoleon_active
 			set_country_flag = FRA_leader_lebrun_active
 		}
 		

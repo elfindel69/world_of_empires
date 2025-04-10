@@ -418,6 +418,8 @@ add_ideas = {
 	
 }
 
+set_country_flag = FRA_leader_napoleon_active
+
 recruit_character = FRA_edouard_daladier
 recruit_character = rep_FRA_maxime_weygand
 recruit_character = rep_FRA_philippe_petain
