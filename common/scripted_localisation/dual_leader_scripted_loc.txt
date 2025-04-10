@@ -105,7 +105,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			tag = FRA
+			original_tag = FRA
 			OR = {
 				has_government = monarchist
 				has_government = democratic
@@ -115,7 +115,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			tag = FRA
+			original_tag = FRA
 			has_government = neutrality
 				
 		}
@@ -123,7 +123,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			tag = FRA
+			original_tag = FRA
 			has_government = communism
 				
 		}
@@ -131,7 +131,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			tag = FRA
+			original_tag = FRA
 			has_government = fascism
 				
 		}
@@ -162,21 +162,21 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			tag = FRA
+			original_tag = FRA
 			has_government = monarchist
 		}
 		localization_key = GFX_FRA_Napoleon_IV_monarchist
 	}
 	text = {
 		trigger = {
-			tag = FRA
+			original_tag = FRA
 			has_government = democratic
 		}
 		localization_key = GFX_FRA_Napoleon_IV
 	}
 	text = {
 		trigger = {
-			tag = FRA
+			original_tag = FRA
 			has_government = neutrality
 				
 		}
@@ -184,14 +184,14 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			tag = FRA
+			original_tag = FRA
 			has_government = communism
 		}
 		localization_key = GFX_FRA_Doriot
 	}
 	text = {
 		trigger = {
-			tag = FRA
+			original_tag = FRA
 			has_government = fascism
 		}
 		localization_key = GFX_FRA_Taittinger
@@ -225,7 +225,7 @@ defined_text = {
 
 	text = {
         trigger = {
-			tag = FRA
+			original_tag = FRA
 			OR = {
 				has_government = monarchist
 				has_government = democratic
@@ -235,21 +235,21 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			tag = FRA
+			original_ta = FRA
 			has_government = neutrality
 		}
         localization_key = "FRA_DE_LA_ROCQUE_DESC"
 	}
 	text = {
         trigger = {
-			tag = FRA
+			original_tag = FRA
 			has_government = communism
 		}
 		localization_key = "FRA_DORIOT_DESC"
 	}
 	text = {
 		trigger = {
-			tag = FRA
+			original_tag = FRA
 			has_government = fascism
 				
 		}
@@ -271,14 +271,14 @@ defined_text = {
 	}
 	text = {
         trigger = {
-			tag = FRA
+			original_tag = FRA
 			has_government = democratic
         }
         localization_key = "FRA_FIRST_LEADER_DESC"
 	}
 	text = {
         trigger = {
-			tag = FRA
+			original_tag = FRA
 			has_government = monarchist
         }
         localization_key = "FRA_FIRST_LEADER_MONARCHIST_DESC"
