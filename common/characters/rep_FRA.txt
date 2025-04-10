@@ -1,19 +1,5 @@
 characters={
-	rep_FRA_napoleon_iv={ 
-		name=FRA_NAPOLEON_IV
-		portraits={
-			civilian={
-				large=GFX_portraits_fra_napoleon_vi
-			}
-		}
-		country_leader={
-			ideology=paternalism
-			traits={imperial_connections }
-			expire="1965.1.1.1"
-			id=-1
-		}
-		
-	}
+	
 	
 	
 	rep_FRA_charles_maurras={
@@ -131,90 +117,7 @@ characters={
 		}
 	}
 
-	rep_FRA_maurice_thorez={ #Communist Leader
-		name=FRA_maurice_thorez
-		portraits={
-			army={
-				small="GFX_idea_maurice_thorez"
-			}
-			civilian={
-				large="GFX_portrait_fra_maurice_thorez"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = maurice_thorez
-			allowed  = {
-				original_tag  = FRA
-			}
-			available  = {
-				not  = {
-					has_country_leader  = {
-						character  = FRA_philippe_petain
-						ruling_only  = yes 
-					}
-				}
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					not  = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
-			}
-			traits  = {
-				communist_revolutionary 
-			}
-			do_effect  = {
-				not  = {
-					has_government  = communism 
-				}
-			}
-			on_add  = {
-				FRA_right_wing_riot_effect = yes 
-			}
-			ai_will_do  = {
-				factor  = 0.000
-			}
-		}
-		
-		country_leader={
-			ideology=stalinism
-			expire="1965.1.1.1"
-			id=-1
-		}
-		
-	}
-
-	rep_FRA_jacques_duclos={
-		name=FRA_jacques_duclos
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_europe_1"
-				large=GFX_portrait_FRA_jacques_duclos #Used only as Operative atm
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = FRA_jacques_duclos
-			allowed  = {
-				original_tag  = FRA
-			}
-			traits  = {
-				backroom_backstabber 
-			}
-			ai_will_do  = {
-				factor  = 0.000
-			}
-		}
-		country_leader={
-			ideology=stalinism
-			expire="1965.1.1.1"
-			id=-1
-		}
-		
-	}
+	
 	rep_FRA_marcel_bucard = {
 		name = FRA_marcel_bucard
 		portraits = {
@@ -280,44 +183,7 @@ characters={
 		}
 	}
 
-	rep_FRA_pierre_taittinger = {
-		name = "Pierre Taittinger"
-		portraits = {
-			civilian = {
-				large = GFX_Portrait_Europe_Generic_2
-				small = GFX_Portrait_Europe_Generic_2_small
-			}
-		}
-
-		country_leader = {
-			ideology = fascism_ideology
-			traits = { baron_of_terror }
-			expire = "1965.1.1.1"
-			id = -1
-		}
-
-		
-	}
-
-	rep_FRA_francois_de_la_rocque = {
-		name = "François de la Rocque"
-		portraits = {
-			civilian = {
-				large = GFX_portrait_FRA_francois_de_la_rocque
-				small = GFX_portrait_FRA_francois_de_la_rocque_small
-			}
-		}
-
-		country_leader = {
-			ideology = absolutism
-			traits = {
-				disdain_for_politicians_1 dislikes_germany
-			}
-			expire = "1965.1.1.1"
-			id = -1
-		}
-		
-	}
+	
 
 	rep_FRA_philippe_petain={ #Fascist Leader
 		name=FRA_philippe_petain
