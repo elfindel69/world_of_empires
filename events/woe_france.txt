@@ -110,9 +110,9 @@ country_event = {
 				size = 0.3
 			}
 			else = {
-				set_variable = { name = FRA.GetDualLeaderName value = "Albert Lebrun" }
+				set_variable = { name = FRA.GetDualLeaderName value = FRA_LEBRUN }
 				set_variable = { name = FRA.GetSecondTitle value = PRESIDENT_TITLE }
-				set_variable = { name = FRA.GetDualLeaderPortrait = GFX_portrait_bg_blank }
+				set_variable = { name = FRA.GetDualLeaderPortrait = GFX_FRA_Lebrun }
 				news_event = { id = woe_fra_news.2 hours = 12 }
 			}	
 		}

@@ -72,4 +72,9 @@ spriteTypes = {
 		name = "GFX_FRA_Taittinger"
 		texturefile = "gfx/dual_leaders/FRA/portrait_fra_pierre_taittinger.dds"
 	}
+
+	spriteType = {
+		name = "GFX_FRA_Lebrun"
+		texturefile = "gfx/dual_leaders/FRA/portrait_fra_albert_lebrun.dds"
+	}
 }
