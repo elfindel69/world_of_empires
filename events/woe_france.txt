@@ -39,6 +39,12 @@ country_event = {
 			}
 			
 		}
+		set_party_name = {
+			ideology = democratic
+			long_name = SOCIALIST_PARTY_LONG
+			name = SOCIALIST_PARTY_SHORT
+		}
+		
 		news_event = { id = woe_fra_news.1 hours = 12 }
 	}
 

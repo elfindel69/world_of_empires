@@ -403,6 +403,12 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+set_party_name = {
+	ideology = neutrality
+	long_name = NATIONAL_UNION_LONG
+	name = NATIONAL_UNION_SHORT
+}
+
 set_popularities = {
 	democratic = 52
 	fascism = 1

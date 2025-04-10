@@ -252,3 +252,9 @@
 
  FRA_neutrality_party:0 "UNF"
  FRA_neutrality_party_long:0 "Union Nationale Française"
+ 
+ SOCIALIST_PARTY_LONG:0 "Section Française de l'Internationale Ouvrière"
+ SOCIALIST_PARTY_SHORT:0 "SFIO"
+
+ NATIONAL_UNION_LONG:0 "Union Nationale Française"
+ NATIONAL_UNION_SHORT:0 "UNF"
