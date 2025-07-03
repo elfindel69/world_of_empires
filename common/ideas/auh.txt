@@ -1,0 +1,404 @@
+ideas = {
+	country = {
+		AUH_devaluate_the_krone = {
+			picture = GFX_idea_generic_devalue_currency
+
+			allowed = {
+				original_tag = AUH
+			}
+
+			ai_will_do = {
+				base = 5
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+		}
+
+		AUH_expand_the_industry = {
+			picture = GFX_idea_generic_improved_industries
+
+			allowed = {
+				original_tag = AUH
+			}
+
+			ai_will_do = {
+				base = 5
+			}
+
+			modifier = {
+				production_factory_start_efficiency_factor = 0.1
+				cic_construction_boost_factor = 0.1
+			}
+		}
+
+		AUH_create_military_industry = {
+			picture = GFX_idea_ARG_rapid_militarization
+
+			allowed = {
+				original_tag = AUH
+			}
+
+			ai_will_do = {
+				base = 5
+			}
+
+			modifier = {
+				production_factory_start_efficiency_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+			}
+		}
+
+		AUH_expand_technical_universities = {
+			picture = GFX_generic_research_bonus
+
+			allowed = {
+				original_tag = AUH
+			}
+
+			ai_will_do = {
+				base = 5
+			}
+
+			modifier = {
+				research_speed_factor = 0.1
+				special_resarch_spead_factor = 0.1
+			}
+		}
+
+		AUH_focus_on_specialized_research = {
+			picture = GFX_idea_GER_wunderwaffen
+
+			allowed = {
+				original_tag = AUH
+			}
+
+			ai_will_do = {
+				base = 5
+			}
+
+			modifier = {
+				special_project_speed_factor = 0.1
+				breakthrough_factor = 0.1
+			}	
+		}
+		
+		AUH_expand_the_kuk_armee = {
+			picture = GFX_idea_generic_military_buildup
+
+			allowed = {
+				original_tag = AUH
+			}
+
+			ai_will_do = {
+				base = 5
+			}
+
+			modifier = {
+				land_doctrine_research_speed_factor = 0.1
+				land_doctrine_factor = 0.1
+			}
+		}
+
+		AUH_modernized_tactics = {
+			picture = GFX_idea_generic_military_buildup
+
+			allowed = {
+				original_tag = AUH
+			}
+
+			ai_will_do = {
+				base = 5
+			}
+
+			modifier = {
+				land_doctrine_research_speed_factor = 0.1
+				land_doctrine_factor = 0.1
+			}
+		}
+
+		AUH_a_grand_army = {
+			picture = GFX_idea_generic_military_buildup
+
+			allowed = {
+				original_tag = AUH
+			}
+
+			ai_will_do = {
+				base = 5
+			}
+
+			modifier = {
+				weekly_manpower = 0.1
+				training_time_army_factor = -0.1
+			}
+		}
+
+		AUH_modernize_the_fleet = {
+			picture = GFX_idea_generic_military_buildup
+
+			allowed = {
+				original_tag = AUH
+			}
+
+			ai_will_do = {
+				base = 5
+			}
+
+			modifier = {
+				naval_doctrine_research_speed_factor = 0.1
+				naval_doctrine_factor = 0.1
+			}
+		}
+
+		AUH_empower_the_monarch = {
+			picture = GFX_idea_generic_military_buildup
+
+			allowed = {
+				original_tag = AUH
+			}
+
+			ai_will_do = {
+				base = 5
+			}
+
+			modifier = {
+				monthly_support = 0.1
+				monarchist_drift = 0.1
+			}
+		}
+
+		AUH_reduce_autonomy_of_bulgaria = {
+			picture = GFX_idea_generic_military_buildup
+
+			allowed = {
+				original_tag = AUH
+			}
+
+			ai_will_do = {
+				base = 5
+			}
+
+			modifier = {
+				autonomy_drift = -0.1
+				autonomy_support = -0.1
+			}
+		}
+
+		AUH_reduce_autonomy_of_bulgaria = {
+			picture = GFX_idea_generic_military_buildup
+
+			allowed = {
+				original_tag = AUH
+			}
+
+			ai_will_do = {
+				base = 5
+			}
+
+			modifier = {
+				autonomy_drift = -0.1
+				autonomy_support = -0.1
+			}
+		}
+
+		AUH_the_imperial_guard = {
+			picture = GFX_idea_generic_military_buildup
+
+			allowed = {
+				original_tag = AUH
+			}
+
+			ai_will_do = {
+				base = 5
+			}
+			picture = generic_infantry_bonus
+
+			removal_cost = -1
+	
+			modifier = {
+				special_forces_cap = 0.05
+				special_forces_training_time_factor = -0.1
+			}
+		}
+
+		AUH_imperial_institute_of_sciences = {
+			picture = GFX_idea_generic_military_buildup
+
+			allowed = {
+				original_tag = AUH
+			}
+
+			ai_will_do = {
+				base = 5
+			}
+			picture = generic_infantry_bonus
+
+			removal_cost = -1
+	
+			modifier = {
+				research_speed_factor = 0.05
+				special_resarch_spead_factor = 0.05
+			}
+		}
+
+		AUH_empower_democracy = {
+			picture = GFX_idea_generic_military_buildup
+
+			allowed = {
+				original_tag = AUH
+			}
+
+			ai_will_do = {
+				base = 5
+			}
+
+			removal_cost = -1
+	
+			modifier = {
+				democraric_drift = 0.1
+				democratic_acceptance = 80
+			}
+		}
+
+		}
+	}
+
+	industrial_concern = {
+		#picture = idea_CHL_bcc
+
+		AUH_creditanstalt_bankverein = {
+			picture = AUS_creditanstalt_bankverein
+
+			allowed = {
+				original_tag = AUH
+				has_dlc = "Gotterdammerung"
+			}
+
+			
+
+			ai_will_do = {
+				base = 5
+			}
+
+			research_bonus = {
+			}
+		
+			traits = { central_bank } 
+
+			modifier = {
+				consumer_goods_factor = -0.10
+				production_factory_start_efficiency_factor = 0.05
+			}
+
+		}
+
+		
+
+		AUH_bankverein = {
+			picture = AUS_bankverein
+
+			allowed = {
+				original_tag = AUH
+				has_dlc = "Gotterdammerung"
+			}
+
+			
+
+			
+
+			ai_will_do = {
+				base = 5
+			}
+
+			research_bonus = {
+			}
+		
+			traits = { central_bank } 
+
+			modifier = {
+				production_factory_start_efficiency_factor = 0.1
+			}
+
+		}
+
+		AUH_bbo = {
+			picture = AUS_bbo
+
+			allowed = {
+				original_tag = AUH
+				has_dlc = "Gotterdammerung"
+			}
+
+			
+
+			ai_will_do = {
+				base = 0
+			}
+
+			research_bonus = {
+			}
+		
+			traits = { railway_company } 
+
+			modifier = {
+				production_speed_rail_way_factor = 0.1
+			}
+
+		}
+
+		
+
+		AUH_alpen_elektrowerke_designer = {
+			picture = AUS_alpen_elektrowerke
+
+			allowed = {
+				original_tag = AUH
+				has_dlc = "Gotterdammerung"
+			}
+
+			
+			research_bonus = {
+				electronics = 0.15
+			}
+		
+			traits = { electronics_concern } 
+
+			modifier = {
+		
+			}
+
+			ai_will_do = {
+				base = 1
+			}
+
+		}
+
+		AUH_kapsch = {
+			picture = AUS_kapsch
+
+			allowed = {
+				original_tag = AUH
+				has_dlc = "Gotterdammerung"
+			}
+
+			
+			research_bonus = {
+				
+			}
+		
+			traits = { telephone_company } 
+
+			modifier = {
+				
+			}
+
+			ai_will_do = {
+				base = 1
+			}
+
+		}
+		
+	}
+}

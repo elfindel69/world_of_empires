@@ -171,14 +171,14 @@ if = {
 		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
-		target = YUG
+		target = BUL
 		autonomous_state = autonomy_integrated_puppet
 	}
 	
 
 	else = {
 		puppet = ROM
-		puppet = YUG
+		puppet = BUL
 	}
 }
 
@@ -206,13 +206,12 @@ add_ideas = {
 set_convoys = 25
 set_stability = 0.50
 
-recruit_character = AUH_otto_von_habsburg
-recruit_character = AUH_leon_horenberger
+recruit_character = AUH_archduke_albrecht
+recruit_character = AUH_georg_von_clam
 recruit_character = AUH_kurt_schuschnigg
-recruit_character = AUH_karl_renner
+recruit_character = AUH_istvan_tisza
+recruit_character = AUH_bela_kun
 recruit_character = AUH_arthur_seyss-inquart
-recruit_character = AUH_alfred_klahr
-recruit_character = AUH_karl_eglseer
 recruit_character = AUH_eduard_barger
 recruit_character = AUH_julius_ringel
 recruit_character = AUH_anton_kienbauer

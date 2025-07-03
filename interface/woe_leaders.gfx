@@ -1,0 +1,26 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_AUH_VON_CLAM_MARNTINIC"
+		textureFile = "gfx/leaders/AUH/Portrait_AUH_georg_von_clam_martinic_D.dds"
+	}
+
+	spriteType = {
+		name = "GFX_AUH_BELA_KUN"
+		textureFile = "gfx/leaders/AUH/Portrait_AUH_bela_kun_C.dds"
+	}
+
+	spriteType = {
+		name = "GFX_AUH_ISTVAN_TISZA"
+		textureFile = "gfx/leaders/AUH/Portrait_AUH_istvan_tisza_N.dds"
+	}
+
+	spriteType = {
+		name = "GFX_AUH_KURT_VON_SCHUSCHNIGG"
+		textureFile = "gfx/leaders/AUH/Portrait_AUH_kurt_schuschnigg_F.dds"
+	}
+
+	spriteType = {
+		name = "GFX_AUH_ARCHDUKE_ALBRECHT"
+		textureFile = "gfx/leaders/AUH/Portrait_AUH_archduke_albrecht.dds"
+	}
+}

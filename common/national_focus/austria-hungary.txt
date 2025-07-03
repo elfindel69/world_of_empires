@@ -1,0 +1,1616 @@
+focus_tree = {
+	id = austria_hungary_focus_tree
+	country = { 
+
+		factor = 0
+		
+		modifier = {
+			add = 50
+			tag = AUH
+			#always = no
+
+			
+		}
+
+		
+	}
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	# Focuses
+	focus = {
+		id = AUH_devaluate_the_krone
+		icon = GFX_focus_AUS_devalue_the_schilling
+		x = 0
+		y = 0
+		cost = 10
+		available = {
+			always = yes
+		}
+		
+		
+		completion_reward = {
+			add_political_power = 150
+			add_stability = 0.1
+			add_timed_idea = {
+				idea = AUH_devaluate_the_krone
+				days = 365
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_expand_the_industry
+		icon = GFX_focus_generic_modernize_industry
+		prerequisite = {
+			focus = AUH_devaluate_the_krone
+		}
+		cost = 7
+		x = 0
+		y = 1
+		relative_position_id = AUH_devaluate_the_krone
+		completion_reward = { 
+			add_timed_idea = {
+				idea = AUH_expand_the_industry
+				days = 760
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_expand_austrian_industries
+		icon = GFX_focus_generic_industry_3
+		cost = 7
+		prerequisite = {
+			focus = AUH_expand_the_industry
+		}
+		x = 0
+		y = 1
+		relative_position_id = AUH_expand_the_industry
+		available = {
+			owns_state = 152
+			owns_state = 153
+			owns_state = 975
+		}
+		completion_reward = {
+			152 = {
+				add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			153 = {
+				add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			975 = {
+				add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_expand_hungarian_industries
+		icon = GFX_focus_generic_industry_2
+		cost = 7
+		prerequisite = {
+			focus = AUH_expand_the_industry
+		}
+		x = 2
+		y = 1
+		relative_position_id = AUH_expand_the_industry
+		available = {
+			owns_state = 155
+			owns_state = 43
+			
+		}
+		completion_reward = {
+			155 = {
+				add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			43 = {
+				add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_expand_czech_industries
+		icon = GFX_focus_generic_industry_2
+		cost = 7
+		prerequisite = {
+			focus = AUH_expand_austrian_industries
+			focus = AUH_expand_hungarian_industries
+		}
+		x = 0
+		y = 1
+		relative_position_id = AUH_expand_austrian_industries
+		available = {
+			owns_state = 9
+			owns_state = 75
+	}
+
+	completion_reward = {
+			9 = {
+				add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			75 = {
+				add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_expand_yugoslavian_industries
+		icon = GFX_focus_generic_industry_2
+		cost = 7
+		prerequisite = {
+			focus = AUH_expand_austrian_industries
+			focus = AUH_expand_hungarian_industries
+		}
+		x = 0
+		y = 1
+		relative_position_id = AUH_expand_hungarian_industries
+		available = {
+			owns_state = 104
+			owns_state = 804
+		}
+		completion_reward = {
+			104 = {
+				add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			804 = {
+				add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_expand_czech_mines
+		icon =  GFX_focus_generic_mining_industry
+		cost = 7
+		prerequisite = {
+			focus = AUH_expand_czech_industries
+		}
+		x = 0
+		y = 1
+		relative_position_id = AUH_expand_czech_industries
+		available = {
+			owns_state = 9
+			owns_state = 75
+		}
+		completion_reward = {
+			9 = {
+				add_resource = {
+					type = steel
+					amount = 5
+				}
+			}
+			75 = {
+				add_resource = {
+					type = steel
+					amount = 5
+				}
+				add_resource = {
+					type = oil
+					amount = 5
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_expand_yugoslavian_mines
+		icon = GFX_focus_generic_aluminum
+		cost = 7
+		prerequisite = {
+			focus = AUH_expand_yugoslavian_industries
+		}
+		x = 0
+		y = 1
+		relative_position_id = AUH_expand_yugoslavian_industries
+		available = {
+			owns_state = 104
+			owns_state = 804
+		}
+
+		completion_reward = {
+			104 = {
+				add_resource = {
+					type = aluminium
+					amount = 5
+				}
+			}
+			804 = {
+				add_resource = {
+					type = aluminium
+					amount = 5
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_create_military_industry
+		icon = GFX_focus_generic_military_industry
+		cost = 7
+		prerequisite = {
+			focus = AUH_devaluate_the_krone
+		}
+		x = 6
+		y = 1
+		relative_position_id = AUH_devaluate_the_krone
+		completion_reward = {
+			add_timed_idea = {
+				idea = AUH_create_military_industry
+				days = 760
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_expand_steyr_factories
+		icon = GFX_focus_generic_military_industry
+		cost = 7
+		prerequisite = {
+			focus = AUH_create_military_industry
+		}
+		x = -1
+		y = 1
+		relative_position_id = AUH_create_military_industry
+		available = {
+			owns_state = 975
+			owns_state = 976
+			
+		}
+		completion_reward = {
+			975 = {
+				add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			976 = {
+				add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+		}
+	}
+	focus = {
+		id = AUH_expand_hungarian_armament
+		icon = GFX_focus_generic_military_industry
+		cost = 7
+		prerequisite = {
+			focus = AUH_create_military_industry
+		}
+		x = 1
+		y = 1
+		relative_position_id = AUH_create_military_industry
+		available = {
+			owns_state = 43
+			owns_state = 155
+		}
+		completion_reward = {
+			43 = {
+				add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			155 = {
+				add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = AUH_expand_czech_armament
+		icon = GFX_focus_generic_military_industry
+		cost = 7
+		prerequisite = {
+			focus = AUH_expand_steyr_factories
+			focus = AUH_expand_hungarian_armament
+		}
+		x = 0
+		y = 1
+		relative_position_id = AUH_expand_steyr_factories
+		available = {
+			owns_state = 9
+			owns_state = 75
+		}
+		completion_reward = {
+			9 = {
+				add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			75 = {
+				add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = AUH_expand_yugoslavian_armament
+		icon = GFX_focus_generic_military_industry
+		cost = 7
+		prerequisite = {
+			focus = AUH_expand_steyr_factories
+			focus = AUH_expand_hungarian_armament
+		}
+		x = 0
+		y = 1
+		relative_position_id = AUH_expand_hungarian_armament
+		available = {
+			owns_state = 104
+			owns_state = 804
+		}
+		completion_reward = {
+			104 = {
+				add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			804 = {
+				add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_expand_the_imperial_autobanhs
+		icon = GFX_focus_generic_improve_roads
+		cost = 7
+		prerequisite = {
+			focus = AUH_devaluate_the_krone
+		}
+		x = 10
+		y = 1
+		relative_position_id = AUH_devaluate_the_krone
+		available = {
+			any_owned_state = {
+				is_core_of = ROOT
+				infrastructure < 4
+			}
+		}
+		completion_reward = {
+			random_owned_state = {
+				prioritize = { 4 152 153 975 976 }
+				limit = {
+					is_core_of = ROOT
+					infrastructure < 4
+					not = {has_state_flag = infrastructure_construction}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = infrastructure_construction
+			}
+			random_owned_state = {
+				prioritize = { 4 152 153 975 976 }
+				limit = {
+					is_core_of = ROOT
+					infrastructure < 4
+					not = {has_state_flag = infrastructure_construction}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = infrastructure_construction
+			}
+		}
+		
+	}
+	focus = {
+		id = AUH_expand_the_autobanhs_eastwards
+		icon = GFX_focus_generic_road_investment
+		cost = 7
+		prerequisite = {
+			focus = AUH_expand_the_imperial_autobanhs
+		}
+		x = -1
+		y = 1
+		relative_position_id = AUH_expand_the_imperial_autobanhs
+		available = {
+			any_owned_state = {
+				is_core_of = ROOT
+				infrastructure < 4
+				not = {has_state_flag = infrastructure_construction}
+			}
+			
+		}
+		completion_reward = {
+			random_owned_state = {
+				prioritize = { 154 76 83 84 }
+				limit = {
+					is_core_of = ROOT
+					infrastructure < 4
+					not = {has_state_flag = infrastructure_construction}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = infrastructure_construction
+			}
+			random_owned_state = {
+				prioritize = { 154 76 83 84 }
+				limit = {
+					is_core_of = ROOT
+					infrastructure < 4
+					not = {has_state_flag = infrastructure_construction}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = infrastructure_construction
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_expand_the_autobanhs_southwards
+		icon = GFX_focus_generic_road_investment
+		cost = 7
+		prerequisite = {
+			focus = AUH_expand_the_imperial_autobanhs
+		}
+		x = 1
+		y = 1
+		relative_position_id = AUH_expand_the_imperial_autobanhs
+		available = {
+			any_owned_state = {
+				is_core_of = ROOT
+				infrastructure < 4
+				not = {has_state_flag = infrastructure_construction}
+			}
+			
+		}
+		completion_reward = {
+			random_owned_state = {
+				prioritize = { 103 104 109 804 }
+				limit = {
+					is_core_of = ROOT
+					infrastructure < 4
+					not = {has_state_flag = infrastructure_construction}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = infrastructure_construction
+			}
+			random_owned_state = {
+				prioritize = { 103 104 109 804 }
+				limit = {
+					is_core_of = ROOT
+					infrastructure < 4
+					not = {has_state_flag = infrastructure_construction}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = infrastructure_construction
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_expand_technical_universities
+		icon = GFX_focus_research2
+		cost = 5
+		x = 14
+		y = 0
+		completion_reward = {
+			add_timed_idea = {
+				idea = AUH_expand_technical_universities
+				years = 2
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_create_the_institute_of_sciences
+		icon = GFX_focus_research
+		cost = 5
+		prerequisite = {
+			focus = AUH_expand_technical_universities
+		}
+		x = 0
+		y = 1
+		relative_position_id = AUH_expand_technical_universities
+		available = {
+			amount_research_slots < 6
+			num_of_factories > 75
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = AUH_expand_the_institute_of_sciences
+		icon = GFX_focus_research2
+		cost = 5
+		prerequisite = {
+			focus = AUH_create_the_institute_of_sciences
+		}
+		x = 0
+		y = 1
+		relative_position_id = AUH_create_the_institute_of_sciences
+		available = {
+			amount_research_slots < 7
+			num_of_factories > 100
+		}
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = AUH_focus_on_specialized_research
+		icon = GFX_focus_GER_wunderwaffe_inner_circle
+		cost = 7
+		prerequisite = {
+			focus = AUH_expand_the_institute_of_sciences
+		}
+		x = -1
+		y = 1
+		relative_position_id = AUH_expand_the_institute_of_sciences
+		available = {
+			date > 1938.1.1
+			is_subject = no
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = AUH_focus_on_specialized_research
+				years = 2
+			}
+		
+			add_tech_bonus = {
+				name = atomic_research
+				bonus = 1.0
+				uses = 2
+				technology = atomic_research
+			}
+			
+		}
+	}
+
+	focus = {
+		id = AUH_focus_on_rocketry
+		icon = GFX_focus_rocketry
+		cost = 7
+		prerequisite = {
+			focus = AUH_expand_the_institute_of_sciences
+		}
+		x = 1
+		y = 1
+		relative_position_id = AUH_expand_the_institute_of_sciences
+		available = {
+			date > 1940.1.1
+			is_subject = no
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = jet_research
+				bonus = 1.0
+				uses = 2
+				category = jet_technology
+				category = rocketry
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_expand_the_kuk_armee
+		icon = GFX_focus_AUS_osterreichische_bundesheer
+		cost = 5
+		
+		x = 18
+		y = 0
+		available = {
+			is_subject = no
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = AUH_expand_the_kuk_armee
+				years = 2
+			}
+			add_command_power = 10
+		}
+	}
+
+	focus = {
+		id = AUH_modernized_tactics
+		icon = GFX_focus_generic_army_doctrines_2
+		cost = 5
+		prerequisite = {
+			focus = AUH_expand_the_kuk_armee
+		}
+		x = 0
+		y = 1
+		relative_position_id = AUH_expand_the_kuk_armee
+		available = {
+			is_subject = no
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = AUH_modernized_tactics
+				years = 2
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_standardize_the_kuk_armee
+		icon = GFX_focus_chi_army_reform
+		cost = 5
+		prerequisite = {
+			focus = AUH_modernized_tactics
+		}
+		x = 0
+		y = 1
+		relative_position_id = AUH_modernized_tactics
+		available = {
+			is_subject = no
+		}
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				name = weapons_research
+				bonus = 1.0
+				uses = 2
+				category = support_tech
+				category = infantry_weapons
+			}
+		}
+		
+
+	}
+
+	focus = {
+		id = AUH_mechanized_warfare
+		icon = GFX_goal_generic_army_motorized
+		cost = 5
+		prerequisite = {
+			focus = AUH_standardize_the_kuk_armee
+		}
+		mutually_exclusive = {
+			focus = AUH_a_grand_army
+		}
+		x = -1
+		y = 1
+		relative_position_id = AUH_standardize_the_kuk_armee
+		available = {
+			is_subject = no
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = mechanized_research
+				bonus = 1.0
+				uses = 2
+				category = motorized_equipment
+				category = cat_mechanized_equipment
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_focus_on_tanks
+		icon = GFX_goal_generic_army_tanks
+		cost = 7
+		prerequisite = {
+			focus = AUH_mechanized_warfare
+		}
+		x = 0
+		y = 1
+		relative_position_id = AUH_mechanized_warfare
+		completion_reward = { 
+			add_tech_bonus = {
+				name = armor_research
+				bonus = 1.0
+				uses = 2
+				category = armor
+				category = cat_light_armor
+				category = cat_medium_armor
+				category = cat_heavy_armor
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_the_land_cruiser
+		icon = GFX_focus_generic_heavy_tank
+		prerequisite = {focus = AUH_focus_on_tanks }
+		x = 0
+		y = 1
+		relative_position_id = AUH_focus_on_tanks
+		cost = 7
+		available = {
+			is_subject = no
+			date > 1940.1.1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_research
+				bonus = 1.0
+				uses = 2
+				category = cat_heavy_armor
+			}
+			sp:sp_land_land_cruiser = {
+				add_project_progress_ratio = 0.2
+			}
+			
+		}
+	}
+
+	focus = {
+		id = AUH_a_grand_army
+		icon = GFX_goal_generic_axis_build_infantry
+		cost = 7
+		prerequisite = {
+			focus = AUH_standardize_the_kuk_armee
+		}
+		mutually_exclusive = {
+			focus = AUH_mechanized_warfare
+		}
+		x = 1
+		y = 1
+		relative_position_id = AUH_standardize_the_kuk_armee
+		available = {
+			is_subject = no
+		}
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				name = grand_battle_plan
+				bonus = 1.0
+				uses = 2
+				category = cat_grand_battle_plan
+			}
+			add_timed_idea = {
+				idea = AUH_a_grand_army
+				years = 2
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_firepower_kills
+		icon = GFX_goal_generic_army_artillery
+		cost = 7
+		prerequisite = {
+			focus = AUH_a_grand_army
+		}
+		x = 0
+		y = 1
+		relative_position_id = AUH_a_grand_army
+		available = {
+			is_subject = no
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = firepower_research
+				bonus = 1.0
+				uses = 2
+				category = artillery
+				category = cat_anti_tank
+				category = cat_anti_air
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_the_grosskanonen
+		icon = GFX_goal_generic_army_artillery2
+		cost = 7
+		prerequisite = {
+			focus = AUH_firepower_kills
+		}
+		x = 0
+		y = 1
+		relative_position_id = AUH_firepower_kills
+		completion_reward = {
+			add_tech_bonus = {
+				name = firepower_research
+				bonus = 1.0
+				uses = 2
+				category = artillery
+			}
+
+			sp:sp_land_multi_charge_large_caliber_gun = {
+				add_project_progress_ratio = 0.2
+			}
+		 }
+	}
+
+	focus = {
+		id = AUH_expand_the_kuk_navy
+		icon = GFX_focus_AUS_reestablish_austrian_navy
+		cost = 5
+		x = 24
+		y = 0
+
+		available = {
+			is_subject = no
+			owns_state = 736
+			owns_state = 103
+			owns_state = 105
+		}
+		completion_reward = {
+			add_command_power = 10
+			736 = {
+				add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			103 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+				}
+			}
+
+			105 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+				}
+			}
+		 
+		}
+	}
+
+	focus = {
+		id = AUH_modernize_the_fleet
+		icon = GFX_focus_generic_navy_battleship2
+		cost = 5
+		prerequisite = {
+			focus = AUH_expand_the_kuk_navy
+		}
+		x = 0
+		y = 1
+		relative_position_id = AUH_expand_the_kuk_navy
+		available = {
+			is_subject = no
+			any_owned_state = {
+				is_coastal = yes
+			}
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_research
+				bonus = 1.0
+				uses = 2
+				category = cl_tech
+				category = ca_tech
+				category = dd_tech
+				category = ss_tech
+			}
+
+			add_timed_idea = {
+				idea = AUH_modernize_the_fleet
+				years = 2
+			}
+		}
+
+	}
+
+	focus = {
+		id = AUH_new_tactics
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 7
+		prerequisite = {
+			focus = AUH_modernize_the_fleet
+		}
+		x = 0
+		y = 1
+		relative_position_id = AUH_modernize_the_fleet
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_research
+				bonus = 1.0
+				uses = 2
+				category = cat_fleet_in_being
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_a_new_navy
+		icon = GFX_focus_generic_trade_interdiction
+		cost = 5
+		prerequisite = {
+			focus = AUH_new_tactics
+		}
+		mutually_exclusive = {
+			focus = AUH_a_grand_navy
+		}
+		x = -2
+		y = 1
+		relative_position_id = AUH_new_tactics
+
+		available = {
+			is_subject = no
+		}
+		completion_reward = {
+			navy_experience = 10
+			add_tech_bonus = {
+				name = naval_research
+				bonus = 1.0
+				uses = 2
+				category = trade_interdiction
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_focus_on_destroyers
+		icon = GFX_focus_generic_destroyer
+		cost = 7
+		prerequisite = {
+			focus = AUH_a_new_navy
+		}
+		x = -1
+		y = 1
+		relative_position_id = AUH_a_new_navy
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_research
+				bonus = 1.0
+				uses = 2
+				category = dd_tech
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_new_submarine_designs
+		icon = GFX_goal_generic_navy_submarine
+		cost = 7
+		prerequisite = {
+			focus = AUH_a_new_navy
+		}
+		x = 1
+		y = 1
+		relative_position_id = AUH_a_new_navy
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_research
+				bonus = 1.0
+				uses = 2
+				category = ss_tech
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_the_fleet_submarine
+		icon = GFX_focus_generic_cruiser_submarines
+		cost = 10
+		prerequisite = {
+			focus = AUH_focus_on_destroyers focus = AUH_new_submarine_designs
+		}
+		x = 1
+		y = 1
+		relative_position_id = AUH_focus_on_destroyers
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_research
+				bonus = 1.0
+				uses = 2
+				category = ss_tech
+			}
+			sp:sp_naval_fleet_submarine = {
+				add_project_progress_ratio = 0.2
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_a_grand_navy
+		icon = GFX_focus_SMB_blue_water_fleet
+		cost = 7
+		prerequisite = {
+			focus = AUH_new_tactics
+		}
+		mutually_exclusive = {
+			focus = AUH_a_new_navy
+		}
+		x = 2
+		y = 1
+		relative_position_id = AUH_new_tactics
+		completion_reward = {
+			navy_experience = 10
+			add_tech_bonus = {
+				name = naval_research
+				bonus = 1.0
+				uses = 2
+				category = bc_tech
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_the_battleship
+		icon = GFX_goal_generic_navy_battleship
+		cost = 7
+		prerequisite = {
+			focus = AUH_a_grand_navy
+		}
+		x = -1
+		y = 1
+		relative_position_id = AUH_a_grand_navy
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_research
+				bonus = 1.0
+				uses = 2
+				category = bc_tech
+			}
+			sp:sp_naval_battleship = {
+				add_project_progress_ratio = 0.2
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_escort_ships
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 5
+		prerequisite = {
+			focus = AUH_a_grand_navy
+		}
+		x = 1
+		y = 1
+		relative_position_id = AUH_a_grand_navy
+		available = {
+			is_subject = no
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_research
+				bonus = 1.0
+				uses = 2
+				category = cl_tech
+				category = ca_tech
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_austrian_carrier
+		icon = GFX_focus_generic_air_carrier
+		cost = 7
+		available = {
+			date > 1940.1.1
+			is_subject = no
+		}
+		prerequisite = {
+			focus = AUH_the_battleship focus = AUH_escort_ships
+		}
+		x = 1
+		y = 1
+		relative_position_id = AUH_the_battleship
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_research
+				bonus = 1.0
+				uses = 2
+				category = cv_tech
+			}
+			create_equipment_variant = {
+				name = "Franz-Ferdinand Class"
+				type = ship_hull_carrier_1
+				name_group = AUH_CV_HISTORICAL
+				parent_version = 0
+				modules = {
+					fixed_ship_deck_slot_1 = ship_deck_space
+					fixed_ship_deck_slot_2 = ship_deck_space
+					fixed_ship_anti_air_slot = ship_anti_air_1
+					fixed_ship_radar_slot = empty
+					fixed_ship_engine_slot = carrier_ship_engine_2
+					fixed_ship_secondaries_slot = dp_ship_secondaries_2
+					front_1_custom_slot = ship_deck_space
+					mid_1_custom_slot = ship_armor_carrier_deck
+				}
+			}
+
+			add_equipment_production = {
+				equipment = {
+					type = ship_hull_carrier_1
+					creator = "AUH" 
+					version_name = "Franz-Ferdinand Class"
+				}
+				requested_factories = 1
+				progress = 0.50
+				amount = 1
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_the_air_force
+		icon = GFX_focus_AUS_osterreichische_luftstreitkrafte
+		cost = 5
+		x = 30
+		y = 0
+		available = {
+			is_subject = no
+			owns_state = 9
+			owns_state = 43
+			owns_state = 976
+		}
+		completion_reward = {
+			9 = {
+				add_extra_state_shared_building_slots = 2 
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			43 = {
+				add_extra_state_shared_building_slots = 2 
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			976 = {
+				add_extra_state_shared_building_slots = 2 
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_command_power = 10
+		}
+	}
+	focus = {
+		id = AUH_build_modern_airfields
+		icon = GFX_focus_generic_air_bases
+		cost = 5
+		prerequisite = {
+			focus = AUH_the_air_force
+		}
+		x = 0
+		y = 1
+		relative_position_id = AUH_the_air_force
+		available = {
+			is_subject = no
+			owns_state = 104
+			owns_state = 974
+			owns_state = 83
+		}
+		completion_reward = {
+			104 = {
+				add_extra_state_shared_building_slots = 2 
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			974 = {
+				add_extra_state_shared_building_slots = 2 
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			83 = {
+				add_extra_state_shared_building_slots = 2 
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_focus_on_fighters
+		icon = GFX_goal_generic_air_fighter2
+		cost = 7
+		prerequisite = {
+			focus = AUH_build_modern_airfields
+		}
+		x = 0
+		y = 1
+		relative_position_id = AUH_build_modern_airfields
+		available = {
+			is_subject = no
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = air_research
+				bonus = 1.0
+				uses = 2
+				category = cat_air_engine
+				category = light_air
+				category = medium_air
+			}
+			add_tech_bonus = {
+				name = air_research
+				bonus = 1.0
+				uses = 2
+				category = battlefield_support_tree
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_focus_on_cas
+		icon = GFX_focus_generic_cas_aircraft
+		cost = 5
+		prerequisite = {
+			focus = AUH_focus_on_fighters
+		}
+		x = -1
+		y = 1
+		relative_position_id = AUH_focus_on_fighters
+		available = {
+			is_subject = no
+		}
+		completion_reward = {
+			air_experience = 10
+			add_tech_bonus = {
+				name = cas_research
+				bonus = 1.0
+				uses = 2
+				category = cat_air_engine
+				category = light_air
+				
+			}
+		}
+	}
+	focus = {
+		id = AUH_focus_on_jet_engines
+		icon = GFX_focus_generic_jet_planes
+		cost = 7
+		prerequisite = {
+			focus = AUH_focus_on_cas focus = AUH_focus_on_bombers
+		}
+		x = 1
+		y = 1
+		relative_position_id = AUH_focus_on_cas
+		completion_reward = {
+			add_tech_bonus = {
+				name = air_research
+				bonus = 1.0
+				uses = 2
+				category = jet_technology
+			}
+			sp:sp_air_jet_engine = {
+				add_project_progress_ratio = 0.2
+			}
+		 }
+	}
+
+	focus = {
+		id = AUH_focus_on_bombers
+		icon = GFX_goal_generic_air_bomber
+		cost = 5
+		prerequisite = {
+			focus = AUH_focus_on_fighters
+		}
+		x = 1
+		y = 1
+		relative_position_id = AUH_focus_on_fighters
+		completion_reward = {
+			air_experience = 10
+			add_tech_bonus = {
+				name = bomber_research
+				bonus = 1.0
+				uses = 2
+				category = cat_air_engine
+				category = medium_air
+				category = heavy_air
+			}
+		 }
+	}
+
+	focus = {
+		id = AUH_empower_the_monarch
+		icon = GFX_focus_AUS_heritage_of_an_empire
+		cost = 5
+		x = 34
+		y = 0
+		available = {
+			is_subject = no
+		}
+		completion_reward = {
+			add_political_power = 150
+			add_timed_idea = {
+				idea = AUH_empower_the_monarch
+				years = 2
+			}
+		}
+
+ 	}
+
+	focus = {
+		id = AUH_reduce_autonomy_of_bulgaria
+		icon = GFX_focus_generic_befriend_bulgaria
+		cost = 5
+		prerequisite = {
+			focus = AUH_empower_the_monarch
+		}
+		x = -1
+		y = 1
+		relative_position_id = AUH_empower_the_monarch
+		available = {
+			BUL = {
+				is_subject = yes
+				is_subject_of = ROOT
+			}
+		}
+		completion_reward = {
+			BUL = {
+				add_timed_idea = {
+					idea = AUH_reduce_autonomy_of_bulgaria
+					days = 760
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_reduce_autonomy_of_romania
+		icon = GFX_focus_invite_romania
+		cost = 5
+		prerequisite = {
+			focus = AUH_empower_the_monarch
+		}
+		x = 1
+		y = 1
+		relative_position_id = AUH_empower_the_monarch
+		available = {
+			ROM = {
+				is_subject = yes
+				is_subject_of = ROOT
+			}
+		}
+		completion_reward = {
+			ROM = {
+				add_timed_idea = {
+					idea = AUH_reduce_autonomy_of_romania
+					days = 760
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_the_imperial_guard
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 5
+		prerequisite = {
+			focus = AUH_reduce_autonomy_of_bulgaria focus = AUH_reduce_autonomy_of_romania
+		}
+		x = 1
+		y = 1
+		relative_position_id = AUH_reduce_autonomy_of_bulgaria
+		available = {
+			monarchist > 0.5
+		}
+		completion_reward = {
+			add_command_power = 10
+			add_ideas = { AUH_the_imperial_guard }
+			division_template = {
+				name = "Imperial Guard"
+				priority = 2
+				division_names_group = AUH_INF_01
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+		
+					infantry = { x = 1 y = 0 }
+					infantry = { x = 1 y = 1 }
+					infantry = { x = 1 y = 2 }
+		
+					infantry = { x = 2 y = 0 }
+					artillery_brigade = { x = 2 y = 1 }
+					artillery_brigade = { x = 2 y = 2 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+				}
+			}
+			random_owned_controlled_state = {
+				limit = { ROOT = { has_full_control_of_state = PREV } }
+				prioritize = { 4 } #Krakow
+				create_unit = {
+					division = "name = \"Imperial Guard\" division_template = \"Imperial Guard\" start_experience_factor = 1.0" 
+					owner = AUH
+				}
+				create_unit = {
+					division = "name = \"Imperial Guard\" division_template = \"Imperial Guard\" start_experience_factor = 1.0" 
+					owner = AUH
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_imperial_institute_of_sciences
+		icon = GFX_focus_research
+		cost = 5
+		prerequisite = {
+			focus = AUH_the_imperial_guard
+		}
+		x = 0
+		y = 1
+		relative_position_id = AUH_the_imperial_guard
+		available = {
+			is_subject = no
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = AUH_imperial_institute_of_sciences
+				years = 2
+			}
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = AUH_imperial_officer_corps
+		icon = GFX_focus_generic_military_academy
+		prerequisite = { focus = AUH_imperial_institute_of_sciences }
+		relative_position_id = AUH_imperial_institute_of_sciences
+
+		x = 0
+		y = 1
+		cost = 5
+
+		ai_will_do = {
+			factor = 2.5
+		}
+		
+		
+		
+		bypass = {
+		}
+
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			add_ideas = { POL_royal_officer_corps }
+			army_experience = 50
+		}
+	}
+
+	focus = {
+		id = AUH_empower_democracy
+		icon = GFX_focus_generic_political_advisor
+		x = 37
+		y = 0
+		cost = 5
+		available = {
+			is_subject = no
+		}
+		completion_reward = {
+			add_political_power = 150
+			add_timed_idea = {
+				idea = AUH_empower_democracy
+				years = 2
+			}
+		}
+	}
+
+	focus = {
+		id = AUH_reduce_imperial_prerogatives
+		icon = GFX_MAN_naval_bomber3_medium
+		cost = 5
+		prerequisite = {
+			focus = AUH_empower_democracy
+		}
+		x = 0
+		y = 1
+		relative_position_id = AUH_empower_democracy
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.1
+			}
+		}
+	}
+
+}

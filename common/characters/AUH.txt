@@ -1,57 +1,80 @@
 characters={
-	AUH_otto_von_habsburg={
-		name="Otto von Habsburg"
+	AUH_archduke_albrecht={
+		name=AUH_ARCHDUKE_ALBRECHT
 		portraits={
 			civilian={
-				large="gfx/leaders/Monarchs/Portrait_EYE_Austria_Otto_I.tga"
+				large=GFX_AUH_ARCHDUKE_ALBRECHT
 			}
 		}
 		country_leader={
 			ideology = paternalism
-			traits = {constitutional_monarch}
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-	AUH_leon_horenberger={
-		name="Leon Horenberger"
-		portraits={
-			civilian={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-			}
-		}
-		country_leader={
-			ideology=paternalism
+			traits = {imperial_connections}
 			expire="1965.1.1.1"
 			id=-1
 		}
 	}
 	AUH_kurt_schuschnigg={
-		name=AUS_kurt_schuschnigg
+		name=AUH_KURT_SCHUSCHNIGG
 		portraits={
 			civilian={
-				large="gfx/leaders/AUS/Portrait_Austria_Kurt_Schuschnigg.dds"
+				large="GFX_AUH_KURT_VON_SCHUSCHNIGG"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	AUH_georg_von_clam={
+		name=AUH_GEORG_VON_CLAM
+		portraits={
+			civilian={
+				large=GFX_AUH_VON_CLAM_MARNTINIC
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits = {
+				popular_figurehead
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	AUH_bela_kun={
+		name=AUH_BELA_KUN
+		portraits={
+			civilian={
+				large=GFX_AUH_BELA_KUN
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	AUH_istvan_tisza={
+		name=AUH_ISTVAN_TISZA
+		portraits={
+			civilian={
+				large=GFX_AUH_ISTVAN_TISZA
 			}
 		}
 		country_leader={
 			ideology=centrism
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-	AUH_karl_renner={
-		name=AUS_karl_renner
-		portraits={
-			civilian={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+			traits = {
+				popular_figurehead
+				disdain_for_politicians_1
 			}
-		}
-		country_leader={
-			ideology=socialism
 			expire="1965.1.1.1"
 			id=-1
 		}
 	}
+
 	AUH_arthur_seyss-inquart={
 		name=AUS_arthur_seyss-inquart
 		portraits={
@@ -59,11 +82,6 @@ characters={
 				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
 			}
-		}
-		country_leader={
-			ideology=nazism
-			expire="1965.1.1.1"
-			id=-1
 		}
 		advisor={
 			slot = political_advisor
@@ -76,19 +94,7 @@ characters={
 				}
 		}
 	}
-	AUH_alfred_klahr={
-		name=AUS_alfred_klahr
-		portraits={
-			civilian={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-			}
-		}
-		country_leader={
-			ideology=marxism
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
+	
 	AUH_karl_eglseer={
 		name=AUS_karl_eglseer
 		portraits={

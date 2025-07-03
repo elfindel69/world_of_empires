@@ -44,6 +44,33 @@ defined_text = {
 		localization_key = CHAIRMAN_TITLE
 	}
 	text = {
+		trigger = {
+			original_tag = AUH
+			OR = {
+				has_government = monarchist
+				has_government = democratic
+			}
+		}
+		localization_key = CHANCELLOR_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+			OR = {
+				has_government = neutrality
+				has_government = fascism
+			}
+		}
+		localization_key = PRESIDENT_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+			has_government = communism
+		}
+		localization_key = CHAIRMAN_TITLE
+	}
+	text = {
 		localization_key = DEFAULT_FIRST_TITLE
 	}
 }
@@ -100,6 +127,35 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = FRA
+			has_government = communism
+		}
+		localization_key = SECRETARY_TITLE
+	}
+
+	text = {
+		trigger = {
+			original_tag = AUH
+			OR = {
+				has_government = monarchist
+				has_government = democratic
+			}
+		
+		}
+		localization_key = EMPEROR_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+			OR = {
+				has_government = neutrality
+				has_government = fascism
+			}
+		}
+		localization_key = CHANCELLOR_TITLE
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
 			has_government = communism
 		}
 		localization_key = SECRETARY_TITLE
@@ -173,6 +229,40 @@ defined_text = {
 		localization_key = ENG_GEORGE_V
 	}
 	text = {
+		trigger = {
+			original_tag = AUH
+			OR = {
+				has_government = monarchist
+				has_government = democratic
+			}
+		}
+		localization_key = AUH_OTTO_VON_HABSBURG
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+			has_government = neutrality
+				
+		}
+		localization_key = AUH_ALBERT_APPONYI
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+			has_government = communism
+				
+		}
+		localization_key = AUH_GYORGY_LUKACS
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+			has_government = fascism
+				
+		}
+		localization_key = AUH_ERNST_RUDIGER
+	}
+	text = {
 		localization_key = DEFAULT_TITLE
 	}
 }
@@ -242,6 +332,44 @@ defined_text = {
         localization_key = "GFX_ENG_George_V"
 	}
 	text = {
+		trigger = {
+			original_tag = AUH
+			has_government = monarchist
+		}
+		localization_key = GFX_AUH_otto_von_habsburg_monarchist
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+			has_government = democratic
+		}
+		localization_key = GFX_AUH_otto_von_habsburg
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+			has_government = neutrality
+				
+		}
+		localization_key = GFX_AUH_albert_apponyi
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+			has_government = communism
+				
+		}
+		localization_key = GFX_AUH_gyorgy_lukacs
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+			has_government = fascism
+				
+		}
+		localization_key = GFX_AUH_ernst_rudiger
+	}
+	text = {
 		localization_key = "GFX_portrait_bg_blank"
 	}
 }
@@ -304,6 +432,40 @@ defined_text = {
 				
 		}
 		localization_key = "FRA_TAITTINGER_DESC"
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+			OR = {
+				has_government = monarchist
+				has_government = democratic
+			}
+		}
+		localization_key = AUH_OTTO_VON_HABSBURG_DESC
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+			has_government = neutrality
+				
+		}
+		localization_key = AUH_ALBERT_APPONYI_DESC
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+			has_government = communism
+				
+		}
+		localization_key = AUH_GYORGY_LUKACS_DESC
+	}
+	text = {
+		trigger = {
+			original_tag = AUH
+			has_government = fascism
+				
+		}
+		localization_key = AUH_ERNST_RUDIGER_DESC
 	}
 }
 
