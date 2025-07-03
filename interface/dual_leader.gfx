@@ -85,21 +85,21 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_AUH_otto_von_habsburg_monarchist"
-		texturefile = "gfx/leaders/FRA/Portrait_AUH_otto_von_habsburg_M.dds"
+		texturefile = "gfx/leaders/AUH/Portrait_AUH_otto_von_habsburg_M.dds"
 	}
 
 	spriteType = {
 		name = "GFX_AUH_albert_apponyi"
-		texturefile = "gfx/dual_leaders/FRA/Portrait_AUH_albert_apponyi_N.dds"
+		texturefile = "gfx/dual_leaders/AUH/Portrait_AUH_albert_apponyi_N.dds"
 	}
 
 	spriteType = {
 		name = "GFX_AUH_gyorgy_lukacs"
-		texturefile = "gfx/dual_leaders/FRA/Portrait_AUH_gyorgy_lukacs_C.dds"
+		texturefile = "gfx/dual_leaders/AUH/Portrait_AUH_gyorgy_lukacs_C.dds"
 	}
 	spriteType = {
 		name = "GFX_AUH_ernst_rudiger"
-		texturefile = "gfx/dual_leaders/FRA/Portrait_AUH_ernst_rudiger_starhenberg_F.dds"
+		texturefile = "gfx/dual_leaders/AUH/Portrait_AUH_ernst_rudiger_starhenberg_F.dds"
 	}
 	
 }

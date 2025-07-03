@@ -21,6 +21,6 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_AUH_ARCHDUKE_ALBRECHT"
-		textureFile = "gfx/leaders/AUH/Portrait_AUH_archduke_albrecht.dds"
+		textureFile = "gfx/leaders/AUH/Portrait_AUH_archduke_albrecht_M.dds"
 	}
 }
